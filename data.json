@@ -1,1 +1,1288 @@
-{"data":{"allComponents":{"nodes":[{"displayName":"Autograph","purpose":"Allows users to input electronic signatures","status":null,"group":null,"categories":"form","aka":"signature, dotted line"},{"displayName":"Alert","purpose":"Serves as temporary or permanent feedback for a user taking an action, such as saving or downloading","status":null,"group":null,"categories":null,"aka":"notification toaster"},{"displayName":"Agreement","purpose":"Allows users to agree with statements and attachments","status":null,"group":null,"categories":"form","aka":"terms and conditions, t&c"},{"displayName":"Banner","purpose":"Highlights important information with possible immediate actions","status":null,"group":null,"categories":"form","aka":"dialog, flag"},{"displayName":"Avatar","purpose":"Shows thumbnails for people and company logos","status":null,"group":null,"categories":null,"aka":"user profile, profile image, user image"},{"displayName":"Anchor","purpose":"Links to different content","status":null,"group":null,"categories":null,"aka":"link"},{"displayName":"Belt","purpose":"Controls spacing and position of elements in a row","status":null,"group":null,"categories":"layout","aka":null},{"displayName":"BreadcrumbAnchor","purpose":"An anchor type inside a Breadcrumb","status":"beta","group":"Breadcrumb","categories":"navigation","aka":null},{"displayName":"Breadcrumb","purpose":"A list of links representing the current page and its “ancestors”","status":"beta","group":"Breadcrumb","categories":"navigation","aka":null},{"displayName":"Box","purpose":"Adds one-off spacing around a component","status":"beta","group":"Layout","categories":"layout","aka":"box, container"},{"displayName":"BreadcrumbButton","purpose":"An anchor type inside a Breadcrumb","status":"beta","group":"Breadcrumb","categories":"navigation","aka":null},{"displayName":"BreadcrumbElement","purpose":"An item inside a Breadcrumb","status":"beta","group":"Breadcrumb","categories":"navigation","aka":null},{"displayName":"Bubble","purpose":"Highlights one or two words for more visibility","status":null,"group":null,"categories":null,"aka":"pill, badge"},{"displayName":"Calendar","purpose":"Allows users to choose a date","status":null,"group":"NewDatePicker","categories":null,"aka":null},{"displayName":"Block","purpose":"Wraps content in a card layout, with optional header and footer","status":null,"group":null,"categories":"layout","aka":"box, container"},{"displayName":"CalendarShortcuts","purpose":"Allows users to choose dates from shortcuts","status":null,"group":"NewDatePicker","categories":null,"aka":null},{"displayName":"Counter","purpose":"Allows users to see how many characters they can still type","status":null,"group":"NewTextArea","categories":null,"aka":null},{"displayName":"Button","purpose":"Triggers actions through onClick","status":null,"group":null,"categories":"form","aka":null},{"displayName":"Currency","purpose":"Formats currency in a standard way","status":null,"group":null,"categories":"formatter","aka":"money"},{"displayName":"DeprecatedDropdownItem","purpose":"This component is DEPRECATED, use Ink.DropdownItem instead","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"Checkbox","purpose":"Allows users to choose one or more options from a short, visible, set","status":"sunset","group":null,"categories":"form","aka":null},{"displayName":"CustomText","purpose":"Displays pleasant typography in web interfaces","status":"beta","group":"Typography","categories":"typography","aka":"text"},{"displayName":"Column","purpose":"Divides rows horizontally up to 12 parts","status":null,"group":"Grid","categories":null,"aka":null},{"displayName":"DatePicker","purpose":"Allows users to choose dates, with optional help from shortcuts","status":"sunset","group":null,"categories":"form","aka":"calendar"},{"displayName":"DeprecatedFilePicker","purpose":"This component is DEPRECATED, use Ink.FilePicker instead","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"DeprecatedFormattedCurrency","purpose":"This component is DEPRECATED, use Ink.Currency instead","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"DropdownAnchor","purpose":"An anchor for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DeprecatedPercentageInput","purpose":"This component is DEPRECATED, use Ink.Input instead","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"DeprecatedDropdown","purpose":"This component is DEPRECATED, use Ink.Dropdown instead","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"Display","purpose":"Renders content conditionally","status":null,"group":null,"categories":null,"aka":null},{"displayName":"DropdownBelt","purpose":"A belt to help organize Dropdown.Item(s) content visually","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownButton","purpose":"A button for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownHeader","purpose":"A header separator for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"Divider","purpose":"Draws a separator","status":"beta","group":null,"categories":"form","aka":"separator"},{"displayName":"DeprecatedText","purpose":"Write beautiful and semantic texts with ease","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"DropdownCheckbox","purpose":"A checkbox for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownRadio","purpose":"A Radio option for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownItem","purpose":"Wraps each option inside a Dropdown","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownSeparator","purpose":"A line separator for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownSearch","purpose":"A search for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownTrigger","purpose":"A preset Button to use as the Dropdown 'trigger'","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"Favorite","purpose":"A clickable star indicating a \"favorite\" option","status":null,"group":null,"categories":"form","aka":"star"},{"displayName":"Dropdown","purpose":"Reveals a set of custom options from a trigger","status":"beta","group":"Dropdown","categories":"form","aka":"menu"},{"displayName":"DropdownTooltip","purpose":"A tooltip to be used along with Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"FilePicker","purpose":"Allows users to upload, view and delete one or more files","status":null,"group":null,"categories":"form","aka":"file upload"},{"displayName":"FormSection","purpose":"Breaks forms down into small sections that are easier to understand","status":null,"group":null,"categories":"form","aka":null},{"displayName":"FormattedDate","purpose":"Formats your dates with ease","status":null,"group":"Formatted","categories":"formatter","aka":null},{"displayName":"FormattedNumber","purpose":"Formats your numbers with ease","status":null,"group":"Formatted","categories":"formatter","aka":null},{"displayName":"FormattedMultiple","purpose":"Formats numbers into multiples","status":null,"group":"Formatted","categories":"formatter","aka":null},{"displayName":"FormattedBigCurrency","purpose":"Represents the value into a more readable order of magnitude","status":null,"group":"Formatted","categories":"formatter","aka":null},{"displayName":"Form","purpose":"Helps users provide data, fast and without friction","status":null,"group":null,"categories":"form","aka":null},{"displayName":"EmptyState","purpose":"Indicates absence of any data to display and guides user to take action","status":null,"group":null,"categories":"layout","aka":"empty house, placeholder, CTA"},{"displayName":"FormattedPercentage","purpose":"Formats percentage values","status":null,"group":"Formatted","categories":"formatter","aka":null},{"displayName":"Grid","purpose":"Contains rows to create page structures","status":"beta","group":"Grid","categories":"layout","aka":"container"},{"displayName":"FullPageModal","purpose":"Opens a full page overlay to switch context to specific operations","status":null,"group":"Modal","categories":"layout","aka":null},{"displayName":"FullPageSpreadsheet","purpose":"Provide users with a full page spreadsheet experience","status":"beta","group":null,"categories":"spreadsheet","aka":null},{"displayName":"HStack","purpose":"Layout items in a horizontal stack","status":"beta","group":"Layout","categories":"layout","aka":"flexbox, row"},{"displayName":"Header","purpose":"Displays an application's main navigation and actions","status":null,"group":null,"categories":"navigation","aka":"top bar, primary navigation"},{"displayName":"Heading1","purpose":"Most prominent heading after PageTitle","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"Heading3","purpose":"Most prominent heading after Heading2","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"Heading4","purpose":"Most prominent heading after Heading3","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"Heading2","purpose":"Most prominent heading after Heading1","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"Field","purpose":"Provides label, required tag, help, info and error text to form items","status":null,"group":null,"categories":"form","aka":"label"},{"displayName":"HorizontalNavAnchor","purpose":"An anchor element used inside HorizontalNav","status":"beta","group":"HorizontalNav","categories":"navigation","aka":null},{"displayName":"HorizontalNavButton","purpose":"A button element used inside HorizontalNav","status":"beta","group":"HorizontalNav","categories":"navigation","aka":null},{"displayName":"Help","purpose":"Explains concepts contextually","status":null,"group":null,"categories":null,"aka":"tooltip, education"},{"displayName":"HorizontalNavItem","purpose":"A generic wrapper to render custom components inside a HorizontalNav","status":"beta","group":"HorizontalNav","categories":"navigation","aka":null},{"displayName":"Icon","purpose":"Convenient way to use iconography","status":null,"group":null,"categories":null,"aka":null},{"displayName":"IconWithText","purpose":"Large text paired with either an icon or svg image","status":null,"group":null,"categories":"layout","aka":null},{"displayName":"HorizontalNavBelt","purpose":"Preset of Box and HStack, use to add standard spacing between two React Nodes","status":"beta","group":"HorizontalNav","categories":"navigation","aka":null},{"displayName":"Li","purpose":"Be an item in an ordered or unordered list of textual elements","status":null,"group":"SimpleList","categories":null,"aka":"list item"},{"displayName":"HorizontalNav","purpose":"Horizontally wraps a set of clickable elements for navigation","status":"beta","group":"HorizontalNav","categories":"navigation","aka":"nav"},{"displayName":"ListBody","purpose":"Allows any components to be at the bottom of a ListItem","status":null,"group":"List","categories":null,"aka":null},{"displayName":"ListControl","purpose":"Allows you to add inputs to the far right of ListItem","status":null,"group":"List","categories":null,"aka":null},{"displayName":"List","purpose":"Splits content into items, with optional icons for visual support","status":null,"group":"List","categories":"layout","aka":null},{"displayName":"Loader","purpose":"An animated spinner indicating data is loading","status":null,"group":null,"categories":null,"aka":null},{"displayName":"Input","purpose":"Allows users to provide one piece of data","status":"sunset","group":null,"categories":"form","aka":"textfield"},{"displayName":"ListItem","purpose":"Splits content into items, with optional icons for visual support","status":null,"group":"List","categories":null,"aka":null},{"displayName":"Modal","purpose":"Show content over the page in a restricted lightbox context","status":null,"group":"Modal","categories":"layout","aka":"dialog"},{"displayName":"ModalDetail","purpose":"Displays a detailed view with multiple tabs","status":null,"group":"Modal","categories":"layout","aka":null},{"displayName":"Monologue","purpose":"Presents long text","status":null,"group":null,"categories":"layout","aka":"scrollable text, terms, textblock, legal text"},{"displayName":"ModalContent","purpose":"Separates parts of complex workflows inside blocks that overlay the page","status":"sunset","group":"Modal","categories":"layout","aka":null},{"displayName":"NewDatePicker","purpose":"Allows users to choose dates","status":null,"group":"NewDatePicker","categories":"form","aka":"datepicker"},{"displayName":"MultiStepModal","purpose":"Makes easy to build multi-step modals","status":null,"group":"Modal","categories":"layout","aka":null},{"displayName":"NewFormSectionContent","purpose":"Arranges the Fields with the proper spacing inside sections","status":null,"group":"NewFormSection","categories":null,"aka":null},{"displayName":"Nav","purpose":"Creates a page's central navigation","status":"sunset","group":null,"categories":"navigation","aka":null},{"displayName":"NewFormSection","purpose":"Breaks forms down into small sections that are easier to understand","status":null,"group":"NewFormSection","categories":"form","aka":"formsection"},{"displayName":"NewFormSectionTitle","purpose":"Entitles a section of the form","status":null,"group":"NewFormSection","categories":null,"aka":null},{"displayName":"NewFormSectionError","purpose":"Explains errors between multiple elements in this section","status":null,"group":"NewFormSection","categories":null,"aka":null},{"displayName":"NewCheckbox","purpose":"Allow users to choose options from a short, visible, set","status":null,"group":null,"categories":"form","aka":"checkbox"},{"displayName":"NewFormSectionSubtitle","purpose":"Gives extra information about the section","status":null,"group":"NewFormSection","categories":null,"aka":null},{"displayName":"NewTableBody","purpose":"Wraps around internal rows","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"NewTableHead","purpose":"Wraps around header rows","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"NewInput","purpose":"Allows users to provide one piece of data","status":null,"group":null,"categories":"form","aka":"input"},{"displayName":"NewTableRow","purpose":"Wraps around a horizontal set of cells","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"NewSelect","purpose":"Select one answer among three or more predefined options","status":null,"group":null,"categories":"form","aka":"select"},{"displayName":"NewTableHeadCell","purpose":"Header cell for column title","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Ol","purpose":"Present ordered text elements as a numbered list","status":null,"group":"SimpleList","categories":"layout","aka":"ordered list"},{"displayName":"NewTableCell","purpose":"Unit of data inside a table row","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"NewTextArea","purpose":"Allows users to insert long strings of data","status":null,"group":"NewTextArea","categories":"form","aka":"textarea"},{"displayName":"NewTypeahead","purpose":"Search and select an option among matching results","status":null,"group":null,"categories":"form","aka":"typeahead, search"},{"displayName":"NewTableTwiddle","purpose":"Groups expandable rows","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Page","purpose":"Initiates every page UI structure","status":"beta","group":"Page","categories":"layout","aka":null},{"displayName":"PageBody","purpose":"Arranges page content and sidebar","status":"beta","group":"Page","categories":null,"aka":null},{"displayName":"PageContent","purpose":"Displays main content of the page","status":"beta","group":"Page","categories":null,"aka":null},{"displayName":"NewRadio","purpose":"Allow users to choose options from a short, visible, set","status":null,"group":null,"categories":"form","aka":"radio"},{"displayName":"PageSidebar","purpose":"Displays page navigation or complementary information","status":"beta","group":"Page","categories":null,"aka":null},{"displayName":"PageHeader","purpose":"Arranges page title and global actions","status":"beta","group":"Page","categories":null,"aka":null},{"displayName":"Pagination","purpose":"Paginates long lists of items","status":null,"group":null,"categories":"table","aka":null},{"displayName":"Pin","purpose":"Clickable element that wraps around sortable headers","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Radio","purpose":"Select one answer from a small and visible set of options","status":"sunset","group":null,"categories":"form","aka":null},{"displayName":"Paragraph","purpose":"Displays pleasant typography in web interfaces","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"PageTitle","purpose":"Exposes and summarizes page purpose","status":"beta","group":"Page","categories":null,"aka":null},{"displayName":"Progress","purpose":"Graphically displays numeric values as percentage of a total, as in a progress bar","status":null,"group":"Progress","categories":null,"aka":"bar"},{"displayName":"ProgressLegendItem","purpose":"Descriptive legend items for progress bars","status":"beta","group":"Progress","categories":null,"aka":null},{"displayName":"Ribbon","purpose":"Display row temporary information on hover","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Row","purpose":"Group any number of columns of any size","status":null,"group":"Grid","categories":null,"aka":null},{"displayName":"Search","purpose":"Search and filter lists or ledger items","status":null,"group":null,"categories":"form","aka":"filter"},{"displayName":"Section","purpose":"Provides additional structure inside blocks","status":null,"group":null,"categories":"layout","aka":null},{"displayName":"SelectableList","purpose":"Select one answer from a detailed list of options","status":null,"group":null,"categories":"form","aka":"card radio option"},{"displayName":"Shimmer","purpose":"Holds a place for text yet to be loaded","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Select","purpose":"Select one answer among three or more predefined options","status":"sunset","group":null,"categories":"form","aka":null},{"displayName":"SliderErrors","purpose":"Spreadsheet plugin to list of errors","status":"beta","group":null,"categories":"spreadsheet","aka":null},{"displayName":"Small","purpose":"Displays pleasant typography in web interfaces","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"Stripe","purpose":"Visually group rows by relevant data","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Slider","purpose":"Adds sliding panel for extra functionalities in the Spreadsheet","status":"beta","group":null,"categories":"spreadsheet","aka":null},{"displayName":"Staffer","purpose":"Wraps around elements to display staff only elements","status":"beta","group":null,"categories":null,"aka":null},{"displayName":"Status","purpose":"Visually indicates status","status":null,"group":null,"categories":"layout","aka":null},{"displayName":"SubNavButton","purpose":"Button item of SubNav","status":"beta","group":"SubNav","categories":null,"aka":null},{"displayName":"SubNavAnchor","purpose":"Anchor item of SubNav","status":"beta","group":"SubNav","categories":null,"aka":null},{"displayName":"SubNav","purpose":"Create tertiary page navigation","status":"beta","group":"SubNav","categories":null,"aka":null},{"displayName":"SubNavItem","purpose":"Renders custom element via render prop","status":"beta","group":"SubNav","categories":null,"aka":null},{"displayName":"Subset","purpose":"Groups and indents a subset of field children","status":null,"group":null,"categories":"layout","aka":null},{"displayName":"TableCellShimmer","purpose":"Holds a place for text yet to be loaded","status":"sunset","group":"Table","categories":"table","aka":null},{"displayName":"TableBodyRow","purpose":"Wraps cells to create a row inside the table body","status":"sunset","group":"Table","categories":"table","aka":null},{"displayName":"TableCell","purpose":"Splits table body rows into columns","status":"sunset","group":"Table","categories":"table","aka":null},{"displayName":"TableTwiddleRow","purpose":"Wraps cells to create an expandable row inside the table body","status":"sunset","group":"Table","categories":"table","aka":null},{"displayName":"Tag","purpose":"A tag visual for categorizing data","status":"beta","group":"Tag","categories":null,"aka":null},{"displayName":"TagButton","purpose":"Tag action button that appends an icon and onClick","status":"beta","group":"Tag","categories":null,"aka":null},{"displayName":"TagContainer","purpose":"Wrapper for tags for the correct spacing","status":"beta","group":"Tag","categories":null,"aka":null},{"displayName":"TextArea","purpose":"Allows users to insert long strings of data","status":"sunset","group":null,"categories":"form","aka":null},{"displayName":"TagDraggable","purpose":"Draggable tags","status":"beta","group":"Tag","categories":null,"aka":null},{"displayName":"Tile","purpose":"Creates structure around content such as tables, lists or key metrics. Often inside Sections","status":null,"group":"Tile","categories":"layout","aka":"box"},{"displayName":"Tiles","purpose":"Layout items in a column grid","status":"beta","group":"Layout","categories":"layout","aka":"grid"},{"displayName":"TileRow","purpose":"Wrapper for horizontal tiles to line up in a row","status":null,"group":"Tile","categories":null,"aka":null},{"displayName":"TlDr","purpose":"Presents long text","status":null,"group":null,"categories":null,"aka":null},{"displayName":"Tooltip","purpose":"Show complementary information on demand","status":"beta","group":null,"categories":null,"aka":"help"},{"displayName":"Tracker","purpose":"Lists the steps of a workflow","status":null,"group":null,"categories":"navigation","aka":"progress, stepper"},{"displayName":"VStack","purpose":"Layout items in a vertical stack","status":"beta","group":"Layout","categories":"layout","aka":"column, flexbox"},{"displayName":"Ul","purpose":"List unordered text elements as bullet points","status":null,"group":"SimpleList","categories":"layout","aka":"unordered list"},{"displayName":"VerticalNav","purpose":"Create page side navigation","status":"beta","group":"VerticalNav","categories":null,"aka":null},{"displayName":"Typeahead","purpose":"Search and select an option among matching results","status":"sunset","group":null,"categories":"form","aka":"search"},{"displayName":"VerticalNavAnchor","purpose":"Anchor item of VerticalNav","status":"beta","group":"VerticalNav","categories":null,"aka":null},{"displayName":"VerticalNavButton","purpose":"Button item of VerticalNav","status":"beta","group":"VerticalNav","categories":null,"aka":null},{"displayName":"VerticalNavItem","purpose":"Renders custom element via render prop","status":"beta","group":"VerticalNav","categories":null,"aka":null},{"displayName":"Vignette","purpose":"Aids user interface to convey a message with contextual illustration","status":"beta","group":null,"categories":null,"aka":"illustration"},{"displayName":"Ledger","purpose":"Aggregates a table, filters, and actions","status":null,"group":null,"categories":"table","aka":null},{"displayName":"NewTable","purpose":"Displays complex data as tabular structures","status":"beta","group":"NewTable","categories":"table","aka":"table"},{"displayName":"Spreadsheet","purpose":"Allows users to handle large amounts of data","status":"beta","group":null,"categories":"spreadsheet","aka":null},{"displayName":"Table","purpose":"Turns complex data structures into custom tables","status":"sunset","group":"Table","categories":"table","aka":null}]}}}
+{
+    "data":{
+       "allComponents":{
+          "nodes":[
+             {
+                "displayName":"Dayne",
+                "purpose":"Allows users to input electronic signatures",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"signature, dotted line"
+             },
+             {
+                "displayName":"Alert",
+                "purpose":"Serves as temporary or permanent feedback for a user taking an action, such as saving or downloading",
+                "status":null,
+                "group":null,
+                "categories":null,
+                "aka":"notification toaster"
+             },
+             {
+                "displayName":"Agreement",
+                "purpose":"Allows users to agree with statements and attachments",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"terms and conditions, t&c"
+             },
+             {
+                "displayName":"Banner",
+                "purpose":"Highlights important information with possible immediate actions",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"dialog, flag"
+             },
+             {
+                "displayName":"Avatar",
+                "purpose":"Shows thumbnails for people and company logos",
+                "status":null,
+                "group":null,
+                "categories":null,
+                "aka":"user profile, profile image, user image"
+             },
+             {
+                "displayName":"Anchor",
+                "purpose":"Links to different content",
+                "status":null,
+                "group":null,
+                "categories":null,
+                "aka":"link"
+             },
+             {
+                "displayName":"Belt",
+                "purpose":"Controls spacing and position of elements in a row",
+                "status":null,
+                "group":null,
+                "categories":"layout",
+                "aka":null
+             },
+             {
+                "displayName":"BreadcrumbAnchor",
+                "purpose":"An anchor type inside a Breadcrumb",
+                "status":"beta",
+                "group":"Breadcrumb",
+                "categories":"navigation",
+                "aka":null
+             },
+             {
+                "displayName":"Breadcrumb",
+                "purpose":"A list of links representing the current page and its “ancestors”",
+                "status":"beta",
+                "group":"Breadcrumb",
+                "categories":"navigation",
+                "aka":null
+             },
+             {
+                "displayName":"Box",
+                "purpose":"Adds one-off spacing around a component",
+                "status":"beta",
+                "group":"Layout",
+                "categories":"layout",
+                "aka":"box, container"
+             },
+             {
+                "displayName":"BreadcrumbButton",
+                "purpose":"An anchor type inside a Breadcrumb",
+                "status":"beta",
+                "group":"Breadcrumb",
+                "categories":"navigation",
+                "aka":null
+             },
+             {
+                "displayName":"BreadcrumbElement",
+                "purpose":"An item inside a Breadcrumb",
+                "status":"beta",
+                "group":"Breadcrumb",
+                "categories":"navigation",
+                "aka":null
+             },
+             {
+                "displayName":"Bubble",
+                "purpose":"Highlights one or two words for more visibility",
+                "status":null,
+                "group":null,
+                "categories":null,
+                "aka":"pill, badge"
+             },
+             {
+                "displayName":"Calendar",
+                "purpose":"Allows users to choose a date",
+                "status":null,
+                "group":"NewDatePicker",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Block",
+                "purpose":"Wraps content in a card layout, with optional header and footer",
+                "status":null,
+                "group":null,
+                "categories":"layout",
+                "aka":"box, container"
+             },
+             {
+                "displayName":"CalendarShortcuts",
+                "purpose":"Allows users to choose dates from shortcuts",
+                "status":null,
+                "group":"NewDatePicker",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Counter",
+                "purpose":"Allows users to see how many characters they can still type",
+                "status":null,
+                "group":"NewTextArea",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Button",
+                "purpose":"Triggers actions through onClick",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":null
+             },
+             {
+                "displayName":"Currency",
+                "purpose":"Formats currency in a standard way",
+                "status":null,
+                "group":null,
+                "categories":"formatter",
+                "aka":"money"
+             },
+             {
+                "displayName":"DeprecatedDropdownItem",
+                "purpose":"This component is DEPRECATED, use Ink.DropdownItem instead",
+                "status":"deprecated",
+                "group":"Deprecated",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Checkbox",
+                "purpose":"Allows users to choose one or more options from a short, visible, set",
+                "status":"sunset",
+                "group":null,
+                "categories":"form",
+                "aka":null
+             },
+             {
+                "displayName":"CustomText",
+                "purpose":"Displays pleasant typography in web interfaces",
+                "status":"beta",
+                "group":"Typography",
+                "categories":"typography",
+                "aka":"text"
+             },
+             {
+                "displayName":"Column",
+                "purpose":"Divides rows horizontally up to 12 parts",
+                "status":null,
+                "group":"Grid",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DatePicker",
+                "purpose":"Allows users to choose dates, with optional help from shortcuts",
+                "status":"sunset",
+                "group":null,
+                "categories":"form",
+                "aka":"calendar"
+             },
+             {
+                "displayName":"DeprecatedFilePicker",
+                "purpose":"This component is DEPRECATED, use Ink.FilePicker instead",
+                "status":"deprecated",
+                "group":"Deprecated",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DeprecatedFormattedCurrency",
+                "purpose":"This component is DEPRECATED, use Ink.Currency instead",
+                "status":"deprecated",
+                "group":"Deprecated",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DropdownAnchor",
+                "purpose":"An anchor for Dropdown.Item(s)",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DeprecatedPercentageInput",
+                "purpose":"This component is DEPRECATED, use Ink.Input instead",
+                "status":"deprecated",
+                "group":"Deprecated",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DeprecatedDropdown",
+                "purpose":"This component is DEPRECATED, use Ink.Dropdown instead",
+                "status":"deprecated",
+                "group":"Deprecated",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Display",
+                "purpose":"Renders content conditionally",
+                "status":null,
+                "group":null,
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DropdownBelt",
+                "purpose":"A belt to help organize Dropdown.Item(s) content visually",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DropdownButton",
+                "purpose":"A button for Dropdown.Item(s)",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DropdownHeader",
+                "purpose":"A header separator for Dropdown.Item(s)",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Divider",
+                "purpose":"Draws a separator",
+                "status":"beta",
+                "group":null,
+                "categories":"form",
+                "aka":"separator"
+             },
+             {
+                "displayName":"DeprecatedText",
+                "purpose":"Write beautiful and semantic texts with ease",
+                "status":"deprecated",
+                "group":"Deprecated",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DropdownCheckbox",
+                "purpose":"A checkbox for Dropdown.Item(s)",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DropdownRadio",
+                "purpose":"A Radio option for Dropdown.Item(s)",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DropdownItem",
+                "purpose":"Wraps each option inside a Dropdown",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DropdownSeparator",
+                "purpose":"A line separator for Dropdown.Item(s)",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DropdownSearch",
+                "purpose":"A search for Dropdown.Item(s)",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"DropdownTrigger",
+                "purpose":"A preset Button to use as the Dropdown 'trigger'",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Favorite",
+                "purpose":"A clickable star indicating a \"favorite\" option",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"star"
+             },
+             {
+                "displayName":"Dropdown",
+                "purpose":"Reveals a set of custom options from a trigger",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":"form",
+                "aka":"menu"
+             },
+             {
+                "displayName":"DropdownTooltip",
+                "purpose":"A tooltip to be used along with Dropdown.Item(s)",
+                "status":"beta",
+                "group":"Dropdown",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"FilePicker",
+                "purpose":"Allows users to upload, view and delete one or more files",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"file upload"
+             },
+             {
+                "displayName":"FormSection",
+                "purpose":"Breaks forms down into small sections that are easier to understand",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":null
+             },
+             {
+                "displayName":"FormattedDate",
+                "purpose":"Formats your dates with ease",
+                "status":null,
+                "group":"Formatted",
+                "categories":"formatter",
+                "aka":null
+             },
+             {
+                "displayName":"FormattedNumber",
+                "purpose":"Formats your numbers with ease",
+                "status":null,
+                "group":"Formatted",
+                "categories":"formatter",
+                "aka":null
+             },
+             {
+                "displayName":"FormattedMultiple",
+                "purpose":"Formats numbers into multiples",
+                "status":null,
+                "group":"Formatted",
+                "categories":"formatter",
+                "aka":null
+             },
+             {
+                "displayName":"FormattedBigCurrency",
+                "purpose":"Represents the value into a more readable order of magnitude",
+                "status":null,
+                "group":"Formatted",
+                "categories":"formatter",
+                "aka":null
+             },
+             {
+                "displayName":"Form",
+                "purpose":"Helps users provide data, fast and without friction",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":null
+             },
+             {
+                "displayName":"EmptyState",
+                "purpose":"Indicates absence of any data to display and guides user to take action",
+                "status":null,
+                "group":null,
+                "categories":"layout",
+                "aka":"empty house, placeholder, CTA"
+             },
+             {
+                "displayName":"FormattedPercentage",
+                "purpose":"Formats percentage values",
+                "status":null,
+                "group":"Formatted",
+                "categories":"formatter",
+                "aka":null
+             },
+             {
+                "displayName":"Grid",
+                "purpose":"Contains rows to create page structures",
+                "status":"beta",
+                "group":"Grid",
+                "categories":"layout",
+                "aka":"container"
+             },
+             {
+                "displayName":"FullPageModal",
+                "purpose":"Opens a full page overlay to switch context to specific operations",
+                "status":null,
+                "group":"Modal",
+                "categories":"layout",
+                "aka":null
+             },
+             {
+                "displayName":"FullPageSpreadsheet",
+                "purpose":"Provide users with a full page spreadsheet experience",
+                "status":"beta",
+                "group":null,
+                "categories":"spreadsheet",
+                "aka":null
+             },
+             {
+                "displayName":"HStack",
+                "purpose":"Layout items in a horizontal stack",
+                "status":"beta",
+                "group":"Layout",
+                "categories":"layout",
+                "aka":"flexbox, row"
+             },
+             {
+                "displayName":"Header",
+                "purpose":"Displays an application's main navigation and actions",
+                "status":null,
+                "group":null,
+                "categories":"navigation",
+                "aka":"top bar, primary navigation"
+             },
+             {
+                "displayName":"Heading1",
+                "purpose":"Most prominent heading after PageTitle",
+                "status":"beta",
+                "group":"Typography",
+                "categories":"typography",
+                "aka":null
+             },
+             {
+                "displayName":"Heading3",
+                "purpose":"Most prominent heading after Heading2",
+                "status":"beta",
+                "group":"Typography",
+                "categories":"typography",
+                "aka":null
+             },
+             {
+                "displayName":"Heading4",
+                "purpose":"Most prominent heading after Heading3",
+                "status":"beta",
+                "group":"Typography",
+                "categories":"typography",
+                "aka":null
+             },
+             {
+                "displayName":"Heading2",
+                "purpose":"Most prominent heading after Heading1",
+                "status":"beta",
+                "group":"Typography",
+                "categories":"typography",
+                "aka":null
+             },
+             {
+                "displayName":"Field",
+                "purpose":"Provides label, required tag, help, info and error text to form items",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"label"
+             },
+             {
+                "displayName":"HorizontalNavAnchor",
+                "purpose":"An anchor element used inside HorizontalNav",
+                "status":"beta",
+                "group":"HorizontalNav",
+                "categories":"navigation",
+                "aka":null
+             },
+             {
+                "displayName":"HorizontalNavButton",
+                "purpose":"A button element used inside HorizontalNav",
+                "status":"beta",
+                "group":"HorizontalNav",
+                "categories":"navigation",
+                "aka":null
+             },
+             {
+                "displayName":"Help",
+                "purpose":"Explains concepts contextually",
+                "status":null,
+                "group":null,
+                "categories":null,
+                "aka":"tooltip, education"
+             },
+             {
+                "displayName":"HorizontalNavItem",
+                "purpose":"A generic wrapper to render custom components inside a HorizontalNav",
+                "status":"beta",
+                "group":"HorizontalNav",
+                "categories":"navigation",
+                "aka":null
+             },
+             {
+                "displayName":"Icon",
+                "purpose":"Convenient way to use iconography",
+                "status":null,
+                "group":null,
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"IconWithText",
+                "purpose":"Large text paired with either an icon or svg image",
+                "status":null,
+                "group":null,
+                "categories":"layout",
+                "aka":null
+             },
+             {
+                "displayName":"HorizontalNavBelt",
+                "purpose":"Preset of Box and HStack, use to add standard spacing between two React Nodes",
+                "status":"beta",
+                "group":"HorizontalNav",
+                "categories":"navigation",
+                "aka":null
+             },
+             {
+                "displayName":"Li",
+                "purpose":"Be an item in an ordered or unordered list of textual elements",
+                "status":null,
+                "group":"SimpleList",
+                "categories":null,
+                "aka":"list item"
+             },
+             {
+                "displayName":"HorizontalNav",
+                "purpose":"Horizontally wraps a set of clickable elements for navigation",
+                "status":"beta",
+                "group":"HorizontalNav",
+                "categories":"navigation",
+                "aka":"nav"
+             },
+             {
+                "displayName":"ListBody",
+                "purpose":"Allows any components to be at the bottom of a ListItem",
+                "status":null,
+                "group":"List",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"ListControl",
+                "purpose":"Allows you to add inputs to the far right of ListItem",
+                "status":null,
+                "group":"List",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"List",
+                "purpose":"Splits content into items, with optional icons for visual support",
+                "status":null,
+                "group":"List",
+                "categories":"layout",
+                "aka":null
+             },
+             {
+                "displayName":"Loader",
+                "purpose":"An animated spinner indicating data is loading",
+                "status":null,
+                "group":null,
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Input",
+                "purpose":"Allows users to provide one piece of data",
+                "status":"sunset",
+                "group":null,
+                "categories":"form",
+                "aka":"textfield"
+             },
+             {
+                "displayName":"ListItem",
+                "purpose":"Splits content into items, with optional icons for visual support",
+                "status":null,
+                "group":"List",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Modal",
+                "purpose":"Show content over the page in a restricted lightbox context",
+                "status":null,
+                "group":"Modal",
+                "categories":"layout",
+                "aka":"dialog"
+             },
+             {
+                "displayName":"ModalDetail",
+                "purpose":"Displays a detailed view with multiple tabs",
+                "status":null,
+                "group":"Modal",
+                "categories":"layout",
+                "aka":null
+             },
+             {
+                "displayName":"Monologue",
+                "purpose":"Presents long text",
+                "status":null,
+                "group":null,
+                "categories":"layout",
+                "aka":"scrollable text, terms, textblock, legal text"
+             },
+             {
+                "displayName":"ModalContent",
+                "purpose":"Separates parts of complex workflows inside blocks that overlay the page",
+                "status":"sunset",
+                "group":"Modal",
+                "categories":"layout",
+                "aka":null
+             },
+             {
+                "displayName":"NewDatePicker",
+                "purpose":"Allows users to choose dates",
+                "status":null,
+                "group":"NewDatePicker",
+                "categories":"form",
+                "aka":"datepicker"
+             },
+             {
+                "displayName":"MultiStepModal",
+                "purpose":"Makes easy to build multi-step modals",
+                "status":null,
+                "group":"Modal",
+                "categories":"layout",
+                "aka":null
+             },
+             {
+                "displayName":"NewFormSectionContent",
+                "purpose":"Arranges the Fields with the proper spacing inside sections",
+                "status":null,
+                "group":"NewFormSection",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Nav",
+                "purpose":"Creates a page's central navigation",
+                "status":"sunset",
+                "group":null,
+                "categories":"navigation",
+                "aka":null
+             },
+             {
+                "displayName":"NewFormSection",
+                "purpose":"Breaks forms down into small sections that are easier to understand",
+                "status":null,
+                "group":"NewFormSection",
+                "categories":"form",
+                "aka":"formsection"
+             },
+             {
+                "displayName":"NewFormSectionTitle",
+                "purpose":"Entitles a section of the form",
+                "status":null,
+                "group":"NewFormSection",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"NewFormSectionError",
+                "purpose":"Explains errors between multiple elements in this section",
+                "status":null,
+                "group":"NewFormSection",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"NewCheckbox",
+                "purpose":"Allow users to choose options from a short, visible, set",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"checkbox"
+             },
+             {
+                "displayName":"NewFormSectionSubtitle",
+                "purpose":"Gives extra information about the section",
+                "status":null,
+                "group":"NewFormSection",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"NewTableBody",
+                "purpose":"Wraps around internal rows",
+                "status":"beta",
+                "group":"NewTable",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"NewTableHead",
+                "purpose":"Wraps around header rows",
+                "status":"beta",
+                "group":"NewTable",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"NewInput",
+                "purpose":"Allows users to provide one piece of data",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"input"
+             },
+             {
+                "displayName":"NewTableRow",
+                "purpose":"Wraps around a horizontal set of cells",
+                "status":"beta",
+                "group":"NewTable",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"NewSelect",
+                "purpose":"Select one answer among three or more predefined options",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"select"
+             },
+             {
+                "displayName":"NewTableHeadCell",
+                "purpose":"Header cell for column title",
+                "status":"beta",
+                "group":"NewTable",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"Ol",
+                "purpose":"Present ordered text elements as a numbered list",
+                "status":null,
+                "group":"SimpleList",
+                "categories":"layout",
+                "aka":"ordered list"
+             },
+             {
+                "displayName":"NewTableCell",
+                "purpose":"Unit of data inside a table row",
+                "status":"beta",
+                "group":"NewTable",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"NewTextArea",
+                "purpose":"Allows users to insert long strings of data",
+                "status":null,
+                "group":"NewTextArea",
+                "categories":"form",
+                "aka":"textarea"
+             },
+             {
+                "displayName":"NewTypeahead",
+                "purpose":"Search and select an option among matching results",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"typeahead, search"
+             },
+             {
+                "displayName":"NewTableTwiddle",
+                "purpose":"Groups expandable rows",
+                "status":"beta",
+                "group":"NewTable",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"Page",
+                "purpose":"Initiates every page UI structure",
+                "status":"beta",
+                "group":"Page",
+                "categories":"layout",
+                "aka":null
+             },
+             {
+                "displayName":"PageBody",
+                "purpose":"Arranges page content and sidebar",
+                "status":"beta",
+                "group":"Page",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"PageContent",
+                "purpose":"Displays main content of the page",
+                "status":"beta",
+                "group":"Page",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"NewRadio",
+                "purpose":"Allow users to choose options from a short, visible, set",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"radio"
+             },
+             {
+                "displayName":"PageSidebar",
+                "purpose":"Displays page navigation or complementary information",
+                "status":"beta",
+                "group":"Page",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"PageHeader",
+                "purpose":"Arranges page title and global actions",
+                "status":"beta",
+                "group":"Page",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Pagination",
+                "purpose":"Paginates long lists of items",
+                "status":null,
+                "group":null,
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"Pin",
+                "purpose":"Clickable element that wraps around sortable headers",
+                "status":"beta",
+                "group":"NewTable",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"Radio",
+                "purpose":"Select one answer from a small and visible set of options",
+                "status":"sunset",
+                "group":null,
+                "categories":"form",
+                "aka":null
+             },
+             {
+                "displayName":"Paragraph",
+                "purpose":"Displays pleasant typography in web interfaces",
+                "status":"beta",
+                "group":"Typography",
+                "categories":"typography",
+                "aka":null
+             },
+             {
+                "displayName":"PageTitle",
+                "purpose":"Exposes and summarizes page purpose",
+                "status":"beta",
+                "group":"Page",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Progress",
+                "purpose":"Graphically displays numeric values as percentage of a total, as in a progress bar",
+                "status":null,
+                "group":"Progress",
+                "categories":null,
+                "aka":"bar"
+             },
+             {
+                "displayName":"ProgressLegendItem",
+                "purpose":"Descriptive legend items for progress bars",
+                "status":"beta",
+                "group":"Progress",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Ribbon",
+                "purpose":"Display row temporary information on hover",
+                "status":"beta",
+                "group":"NewTable",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"Row",
+                "purpose":"Group any number of columns of any size",
+                "status":null,
+                "group":"Grid",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Search",
+                "purpose":"Search and filter lists or ledger items",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"filter"
+             },
+             {
+                "displayName":"Section",
+                "purpose":"Provides additional structure inside blocks",
+                "status":null,
+                "group":null,
+                "categories":"layout",
+                "aka":null
+             },
+             {
+                "displayName":"SelectableList",
+                "purpose":"Select one answer from a detailed list of options",
+                "status":null,
+                "group":null,
+                "categories":"form",
+                "aka":"card radio option"
+             },
+             {
+                "displayName":"Shimmer",
+                "purpose":"Holds a place for text yet to be loaded",
+                "status":"beta",
+                "group":"NewTable",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"Select",
+                "purpose":"Select one answer among three or more predefined options",
+                "status":"sunset",
+                "group":null,
+                "categories":"form",
+                "aka":null
+             },
+             {
+                "displayName":"SliderErrors",
+                "purpose":"Spreadsheet plugin to list of errors",
+                "status":"beta",
+                "group":null,
+                "categories":"spreadsheet",
+                "aka":null
+             },
+             {
+                "displayName":"Small",
+                "purpose":"Displays pleasant typography in web interfaces",
+                "status":"beta",
+                "group":"Typography",
+                "categories":"typography",
+                "aka":null
+             },
+             {
+                "displayName":"Stripe",
+                "purpose":"Visually group rows by relevant data",
+                "status":"beta",
+                "group":"NewTable",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"Slider",
+                "purpose":"Adds sliding panel for extra functionalities in the Spreadsheet",
+                "status":"beta",
+                "group":null,
+                "categories":"spreadsheet",
+                "aka":null
+             },
+             {
+                "displayName":"Staffer",
+                "purpose":"Wraps around elements to display staff only elements",
+                "status":"beta",
+                "group":null,
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Status",
+                "purpose":"Visually indicates status",
+                "status":null,
+                "group":null,
+                "categories":"layout",
+                "aka":null
+             },
+             {
+                "displayName":"SubNavButton",
+                "purpose":"Button item of SubNav",
+                "status":"beta",
+                "group":"SubNav",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"SubNavAnchor",
+                "purpose":"Anchor item of SubNav",
+                "status":"beta",
+                "group":"SubNav",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"SubNav",
+                "purpose":"Create tertiary page navigation",
+                "status":"beta",
+                "group":"SubNav",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"SubNavItem",
+                "purpose":"Renders custom element via render prop",
+                "status":"beta",
+                "group":"SubNav",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Subset",
+                "purpose":"Groups and indents a subset of field children",
+                "status":null,
+                "group":null,
+                "categories":"layout",
+                "aka":null
+             },
+             {
+                "displayName":"TableCellShimmer",
+                "purpose":"Holds a place for text yet to be loaded",
+                "status":"sunset",
+                "group":"Table",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"TableBodyRow",
+                "purpose":"Wraps cells to create a row inside the table body",
+                "status":"sunset",
+                "group":"Table",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"TableCell",
+                "purpose":"Splits table body rows into columns",
+                "status":"sunset",
+                "group":"Table",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"TableTwiddleRow",
+                "purpose":"Wraps cells to create an expandable row inside the table body",
+                "status":"sunset",
+                "group":"Table",
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"Tag",
+                "purpose":"A tag visual for categorizing data",
+                "status":"beta",
+                "group":"Tag",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"TagButton",
+                "purpose":"Tag action button that appends an icon and onClick",
+                "status":"beta",
+                "group":"Tag",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"TagContainer",
+                "purpose":"Wrapper for tags for the correct spacing",
+                "status":"beta",
+                "group":"Tag",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"TextArea",
+                "purpose":"Allows users to insert long strings of data",
+                "status":"sunset",
+                "group":null,
+                "categories":"form",
+                "aka":null
+             },
+             {
+                "displayName":"TagDraggable",
+                "purpose":"Draggable tags",
+                "status":"beta",
+                "group":"Tag",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Tile",
+                "purpose":"Creates structure around content such as tables, lists or key metrics. Often inside Sections",
+                "status":null,
+                "group":"Tile",
+                "categories":"layout",
+                "aka":"box"
+             },
+             {
+                "displayName":"Tiles",
+                "purpose":"Layout items in a column grid",
+                "status":"beta",
+                "group":"Layout",
+                "categories":"layout",
+                "aka":"grid"
+             },
+             {
+                "displayName":"TileRow",
+                "purpose":"Wrapper for horizontal tiles to line up in a row",
+                "status":null,
+                "group":"Tile",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"TlDr",
+                "purpose":"Presents long text",
+                "status":null,
+                "group":null,
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Tooltip",
+                "purpose":"Show complementary information on demand",
+                "status":"beta",
+                "group":null,
+                "categories":null,
+                "aka":"help"
+             },
+             {
+                "displayName":"Tracker",
+                "purpose":"Lists the steps of a workflow",
+                "status":null,
+                "group":null,
+                "categories":"navigation",
+                "aka":"progress, stepper"
+             },
+             {
+                "displayName":"VStack",
+                "purpose":"Layout items in a vertical stack",
+                "status":"beta",
+                "group":"Layout",
+                "categories":"layout",
+                "aka":"column, flexbox"
+             },
+             {
+                "displayName":"Ul",
+                "purpose":"List unordered text elements as bullet points",
+                "status":null,
+                "group":"SimpleList",
+                "categories":"layout",
+                "aka":"unordered list"
+             },
+             {
+                "displayName":"VerticalNav",
+                "purpose":"Create page side navigation",
+                "status":"beta",
+                "group":"VerticalNav",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Typeahead",
+                "purpose":"Search and select an option among matching results",
+                "status":"sunset",
+                "group":null,
+                "categories":"form",
+                "aka":"search"
+             },
+             {
+                "displayName":"VerticalNavAnchor",
+                "purpose":"Anchor item of VerticalNav",
+                "status":"beta",
+                "group":"VerticalNav",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"VerticalNavButton",
+                "purpose":"Button item of VerticalNav",
+                "status":"beta",
+                "group":"VerticalNav",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"VerticalNavItem",
+                "purpose":"Renders custom element via render prop",
+                "status":"beta",
+                "group":"VerticalNav",
+                "categories":null,
+                "aka":null
+             },
+             {
+                "displayName":"Vignette",
+                "purpose":"Aids user interface to convey a message with contextual illustration",
+                "status":"beta",
+                "group":null,
+                "categories":null,
+                "aka":"illustration"
+             },
+             {
+                "displayName":"Ledger",
+                "purpose":"Aggregates a table, filters, and actions",
+                "status":null,
+                "group":null,
+                "categories":"table",
+                "aka":null
+             },
+             {
+                "displayName":"NewTable",
+                "purpose":"Displays complex data as tabular structures",
+                "status":"beta",
+                "group":"NewTable",
+                "categories":"table",
+                "aka":"table"
+             },
+             {
+                "displayName":"Spreadsheet",
+                "purpose":"Allows users to handle large amounts of data",
+                "status":"beta",
+                "group":null,
+                "categories":"spreadsheet",
+                "aka":null
+             },
+             {
+                "displayName":"Table",
+                "purpose":"Turns complex data structures into custom tables",
+                "status":"sunset",
+                "group":"Table",
+                "categories":"table",
+                "aka":null
+             }
+          ]
+       }
+    }
+ }
