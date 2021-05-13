@@ -1,1 +1,838 @@
-{"data":{"allComponents":{"nodes":[{"displayName":"Dayne","purpose":"Allows users to input electronic signatures","status":null,"group":null,"categories":"form","aka":"signature, dotted line"},{"displayName":"Alert","purpose":"Serves as temporary or permanent feedback for a user taking an action, such as saving or downloading","status":null,"group":null,"categories":null,"aka":"notification toaster"},{"displayName":"Agreement","purpose":"Allows users to agree with statements and attachments","status":null,"group":null,"categories":"form","aka":"terms and conditions, t&c"},{"displayName":"Banner","purpose":"Highlights important information with possible immediate actions","status":null,"group":null,"categories":"form","aka":"dialog, flag"},{"displayName":"Avatar","purpose":"Shows thumbnails for people and company logos","status":null,"group":null,"categories":null,"aka":"user profile, profile image, user image"},{"displayName":"Anchor","purpose":"Links to different content","status":null,"group":null,"categories":null,"aka":"link"},{"displayName":"Belt","purpose":"Controls spacing and position of elements in a row","status":null,"group":null,"categories":"layout","aka":null},{"displayName":"BreadcrumbAnchor","purpose":"An anchor type inside a Breadcrumb","status":"beta","group":"Breadcrumb","categories":"navigation","aka":null},{"displayName":"Breadcrumb","purpose":"A list of links representing the current page and its “ancestors”","status":"beta","group":"Breadcrumb","categories":"navigation","aka":null},{"displayName":"Box","purpose":"Adds one-off spacing around a component","status":"beta","group":"Layout","categories":"layout","aka":"box, container"},{"displayName":"BreadcrumbButton","purpose":"An anchor type inside a Breadcrumb","status":"beta","group":"Breadcrumb","categories":"navigation","aka":null},{"displayName":"BreadcrumbElement","purpose":"An item inside a Breadcrumb","status":"beta","group":"Breadcrumb","categories":"navigation","aka":null},{"displayName":"Bubble","purpose":"Highlights one or two words for more visibility","status":null,"group":null,"categories":null,"aka":"pill, badge"},{"displayName":"Calendar","purpose":"Allows users to choose a date","status":null,"group":"NewDatePicker","categories":null,"aka":null},{"displayName":"Block","purpose":"Wraps content in a card layout, with optional header and footer","status":null,"group":null,"categories":"layout","aka":"box, container"},{"displayName":"CalendarShortcuts","purpose":"Allows users to choose dates from shortcuts","status":null,"group":"NewDatePicker","categories":null,"aka":null},{"displayName":"Counter","purpose":"Allows users to see how many characters they can still type","status":null,"group":"NewTextArea","categories":null,"aka":null},{"displayName":"Button","purpose":"Triggers actions through onClick","status":null,"group":null,"categories":"form","aka":null},{"displayName":"Currency","purpose":"Formats currency in a standard way","status":null,"group":null,"categories":"formatter","aka":"money"},{"displayName":"DeprecatedDropdownItem","purpose":"This component is DEPRECATED, use Ink.DropdownItem instead","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"Checkbox","purpose":"Allows users to choose one or more options from a short, visible, set","status":"sunset","group":null,"categories":"form","aka":null},{"displayName":"CustomText","purpose":"Displays pleasant typography in web interfaces","status":"beta","group":"Typography","categories":"typography","aka":"text"},{"displayName":"Column","purpose":"Divides rows horizontally up to 12 parts","status":null,"group":"Grid","categories":null,"aka":null},{"displayName":"DatePicker","purpose":"Allows users to choose dates, with optional help from shortcuts","status":"sunset","group":null,"categories":"form","aka":"calendar"},{"displayName":"DeprecatedFilePicker","purpose":"This component is DEPRECATED, use Ink.FilePicker instead","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"DeprecatedFormattedCurrency","purpose":"This component is DEPRECATED, use Ink.Currency instead","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"DropdownAnchor","purpose":"An anchor for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DeprecatedPercentageInput","purpose":"This component is DEPRECATED, use Ink.Input instead","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"DeprecatedDropdown","purpose":"This component is DEPRECATED, use Ink.Dropdown instead","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"Display","purpose":"Renders content conditionally","status":null,"group":null,"categories":null,"aka":null},{"displayName":"DropdownBelt","purpose":"A belt to help organize Dropdown.Item(s) content visually","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownButton","purpose":"A button for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownHeader","purpose":"A header separator for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"Divider","purpose":"Draws a separator","status":"beta","group":null,"categories":"form","aka":"separator"},{"displayName":"DeprecatedText","purpose":"Write beautiful and semantic texts with ease","status":"deprecated","group":"Deprecated","categories":null,"aka":null},{"displayName":"DropdownCheckbox","purpose":"A checkbox for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownRadio","purpose":"A Radio option for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownItem","purpose":"Wraps each option inside a Dropdown","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownSeparator","purpose":"A line separator for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownSearch","purpose":"A search for Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"DropdownTrigger","purpose":"A preset Button to use as the Dropdown 'trigger'","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"Favorite","purpose":"A clickable star indicating a \"favorite\" option","status":null,"group":null,"categories":"form","aka":"star"},{"displayName":"Dropdown","purpose":"Reveals a set of custom options from a trigger","status":"beta","group":"Dropdown","categories":"form","aka":"menu"},{"displayName":"DropdownTooltip","purpose":"A tooltip to be used along with Dropdown.Item(s)","status":"beta","group":"Dropdown","categories":null,"aka":null},{"displayName":"FilePicker","purpose":"Allows users to upload, view and delete one or more files","status":null,"group":null,"categories":"form","aka":"file upload"},{"displayName":"FormSection","purpose":"Breaks forms down into small sections that are easier to understand","status":null,"group":null,"categories":"form","aka":null},{"displayName":"FormattedDate","purpose":"Formats your dates with ease","status":null,"group":"Formatted","categories":"formatter","aka":null},{"displayName":"FormattedNumber","purpose":"Formats your numbers with ease","status":null,"group":"Formatted","categories":"formatter","aka":null},{"displayName":"FormattedMultiple","purpose":"Formats numbers into multiples","status":null,"group":"Formatted","categories":"formatter","aka":null},{"displayName":"FormattedBigCurrency","purpose":"Represents the value into a more readable order of magnitude","status":null,"group":"Formatted","categories":"formatter","aka":null},{"displayName":"Form","purpose":"Helps users provide data, fast and without friction","status":null,"group":null,"categories":"form","aka":null},{"displayName":"EmptyState","purpose":"Indicates absence of any data to display and guides user to take action","status":null,"group":null,"categories":"layout","aka":"empty house, placeholder, CTA"},{"displayName":"FormattedPercentage","purpose":"Formats percentage values","status":null,"group":"Formatted","categories":"formatter","aka":null},{"displayName":"Grid","purpose":"Contains rows to create page structures","status":"beta","group":"Grid","categories":"layout","aka":"container"},{"displayName":"FullPageModal","purpose":"Opens a full page overlay to switch context to specific operations","status":null,"group":"Modal","categories":"layout","aka":null},{"displayName":"FullPageSpreadsheet","purpose":"Provide users with a full page spreadsheet experience","status":"beta","group":null,"categories":"spreadsheet","aka":null},{"displayName":"HStack","purpose":"Layout items in a horizontal stack","status":"beta","group":"Layout","categories":"layout","aka":"flexbox, row"},{"displayName":"Header","purpose":"Displays an application's main navigation and actions","status":null,"group":null,"categories":"navigation","aka":"top bar, primary navigation"},{"displayName":"Heading1","purpose":"Most prominent heading after PageTitle","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"Heading3","purpose":"Most prominent heading after Heading2","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"Heading4","purpose":"Most prominent heading after Heading3","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"Heading2","purpose":"Most prominent heading after Heading1","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"Field","purpose":"Provides label, required tag, help, info and error text to form items","status":null,"group":null,"categories":"form","aka":"label"},{"displayName":"HorizontalNavAnchor","purpose":"An anchor element used inside HorizontalNav","status":"beta","group":"HorizontalNav","categories":"navigation","aka":null},{"displayName":"HorizontalNavButton","purpose":"A button element used inside HorizontalNav","status":"beta","group":"HorizontalNav","categories":"navigation","aka":null},{"displayName":"Help","purpose":"Explains concepts contextually","status":null,"group":null,"categories":null,"aka":"tooltip, education"},{"displayName":"HorizontalNavItem","purpose":"A generic wrapper to render custom components inside a HorizontalNav","status":"beta","group":"HorizontalNav","categories":"navigation","aka":null},{"displayName":"Icon","purpose":"Convenient way to use iconography","status":null,"group":null,"categories":null,"aka":null},{"displayName":"IconWithText","purpose":"Large text paired with either an icon or svg image","status":null,"group":null,"categories":"layout","aka":null},{"displayName":"HorizontalNavBelt","purpose":"Preset of Box and HStack, use to add standard spacing between two React Nodes","status":"beta","group":"HorizontalNav","categories":"navigation","aka":null},{"displayName":"Li","purpose":"Be an item in an ordered or unordered list of textual elements","status":null,"group":"SimpleList","categories":null,"aka":"list item"},{"displayName":"HorizontalNav","purpose":"Horizontally wraps a set of clickable elements for navigation","status":"beta","group":"HorizontalNav","categories":"navigation","aka":"nav"},{"displayName":"ListBody","purpose":"Allows any components to be at the bottom of a ListItem","status":null,"group":"List","categories":null,"aka":null},{"displayName":"ListControl","purpose":"Allows you to add inputs to the far right of ListItem","status":null,"group":"List","categories":null,"aka":null},{"displayName":"List","purpose":"Splits content into items, with optional icons for visual support","status":null,"group":"List","categories":"layout","aka":null},{"displayName":"Loader","purpose":"An animated spinner indicating data is loading","status":null,"group":null,"categories":null,"aka":null},{"displayName":"Input","purpose":"Allows users to provide one piece of data","status":"sunset","group":null,"categories":"form","aka":"textfield"},{"displayName":"ListItem","purpose":"Splits content into items, with optional icons for visual support","status":null,"group":"List","categories":null,"aka":null},{"displayName":"Modal","purpose":"Show content over the page in a restricted lightbox context","status":null,"group":"Modal","categories":"layout","aka":"dialog"},{"displayName":"ModalDetail","purpose":"Displays a detailed view with multiple tabs","status":null,"group":"Modal","categories":"layout","aka":null},{"displayName":"Monologue","purpose":"Presents long text","status":null,"group":null,"categories":"layout","aka":"scrollable text, terms, textblock, legal text"},{"displayName":"ModalContent","purpose":"Separates parts of complex workflows inside blocks that overlay the page","status":"sunset","group":"Modal","categories":"layout","aka":null},{"displayName":"NewDatePicker","purpose":"Allows users to choose dates","status":null,"group":"NewDatePicker","categories":"form","aka":"datepicker"},{"displayName":"MultiStepModal","purpose":"Makes easy to build multi-step modals","status":null,"group":"Modal","categories":"layout","aka":null},{"displayName":"NewFormSectionContent","purpose":"Arranges the Fields with the proper spacing inside sections","status":null,"group":"NewFormSection","categories":null,"aka":null},{"displayName":"Nav","purpose":"Creates a page's central navigation","status":"sunset","group":null,"categories":"navigation","aka":null},{"displayName":"NewFormSection","purpose":"Breaks forms down into small sections that are easier to understand","status":null,"group":"NewFormSection","categories":"form","aka":"formsection"},{"displayName":"NewFormSectionTitle","purpose":"Entitles a section of the form","status":null,"group":"NewFormSection","categories":null,"aka":null},{"displayName":"NewFormSectionError","purpose":"Explains errors between multiple elements in this section","status":null,"group":"NewFormSection","categories":null,"aka":null},{"displayName":"NewCheckbox","purpose":"Allow users to choose options from a short, visible, set","status":null,"group":null,"categories":"form","aka":"checkbox"},{"displayName":"NewFormSectionSubtitle","purpose":"Gives extra information about the section","status":null,"group":"NewFormSection","categories":null,"aka":null},{"displayName":"NewTableBody","purpose":"Wraps around internal rows","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"NewTableHead","purpose":"Wraps around header rows","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"NewInput","purpose":"Allows users to provide one piece of data","status":null,"group":null,"categories":"form","aka":"input"},{"displayName":"NewTableRow","purpose":"Wraps around a horizontal set of cells","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"NewSelect","purpose":"Select one answer among three or more predefined options","status":null,"group":null,"categories":"form","aka":"select"},{"displayName":"NewTableHeadCell","purpose":"Header cell for column title","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Ol","purpose":"Present ordered text elements as a numbered list","status":null,"group":"SimpleList","categories":"layout","aka":"ordered list"},{"displayName":"NewTableCell","purpose":"Unit of data inside a table row","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"NewTextArea","purpose":"Allows users to insert long strings of data","status":null,"group":"NewTextArea","categories":"form","aka":"textarea"},{"displayName":"NewTypeahead","purpose":"Search and select an option among matching results","status":null,"group":null,"categories":"form","aka":"typeahead, search"},{"displayName":"NewTableTwiddle","purpose":"Groups expandable rows","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Page","purpose":"Initiates every page UI structure","status":"beta","group":"Page","categories":"layout","aka":null},{"displayName":"PageBody","purpose":"Arranges page content and sidebar","status":"beta","group":"Page","categories":null,"aka":null},{"displayName":"PageContent","purpose":"Displays main content of the page","status":"beta","group":"Page","categories":null,"aka":null},{"displayName":"NewRadio","purpose":"Allow users to choose options from a short, visible, set","status":null,"group":null,"categories":"form","aka":"radio"},{"displayName":"PageSidebar","purpose":"Displays page navigation or complementary information","status":"beta","group":"Page","categories":null,"aka":null},{"displayName":"PageHeader","purpose":"Arranges page title and global actions","status":"beta","group":"Page","categories":null,"aka":null},{"displayName":"Pagination","purpose":"Paginates long lists of items","status":null,"group":null,"categories":"table","aka":null},{"displayName":"Pin","purpose":"Clickable element that wraps around sortable headers","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Radio","purpose":"Select one answer from a small and visible set of options","status":"sunset","group":null,"categories":"form","aka":null},{"displayName":"Paragraph","purpose":"Displays pleasant typography in web interfaces","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"PageTitle","purpose":"Exposes and summarizes page purpose","status":"beta","group":"Page","categories":null,"aka":null},{"displayName":"Progress","purpose":"Graphically displays numeric values as percentage of a total, as in a progress bar","status":null,"group":"Progress","categories":null,"aka":"bar"},{"displayName":"ProgressLegendItem","purpose":"Descriptive legend items for progress bars","status":"beta","group":"Progress","categories":null,"aka":null},{"displayName":"Ribbon","purpose":"Display row temporary information on hover","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Row","purpose":"Group any number of columns of any size","status":null,"group":"Grid","categories":null,"aka":null},{"displayName":"Search","purpose":"Search and filter lists or ledger items","status":null,"group":null,"categories":"form","aka":"filter"},{"displayName":"Section","purpose":"Provides additional structure inside blocks","status":null,"group":null,"categories":"layout","aka":null},{"displayName":"SelectableList","purpose":"Select one answer from a detailed list of options","status":null,"group":null,"categories":"form","aka":"card radio option"},{"displayName":"Shimmer","purpose":"Holds a place for text yet to be loaded","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Select","purpose":"Select one answer among three or more predefined options","status":"sunset","group":null,"categories":"form","aka":null},{"displayName":"SliderErrors","purpose":"Spreadsheet plugin to list of errors","status":"beta","group":null,"categories":"spreadsheet","aka":null},{"displayName":"Small","purpose":"Displays pleasant typography in web interfaces","status":"beta","group":"Typography","categories":"typography","aka":null},{"displayName":"Stripe","purpose":"Visually group rows by relevant data","status":"beta","group":"NewTable","categories":"table","aka":null},{"displayName":"Slider","purpose":"Adds sliding panel for extra functionalities in the Spreadsheet","status":"beta","group":null,"categories":"spreadsheet","aka":null},{"displayName":"Staffer","purpose":"Wraps around elements to display staff only elements","status":"beta","group":null,"categories":null,"aka":null},{"displayName":"Status","purpose":"Visually indicates status","status":null,"group":null,"categories":"layout","aka":null},{"displayName":"SubNavButton","purpose":"Button item of SubNav","status":"beta","group":"SubNav","categories":null,"aka":null},{"displayName":"SubNavAnchor","purpose":"Anchor item of SubNav","status":"beta","group":"SubNav","categories":null,"aka":null},{"displayName":"SubNav","purpose":"Create tertiary page navigation","status":"beta","group":"SubNav","categories":null,"aka":null},{"displayName":"SubNavItem","purpose":"Renders custom element via render prop","status":"beta","group":"SubNav","categories":null,"aka":null},{"displayName":"Subset","purpose":"Groups and indents a subset of field children","status":null,"group":null,"categories":"layout","aka":null},{"displayName":"TableCellShimmer","purpose":"Holds a place for text yet to be loaded","status":"sunset","group":"Table","categories":"table","aka":null},{"displayName":"TableBodyRow","purpose":"Wraps cells to create a row inside the table body","status":"sunset","group":"Table","categories":"table","aka":null},{"displayName":"TableCell","purpose":"Splits table body rows into columns","status":"sunset","group":"Table","categories":"table","aka":null},{"displayName":"TableTwiddleRow","purpose":"Wraps cells to create an expandable row inside the table body","status":"sunset","group":"Table","categories":"table","aka":null},{"displayName":"Tag","purpose":"A tag visual for categorizing data","status":"beta","group":"Tag","categories":null,"aka":null},{"displayName":"TagButton","purpose":"Tag action button that appends an icon and onClick","status":"beta","group":"Tag","categories":null,"aka":null},{"displayName":"TagContainer","purpose":"Wrapper for tags for the correct spacing","status":"beta","group":"Tag","categories":null,"aka":null},{"displayName":"TextArea","purpose":"Allows users to insert long strings of data","status":"sunset","group":null,"categories":"form","aka":null},{"displayName":"TagDraggable","purpose":"Draggable tags","status":"beta","group":"Tag","categories":null,"aka":null},{"displayName":"Tile","purpose":"Creates structure around content such as tables, lists or key metrics. Often inside Sections","status":null,"group":"Tile","categories":"layout","aka":"box"},{"displayName":"Tiles","purpose":"Layout items in a column grid","status":"beta","group":"Layout","categories":"layout","aka":"grid"},{"displayName":"TileRow","purpose":"Wrapper for horizontal tiles to line up in a row","status":null,"group":"Tile","categories":null,"aka":null},{"displayName":"TlDr","purpose":"Presents long text","status":null,"group":null,"categories":null,"aka":null},{"displayName":"Tooltip","purpose":"Show complementary information on demand","status":"beta","group":null,"categories":null,"aka":"help"},{"displayName":"Tracker","purpose":"Lists the steps of a workflow","status":null,"group":null,"categories":"navigation","aka":"progress, stepper"},{"displayName":"VStack","purpose":"Layout items in a vertical stack","status":"beta","group":"Layout","categories":"layout","aka":"column, flexbox"},{"displayName":"Ul","purpose":"List unordered text elements as bullet points","status":null,"group":"SimpleList","categories":"layout","aka":"unordered list"},{"displayName":"VerticalNav","purpose":"Create page side navigation","status":"beta","group":"VerticalNav","categories":null,"aka":null},{"displayName":"Typeahead","purpose":"Search and select an option among matching results","status":"sunset","group":null,"categories":"form","aka":"search"},{"displayName":"VerticalNavAnchor","purpose":"Anchor item of VerticalNav","status":"beta","group":"VerticalNav","categories":null,"aka":null},{"displayName":"VerticalNavButton","purpose":"Button item of VerticalNav","status":"beta","group":"VerticalNav","categories":null,"aka":null},{"displayName":"VerticalNavItem","purpose":"Renders custom element via render prop","status":"beta","group":"VerticalNav","categories":null,"aka":null},{"displayName":"Vignette","purpose":"Aids user interface to convey a message with contextual illustration","status":"beta","group":null,"categories":null,"aka":"illustration"},{"displayName":"Ledger","purpose":"Aggregates a table, filters, and actions","status":null,"group":null,"categories":"table","aka":null},{"displayName":"NewTable","purpose":"Displays complex data as tabular structures","status":"beta","group":"NewTable","categories":"table","aka":"table"},{"displayName":"Spreadsheet","purpose":"Allows users to handle large amounts of data","status":"beta","group":null,"categories":"spreadsheet","aka":null},{"displayName":"Table","purpose":"Turns complex data structures into custom tables","status":"sunset","group":"Table","categories":"table","aka":null}]}}}
+const availableBalance = "$1,234,567,890.00";
+    const side = "sell";
+    const hasOptions = true;
+    const bulkOrder = true;
+    const [cumulative, setCumulative] = React.useState(false);
+    const handleShowCumulative = (event) => setCumulative(true);
+    const handleHideCumulative = (event) => {
+      setCumulative(false);
+    };
+    const [activePage, setActivePage] = React.useState("page 2");
+    const transactionDetails = {
+      transactionName: "Q1 Employee Liquidity Event",
+      minPrice: 10.02,
+      maxPrice: 45.23,
+    };
+
+    const pricingDictionary = [
+      {
+        label: "Market clearing",
+        definition:
+          "The auction price is calculated as the price where supply equals demand, meaning that the market is “cleared”. This ensures that all sell orders at prices below (and buy orders at prices above) the auction price are fully filled.",
+      },
+      {
+        label: "Provisional",
+        definition: "definition.",
+      },
+      {
+        label: "Tolerance and threshold",
+        definition:
+          "Each ascending round has a tolerance which determines the threshold for how close a buy order needs to be to the provisional price in order to be eligible to update the price on the order.",
+      },
+    ];
+    const activeRound = 1;
+
+    const timelineData = [
+      {
+        round: 0,
+        roundLabel: "OE",
+        roundId: "round0",
+        roundName: "Order entry period",
+        roundDesc: "All participants may enter orders",
+        roundStartDate: "January 01",
+        roundStartTime: "9:30am",
+        roundEndDate: "January 03",
+        roundEndTime: "5:00pm",
+        roundTolerance: 1.25,
+        roundProvisional: 100.75,
+        roundThreshold: 0.25,
+        roundVolume: 23445,
+      },
+      {
+        round: 1,
+        roundLabel: "A1",
+        roundId: "round1",
+        roundName: "Ascending round 1",
+        roundDesc:
+          "Buyers compete on price during three ascending rounds lasting one day each",
+        roundStartDate: "January 01",
+        roundStartTime: "9:30am",
+        roundEndDate: "January 03",
+        roundEndTime: "5:00pm",
+        roundTolerance: 1.25,
+        roundProvisional: 200.03,
+        roundThreshold: 0.25,
+        roundVolume: 23445,
+      },
+      {
+        round: 2,
+        roundLabel: "A2",
+        roundId: "round2",
+        roundName: "Ascending round 2",
+        roundDesc:
+          "Buyers compete on price during three ascending rounds lasting one day each",
+        roundStartDate: "January 01",
+        roundStartTime: "9:30am",
+        roundEndDate: "January 03",
+        roundEndTime: "5:00pm",
+        roundTolerance: 1.25,
+        roundProvisional: "200.00",
+        roundThreshold: "200.00",
+        roundVolume: "200.00",
+      },
+      {
+        round: 3,
+        roundLabel: "A3",
+        roundId: "round3",
+        roundName: "Ascending round 3",
+        roundDesc:
+          "Buyers compete on price during three ascending rounds lasting one day each",
+        roundStartDate: "January 01",
+        roundStartTime: "9:30am",
+        roundEndDate: "January 03",
+        roundEndTime: "5:00pm",
+        roundTolerance: 1.25,
+        roundProvisional: "300.00",
+        roundThreshold: "300.00",
+        roundVolume: "300.00",
+      },
+    ];
+    const volumeSum = timelineData
+      .map((x) => x.roundVolume)
+      .reduce((a, c) => a + c);
+    const [isTimelineOpen, setTimelineOpen] = React.useState(false);
+    const [
+      actionTimelineIsLoading,
+      setTimelineActionIsLoading,
+    ] = React.useState(false);
+
+    const handleTimelineOpen = (event) => setTimelineOpen(true);
+    const handleTimelineClose = (event) => {
+      if (!actionTimelineIsLoading) {
+        setTimelineOpen(false);
+      }
+    };
+    const [isUploadOpen, setUploadOpen] = React.useState(false);
+    const [actionIsLoading, setActionIsLoading] = React.useState(false);
+
+    const handleUploadOpen = (event) => setUploadOpen(true);
+    const handleUploadClose = (event) => {
+      if (!actionIsLoading) {
+        setUploadOpen(false);
+      }
+    };
+    const bulkOrderSummary = [
+      {
+        key: "Total orders",
+        value: "0",
+      },
+      {
+        key: "Total shares",
+        value: "0",
+      },
+      {
+        key: "Lowest price",
+        value: (
+          <HStack spacing="xsmall">
+            $0.00
+            <Tooltip trigger={<CustomText color="blue">($1.2B)</CustomText>}>
+              Implied valuation at $0.00, the lowest price.
+            </Tooltip>
+          </HStack>
+        ),
+      },
+      {
+        key: "Highest price",
+        value: (
+          <HStack spacing="xsmall">
+            $0.00
+            <Tooltip trigger={<CustomText color="blue">($3B)</CustomText>}>
+              Implied valuation at $0.00, the highest price.
+            </Tooltip>
+          </HStack>
+        ),
+      },
+    ];
+    const [orderSize, setOrderSize] = React.useState("bulk");
+
+    const highestPrice = "$5.76";
+    const grossProceeds = "0.00";
+    const grossCost = "0.00";
+    const estProceeds = [
+      {
+        key: "Estimated exercise cost",
+        value: "0",
+        color: "#2C4A87",
+      },
+      {
+        key: "Estimated withholdings",
+        value: "0",
+        color: "#385FAD",
+      },
+      {
+        key: "Estimated fees",
+        value: "0",
+        color: "#5279C7",
+      },
+      {
+        key: "Estimated net proceeds",
+        value: "0",
+        color: "#7897D3",
+      },
+    ];
+    const estCost = [
+      {
+        key: "Estimated fees",
+        value: "0",
+        color: "#2C4A87",
+      },
+      {
+        key: "Estimated costs",
+        value: "0",
+        color: "#7897D3",
+      },
+    ];
+    const GrossProceedsChart = () => {
+      return (
+        <div style={{ width: "45%", margin: "0 auto" }}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 133 133"
+          >
+            <defs />
+            <path
+              fill="#000"
+              d="M38.3906 58.6997h-2.1567v1.7637h2.5054V61h-3.1617v-4.9766h3.1275v.5401h-2.4712v1.5996h2.1567v.5366zm3.2198 1.3193c0-.1709-.065-.303-.1949-.3964-.1276-.0957-.352-.1778-.6733-.2461-.319-.0684-.5731-.1504-.7622-.2461-.1869-.0957-.3259-.2097-.417-.3418-.0889-.1322-.1333-.2894-.1333-.4717 0-.3031.1276-.5594.3828-.769.2575-.2097.5856-.3145.9844-.3145.4192 0 .7588.1082 1.0185.3247.2621.2165.3931.4933.3931.8306h-.6357c0-.1732-.0741-.3225-.2222-.4478-.1458-.1253-.3304-.188-.5537-.188-.2302 0-.4102.0502-.5401.1504-.1298.1003-.1948.2313-.1948.3931 0 .1527.0604.2677.1812.3452.1207.0775.3383.1515.6528.2222.3167.0706.5731.1549.769.2529.196.098.3407.2165.4341.3555.0957.1367.1436.3042.1436.5024 0 .3304-.1322.5959-.3965.7964-.2643.1982-.6073.2974-1.0288.2974-.2962 0-.5583-.0524-.7862-.1573-.2278-.1048-.4067-.2506-.5366-.4375-.1276-.1891-.1914-.393-.1914-.6118h.6323c.0114.2119.0957.3806.253.5059.1595.123.3691.1845.6289.1845.2392 0 .4306-.0478.5742-.1435.1458-.098.2188-.2279.2188-.3897zm2.3139-3.6128v.8956h.6904v.4887h-.6904v2.2935c0 .1481.0308.2598.0923.3349.0615.073.1663.1094.3145.1094.0729 0 .1731-.0137.3007-.041V61c-.1663.0456-.3281.0684-.4853.0684-.2826 0-.4956-.0855-.6392-.2564-.1435-.1709-.2153-.4136-.2153-.728v-2.2935h-.6733v-.4887h.6733v-.8956h.6323zM46.0435 61h-.6324v-3.6982h.6324V61zm-.6836-4.6792c0-.1025.0307-.1891.0922-.2598.0639-.0706.1573-.1059.2803-.1059.1231 0 .2165.0353.2803.1059.0638.0707.0957.1573.0957.2598 0 .1025-.0319.188-.0957.2563-.0638.0684-.1572.1026-.2803.1026-.123 0-.2164-.0342-.2803-.1026-.0615-.0683-.0922-.1538-.0922-.2563zm2.2934.981l.0171.4101c.2712-.319.6369-.4785 1.0972-.4785.5172 0 .8693.1982 1.0561.5947.1231-.1777.2826-.3213.4785-.4306.1983-.1094.4318-.1641.7007-.1641.8112 0 1.2237.4295 1.2373 1.2886V61h-.6323v-2.4404c0-.2644-.0604-.4615-.1811-.5913-.1208-.1322-.3236-.1983-.6084-.1983-.2347 0-.4296.0707-.5845.2119-.155.139-.245.327-.27.564V61h-.6358v-2.4233c0-.5378-.2632-.8067-.7895-.8067-.4147 0-.6984.1766-.8511.5298V61h-.6323v-3.6982h.5981zM55.4805 61c-.0365-.0729-.0661-.2028-.0889-.3896-.2939.3053-.6449.458-1.0527.458-.3646 0-.6643-.1026-.899-.3077-.2324-.2073-.3486-.4694-.3486-.7861 0-.3851.1458-.6836.4375-.8955.294-.2142.7064-.3213 1.2373-.3213h.6152v-.2905c0-.221-.066-.3965-.1982-.5264-.1322-.1321-.327-.1982-.5845-.1982-.2256 0-.4147.0569-.5674.1709-.1526.1139-.229.2518-.229.4135h-.6357c0-.1845.0649-.3623.1948-.5332.1322-.1731.3099-.3099.5332-.4101.2256-.1003.4729-.1504.7417-.1504.4261 0 .76.1071 1.0015.3213.2415.2119.3669.5047.376.8784v1.7022c0 .3395.0433.6095.1299.81V61h-.6631zm-1.0493-.4819c.1982 0 .3862-.0513.5639-.1538.1778-.1026.3065-.2359.3862-.3999v-.7588h-.4956c-.7747 0-1.1621.2267-1.1621.6801 0 .1983.0661.3532.1983.4649.1321.1116.3019.1675.5093.1675zm3.4316-4.1119v.8956h.6904v.4887h-.6904v2.2935c0 .1481.0308.2598.0923.3349.0615.073.1663.1094.3144.1094.0729 0 .1732-.0137.3008-.041V61c-.1663.0456-.3281.0684-.4853.0684-.2826 0-.4956-.0855-.6392-.2564s-.2153-.4136-.2153-.728v-2.2935h-.6734v-.4887h.6734v-.8956h.6323zm2.9668 4.6622c-.5013 0-.9092-.1641-1.2236-.4922-.3145-.3304-.4717-.7713-.4717-1.3228v-.1162c0-.3669.0695-.6938.2085-.981.1412-.2893.3372-.5149.5879-.6767.2529-.1641.5263-.2461.8203-.2461.4808 0 .8545.1584 1.1211.4751.2666.3167.3999.7702.3999 1.3603v.2632h-2.5054c.0091.3646.1151.6597.3179.8853.2051.2233.4648.3349.7793.3349.2233 0 .4124-.0455.5674-.1367.1549-.0911.2905-.2119.4067-.3623l.3862.3008c-.3099.4762-.7747.7144-1.3945.7144zm-.0786-3.3155c-.2552 0-.4694.0935-.6426.2803-.1732.1846-.2803.4443-.3213.7793h1.8525v-.0479c-.0182-.3212-.1048-.5696-.2597-.7451-.155-.1777-.3646-.2666-.6289-.2666zm2.102 1.3672c0-.5674.1345-1.0231.4033-1.3672.2689-.3463.621-.5195 1.0562-.5195.4329 0 .7759.1481 1.0288.4443V55.75h.6323V61h-.581l-.0308-.3965c-.2529.3099-.605.4649-1.0561.4649-.4284 0-.7782-.1755-1.0494-.5264-.2688-.3509-.4033-.8089-.4033-1.374v-.0479zm.6324.0718c0 .4193.0865.7474.2597.9844.1732.2369.4125.3554.7178.3554.401 0 .6938-.18.8784-.54V58.293c-.1891-.3487-.4796-.523-.8716-.523-.3099 0-.5514.1196-.7246.3589-.1732.2393-.2597.5936-.2597 1.063zm5.9643-.1401V61h-.6562v-4.9766h1.8354c.5446 0 .9707.139 1.2783.417.3099.278.4649.646.4649 1.104 0 .4831-.1516.8557-.4546 1.1177-.3008.2598-.7326.3897-1.2954.3897h-1.1724zm0-.5367h1.1792c.3509 0 .6198-.082.8066-.2461.1869-.1663.2803-.4056.2803-.7177 0-.2963-.0934-.5332-.2803-.711-.1868-.1777-.4431-.27-.769-.2768h-1.2168v1.9516zm5.4482-.646c-.0957-.0159-.1993-.0239-.311-.0239-.4147 0-.6961.1766-.8442.5298V61h-.6323v-3.6982h.6152l.0102.4272c.2074-.3304.5013-.4956.8819-.4956.123 0 .2164.0159.2802.0478v.5879zm.3487 1.2476c0-.3623.0706-.6882.2119-.9775.1436-.2894.3418-.5127.5947-.67.2552-.1572.5458-.2358.8716-.2358.5036 0 .9103.1743 1.2202.5229.3122.3487.4683.8124.4683 1.3912v.0444c0 .36-.0695.6836-.2085.9707-.1367.2848-.3338.507-.5913.6665-.2552.1595-.5492.2393-.8819.2393-.5013 0-.908-.1744-1.2202-.523-.3099-.3486-.4648-.81-.4648-1.3843v-.0444zm.6357.0752c0 .4102.0946.7394.2837.9878.1914.2484.4466.3725.7656.3725.3213 0 .5765-.1253.7657-.3759.1891-.253.2837-.6062.2837-1.0596 0-.4056-.0969-.7337-.2906-.9844-.1914-.2529-.4466-.3794-.7656-.3794-.3122 0-.564.1242-.7554.3726-.1914.2484-.2871.6038-.2871 1.0664zm5.0073 1.3603c.2256 0 .4227-.0683.5914-.205.1686-.1368.262-.3076.2802-.5127h.5982c-.0114.2119-.0843.4135-.2188.605-.1344.1914-.3144.344-.54.458-.2233.1139-.4603.1709-.711.1709-.5035 0-.9046-.1675-1.2031-.5025-.2962-.3372-.4443-.7975-.4443-1.3808v-.106c0-.36.0661-.6802.1982-.9604.1322-.2803.3213-.4979.5674-.6529.2484-.1549.5412-.2324.8784-.2324.4147 0 .7588.1242 1.0323.3726.2757.2483.4226.5708.4409.9672h-.5982c-.0182-.2392-.1093-.4352-.2734-.5878-.1618-.155-.3623-.2325-.6016-.2325-.3213 0-.5708.1162-.7485.3487-.1755.2301-.2632.5639-.2632 1.0014v.1197c0 .4261.0877.7542.2632.9843.1755.2302.4261.3452.7519.3452zm3.7154.5162c-.5013 0-.9092-.1641-1.2237-.4922-.3144-.3304-.4716-.7713-.4716-1.3228v-.1162c0-.3669.0695-.6938.2085-.981.1412-.2893.3372-.5149.5879-.6767.2529-.1641.5263-.2461.8203-.2461.4808 0 .8545.1584 1.1211.4751.2666.3167.3999.7702.3999 1.3603v.2632H83.542c.0091.3646.1151.6597.3179.8853.205.2233.4648.3349.7793.3349.2233 0 .4124-.0455.5673-.1367.155-.0911.2906-.2119.4068-.3623l.3862.3008c-.3099.4762-.7747.7144-1.3945.7144zm-.0786-3.3155c-.2552 0-.4694.0935-.6426.2803-.1732.1846-.2803.4443-.3213.7793h1.8525v-.0479c-.0182-.3212-.1048-.5696-.2597-.7451-.155-.1777-.3646-.2666-.6289-.2666zm3.7905 3.3155c-.5013 0-.9092-.1641-1.2236-.4922-.3145-.3304-.4717-.7713-.4717-1.3228v-.1162c0-.3669.0695-.6938.2085-.981.1413-.2893.3372-.5149.5879-.6767.2529-.1641.5263-.2461.8203-.2461.4808 0 .8545.1584 1.1211.4751.2666.3167.3999.7702.3999 1.3603v.2632h-2.5054c.0091.3646.1151.6597.3179.8853.2051.2233.4648.3349.7793.3349.2233 0 .4124-.0455.5674-.1367.1549-.0911.2905-.2119.4067-.3623l.3862.3008c-.3099.4762-.7747.7144-1.3945.7144zm-.0786-3.3155c-.2552 0-.4694.0935-.6426.2803-.1732.1846-.2803.4443-.3213.7793h1.8526v-.0479c-.0183-.3212-.1049-.5696-.2598-.7451-.155-.1777-.3646-.2666-.6289-.2666zm2.102 1.3672c0-.5674.1345-1.0231.4034-1.3672.2688-.3463.6209-.5195 1.0561-.5195.4329 0 .7759.1481 1.0288.4443V55.75h.6323V61h-.581l-.0308-.3965c-.2529.3099-.605.4649-1.0561.4649-.4284 0-.7782-.1755-1.0493-.5264-.2689-.3509-.4034-.8089-.4034-1.374v-.0479zm.6324.0718c0 .4193.0865.7474.2597.9844.1732.2369.4125.3554.7178.3554.401 0 .6938-.18.8784-.54V58.293c-.1891-.3487-.4796-.523-.8716-.523-.3099 0-.5514.1196-.7246.3589-.1732.2393-.2597.5936-.2597 1.063zm5.6259.8271c0-.1709-.0649-.303-.1948-.3964-.1276-.0957-.352-.1778-.6733-.2461-.319-.0684-.5731-.1504-.7622-.2461-.1869-.0957-.3259-.2097-.417-.3418-.0889-.1322-.1333-.2894-.1333-.4717 0-.3031.1276-.5594.3828-.769.2575-.2097.5856-.3145.9844-.3145.4192 0 .7587.1082 1.0185.3247.2621.2165.3931.4933.3931.8306h-.6358c0-.1732-.074-.3225-.2221-.4478-.1459-.1253-.3304-.188-.5537-.188-.2302 0-.4102.0502-.5401.1504-.1299.1003-.1948.2313-.1948.3931 0 .1527.0604.2677.1811.3452.1208.0775.3384.1515.6529.2222.3167.0706.5731.1549.769.2529.196.098.3407.2165.4341.3555.0957.1367.1436.3042.1436.5024 0 .3304-.1322.5959-.3965.7964-.2644.1982-.6073.2974-1.0288.2974-.2963 0-.5583-.0524-.7862-.1573-.2278-.1048-.4067-.2506-.5366-.4375-.1276-.1891-.1914-.393-.1914-.6118h.6323c.0114.2119.0957.3806.253.5059.1595.123.3691.1845.6289.1845.2392 0 .4306-.0478.5742-.1435.1458-.098.2187-.2279.2187-.3897zM43.6289 72.7559c0-.3204-.0898-.5743-.2695-.7618-.1758-.1914-.4766-.3671-.9024-.5273-.4258-.1602-.7929-.3184-1.1015-.4746-.3086-.1602-.5743-.3418-.7969-.5449-.2188-.2071-.3906-.4493-.5156-.7266-.1211-.2773-.1817-.6074-.1817-.9902 0-.6602.211-1.2012.6328-1.6231.4219-.4219.9825-.6679 1.6817-.7383v-1.2539h.9375v1.2715c.6914.0977 1.2324.3867 1.623.8672.3907.4766.586 1.0957.586 1.8574h-1.6934c0-.4687-.0977-.8183-.293-1.0488-.1914-.2344-.4492-.3516-.7734-.3516-.3203 0-.5684.0918-.7441.2754-.1758.1797-.2637.4297-.2637.75 0 .2969.0859.5352.2578.7149.1719.1797.4902.3633.9551.5508.4687.1875.8535.3652 1.1543.5332.3008.164.5547.3515.7617.5625.207.207.3652.4453.4746.7148.1094.2656.1641.5762.1641.9316 0 .6641-.2071 1.2032-.6211 1.6172-.4141.4141-.9844.6582-1.711.7325v1.166h-.9316v-1.1602c-.8008-.0859-1.4219-.3691-1.8633-.8496-.4375-.4844-.6562-1.127-.6562-1.9277h1.6933c0 .4648.1094.8222.3281 1.0722.2227.2461.5411.3692.9551.3692.3438 0 .6153-.0899.8145-.2696.1992-.1836.2988-.4296.2988-.7382zm6.8027-1.1661c-.4414.4336-.957.6504-1.5468.6504-.7539 0-1.3575-.2578-1.8106-.7734-.4531-.5195-.6797-1.2188-.6797-2.0977 0-.5586.1211-1.0703.3633-1.5351.2461-.4688.5879-.832 1.0254-1.0899.4375-.2617.9297-.3925 1.4766-.3925.5625 0 1.0625.1406 1.5.4218.4375.2813.7773.6856 1.0195 1.2129.2422.5274.3652 1.1309.3691 1.8106v.6269c0 1.4219-.3535 2.5391-1.0605 3.3516-.707.8125-1.709 1.2461-3.0059 1.3008l-.416.0058v-1.4121l.375-.0058c1.4727-.0664 2.2695-.7579 2.3906-2.0743zm-1.1308-.6445c.2734 0 .5078-.0703.7031-.2109.1992-.1406.3496-.3106.4512-.5098v-.6973c0-.5742-.1094-1.0195-.3281-1.3359-.2188-.3164-.5118-.4746-.879-.4746-.3398 0-.6191.1562-.8378.4687-.2188.3086-.3282.6973-.3282 1.1661 0 .4648.1055.8476.3164 1.1484.2149.2969.5157.4453.9024.4453zm4.5703 6.1934l-.8848-.4629.211-.3809c.2617-.4765.3965-.9511.4043-1.4238v-1.3125h1.4296l-.0058 1.1719c-.0039.4336-.1133.8711-.3281 1.3125-.2149.4414-.4903.8066-.8262 1.0957zM62.1387 75H56.291v-1.1602l2.7598-2.9414c.3789-.414.6582-.7754.8379-1.0839.1836-.3086.2754-.6016.2754-.879 0-.3789-.0957-.6757-.2871-.8906-.1915-.2187-.4649-.3281-.8204-.3281-.3828 0-.6855.1328-.9082.3984-.2187.2618-.3281.6075-.3281 1.0371h-1.6992c0-.5195.123-.9941.3691-1.4238.25-.4297.6016-.7656 1.0547-1.0078.4531-.2461.9668-.3691 1.541-.3691.8789 0 1.5606.2109 2.045.6328.4882.4218.7324 1.0176.7324 1.7871 0 .4219-.1094.8515-.3281 1.289-.2188.4375-.5938.9473-1.125 1.5293l-1.9395 2.045h3.668V75zm1.2949-4.1953l.4922-4.3359h4.7812v1.4121h-3.3925l-.211 1.8339c.4024-.2148.8301-.3222 1.2832-.3222.8125 0 1.4492.2519 1.9102.7558.4609.5039.6914 1.209.6914 2.1153 0 .5508-.1172 1.0449-.3516 1.4824-.2305.4336-.5625.7715-.9961 1.0137-.4336.2382-.9453.3574-1.5351.3574-.5157 0-.9942-.1035-1.4356-.3106-.4414-.2109-.791-.5058-1.0488-.8847-.2539-.3789-.3887-.8106-.4043-1.2949h1.6758c.0351.3554.1582.6328.3691.832.2149.1953.4942.293.8379.293.3828 0 .6777-.1368.8848-.4102.207-.2773.3105-.668.3105-1.1719 0-.4844-.1191-.8554-.3574-1.1133-.2383-.2578-.5762-.3867-1.0137-.3867-.4023 0-.7285.1055-.9785.3164l-.1641.1524-1.3476-.334zM74.1855 75h-1.6933v-6.5273l-2.0215.6269v-1.3769l3.5332-1.2657h.1816V75zm2.9356-.832c0-.2696.0898-.4883.2695-.6563.1836-.1679.4121-.2519.6856-.2519.2773 0 .5058.084.6855.2519.1836.168.2754.3867.2754.6563 0 .2656-.0898.4824-.2695.6504-.1797.164-.4102.2461-.6914.2461-.2774 0-.5059-.0821-.6856-.2461-.1797-.168-.2695-.3848-.2695-.6504zm7.4473.832H82.875v-6.5273l-2.0215.6269v-1.3769l3.5332-1.2657h.1817V75zm3.0293-4.1953l.4921-4.3359h4.7813v1.4121h-3.3926l-.2109 1.8339c.4023-.2148.8301-.3222 1.2832-.3222.8125 0 1.4492.2519 1.9101.7558.461.5039.6914 1.209.6914 2.1153 0 .5508-.1171 1.0449-.3515 1.4824-.2305.4336-.5625.7715-.9961 1.0137-.4336.2382-.9453.3574-1.5352.3574-.5156 0-.9941-.1035-1.4355-.3106-.4414-.2109-.791-.5058-1.0488-.8847-.254-.3789-.3887-.8106-.4043-1.2949h1.6757c.0352.3554.1582.6328.3692.832.2148.1953.4941.293.8379.293.3828 0 .6777-.1368.8847-.4102.2071-.2773.3106-.668.3106-1.1719 0-.4844-.1192-.8554-.3574-1.1133-.2383-.2578-.5762-.3867-1.0137-.3867-.4024 0-.7285.1055-.9785.3164l-.1641.1524-1.3476-.334z"
+            />
+            <path
+              fill="#364453"
+              d="M133 66.5c0 15.3851-5.335 30.2943-15.095 42.187-9.76 11.893-23.342 20.034-38.4315 23.035-15.0895 3.002-30.7529.678-44.3214-6.574-13.5684-7.253-24.2025-18.986-30.09009-33.1995-5.887631-14.214-6.66461-30.0298-2.19854-44.7524C7.32953 32.4734 16.7623 19.7548 29.5546 11.2073 42.3468 2.65976 57.7071-1.18779 73.0181.320215 88.3292 1.82822 102.644 8.59847 113.523 19.4774L97.2754 35.7246c-7.1201-7.1201-16.4886-11.551-26.5094-12.538-10.0208-.987-20.0738 1.5312-28.4461 7.1254-8.3723 5.5942-14.5458 13.9183-17.4688 23.5539-2.923 9.6357-2.4144 19.9868 1.4389 29.2896 3.8534 9.3028 10.8131 16.9815 19.6934 21.7285 8.8803 4.746 19.1317 6.267 29.0075 4.303 9.8758-1.965 18.7649-7.293 25.1531-15.0763 6.388-7.7837 9.879-17.5414 9.879-27.6107H133z"
+            />
+            <path
+              fill="#C8D1DA"
+              d="M119.192 25.9317c9.022 11.7185 13.881 26.1102 13.807 40.8993l-22.977-.1143c.049-9.6793-3.131-19.0983-9.036-26.7679l18.206-14.0171z"
+            />
+            <path
+              fill="#A3B3C4"
+              d="M117.402 23.7072c.921 1.0949 1.806 2.2193 2.654 3.3713l-18.505 13.6209c-.555-.754-1.134-1.4899-1.7365-2.2065l17.5875-14.7857z"
+            />
+            <path
+              fill="#909EAD"
+              d="M113.523 19.4774c1.497 1.4969 2.921 3.0645 4.268 4.6973l-17.722 14.6242c-.8815-1.0687-1.8139-2.0946-2.7936-3.0743l16.2476-16.2472z"
+            />
+          </svg>
+        </div>
+      );
+    };
+    const GrossCostChart = () => {
+      return (
+        <VStack>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 504 31"
+          >
+            <defs />
+            <path
+              fill="#2C4A87"
+              d="M4 14C1.79086 14 1.6e-7 12.2091 3.6e-7 10l5.3e-7-6C.0000011 1.79086 1.79086 0 4 0l33.2729 6e-8H40V14H4z"
+            />
+            <path
+              fill="#7897D3"
+              d="M499-3e-8C501.209-1e-8 503 1.79086 503 4v6c0 2.2091-1.791 4-4 4H40V-.00000361l35.2745 2.8e-7L499-3e-8z"
+            />
+            <path
+              stroke="#E1E8ED"
+              stroke-linecap="square"
+              d="M504 29H-.00003052 504z"
+              clip-rule="evenodd"
+            />
+            <path stroke="#E1E8ED" d="M.5 28.99999998l-3.5e-7-8" />
+            <path
+              stroke="#E1E8ED"
+              d="M0-.5h8"
+              transform="matrix(0 -1 -1 0 502.806 29)"
+            />
+          </svg>
+        </VStack>
+      );
+    };
+    const ProceedsChart = () => {
+      return (
+        <>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 445 179"
+          >
+            <defs />
+            <path stroke="#E1E8ED" d="M88 26v133" />
+            <path stroke="#8A9BA8" d="M88 160v-4" />
+            <path stroke="#E1E8ED" d="M139 26v133" />
+            <path stroke="#8A9BA8" d="M139 160v-4" />
+            <path stroke="#E1E8ED" d="M190 26v133" />
+            <path stroke="#8A9BA8" d="M190 160v-4" />
+            <path stroke="#E1E8ED" d="M241 26v133" />
+            <path stroke="#8A9BA8" d="M241 160v-4" />
+            <path stroke="#E1E8ED" d="M292 26v133" />
+            <path stroke="#8A9BA8" d="M292 160v-4" />
+            <path stroke="#E1E8ED" d="M343 26v133" />
+            <path stroke="#8A9BA8" d="M343 160v-4" />
+            <path stroke="#E1E8ED" d="M394 26v133" />
+            <path stroke="#8A9BA8" d="M394 160v-4M38 156.5h407" />
+            <path
+              fill="#8A9BA8"
+              d="M.0159523 30.0001H4.80288v-.9411H1.52874v-.0532l1.44531-1.5128c1.33168-1.3459 1.71165-1.9886 1.71165-2.8019 0-1.1683-.95171-2.0632-2.32245-2.0632-1.36008 0-2.3543999.8807-2.3543999 2.2088H1.05644c-.00356-.7812.50071-1.2926 1.28551-1.2926.73863 0 1.29971.4546 1.29971 1.179 0 .6428-.38352 1.1044-1.16477 1.9318L.0159523 29.2046v.7955zM8.68073 30.1208c1.67967 0 2.66337-1.3707 2.66337-3.7535 0-2.3651-.9979-3.7394-2.66337-3.7394-1.66904 0-2.66336 1.3708-2.66691 3.7394 0 2.3792.98367 3.75 2.66691 3.7535zm0-.9481c-.98367 0-1.57671-.9872-1.57671-2.8054.00355-1.8111.59659-2.809 1.57671-2.809.97656 0 1.57317.9979 1.57317 2.809 0 1.8182-.59306 2.8054-1.57317 2.8054zM15.1358 30.1208c1.6797 0 2.6634-1.3707 2.6634-3.7535 0-2.3651-.9979-3.7394-2.6634-3.7394-1.669 0-2.6633 1.3708-2.6669 3.7394 0 2.3792.9837 3.75 2.6669 3.7535zm0-.9481c-.9837 0-1.5767-.9872-1.5767-2.8054.0036-1.8111.5966-2.809 1.5767-2.809.9766 0 1.5732.9979 1.5732 2.809 0 1.8182-.5931 2.8054-1.5732 2.8054zM19.1584 30.0001h1.0973V27.738l.8593-.9872 2.3509 3.2493h1.321l-2.9439-3.9986 2.9333-3.2741h-1.3814l-3.0505 3.473h-.0887v-3.473h-1.0973v7.2727z"
+            />
+            <path stroke="#8A9BA8" d="M38 26l-6 .0002" />
+            <path
+              fill="url(#paint0_linear)"
+              d="M149 26h50v130h-50z"
+              opacity=".6"
+            />
+            <path stroke="#E1E8ED" d="M38 26h407M38 58.4929l407 .0001" />
+            <path stroke="#8A9BA8" d="M38 58.4929l-6 .0002" />
+            <path
+              fill="#8A9BA8"
+              d="M4.43534 55.2203H3.36645l-1.81463 1.1861v1.0511l1.74006-1.1364h.04261v6.1719h1.10085v-7.2727zM8.80324 62.5924c1.46306 0 2.50706-1.0333 2.50356-2.4502.0035-1.4063-.9766-2.429-2.30115-2.429-.53977 0-1.04048.2059-1.32457.4829h-.04261l.23082-2.0348h3.08591v-.941H6.95665l-.40838 3.6648 1.00497.1491c.27344-.245.76349-.4119 1.20384-.4119.86292.0071 1.48792.6534 1.48792 1.5412 0 .8735-.60724 1.5056-1.44176 1.5056-.70313 0-1.26065-.4474-1.31747-1.0724H6.42043c.04261 1.1577 1.04758 1.9957 2.38281 1.9957zM15.1358 62.6137c1.6797 0 2.6634-1.3707 2.6634-3.7535 0-2.3651-.9979-3.7394-2.6634-3.7394-1.669 0-2.6633 1.3708-2.6669 3.7394 0 2.3793.9837 3.75 2.6669 3.7535zm0-.9481c-.9837 0-1.5767-.9872-1.5767-2.8054.0036-1.8111.5966-2.809 1.5767-2.809.9766 0 1.5732.9979 1.5732 2.809 0 1.8182-.5931 2.8054-1.5732 2.8054zM19.1584 62.493h1.0973v-2.2621l.8593-.9872 2.3509 3.2493h1.321l-2.9439-3.9986 2.9333-3.2741h-1.3814l-3.0505 3.473h-.0887v-3.473h-1.0973v7.2727z"
+            />
+            <path stroke="#E1E8ED" d="M38 90.9858l407 .0001" />
+            <path stroke="#8A9BA8" d="M38 90.9858l-6 .0003" />
+            <path
+              fill="#8A9BA8"
+              d="M4.18144 87.7132h-1.0689l-1.81463 1.1861v1.0511l1.74006-1.1363h.04261v6.1718h1.10086v-7.2727zM8.68073 95.1067c1.67967 0 2.66337-1.3708 2.66337-3.7536 0-2.365-.9979-3.7393-2.66337-3.7393-1.66904 0-2.66336 1.3707-2.66691 3.7393 0 2.3793.98367 3.75 2.66691 3.7536zm0-.9482c-.98367 0-1.57671-.9872-1.57671-2.8054.00355-1.8111.59659-2.8089 1.57671-2.8089.97656 0 1.57317.9978 1.57317 2.8089 0 1.8182-.59306 2.8054-1.57317 2.8054zM15.1358 95.1067c1.6797 0 2.6634-1.3708 2.6634-3.7536 0-2.365-.9979-3.7393-2.6634-3.7393-1.669 0-2.6633 1.3707-2.6669 3.7393 0 2.3793.9837 3.75 2.6669 3.7536zm0-.9482c-.9837 0-1.5767-.9872-1.5767-2.8054.0036-1.8111.5966-2.8089 1.5767-2.8089.9766 0 1.5732.9978 1.5732 2.8089 0 1.8182-.5931 2.8054-1.5732 2.8054zM19.1584 94.9859h1.0973v-2.262l.8593-.9873 2.3509 3.2493h1.321l-2.9439-3.9986 2.9333-3.2741h-1.3814l-3.0505 3.473h-.0887v-3.473h-1.0973v7.2727z"
+            />
+            <path stroke="#E1E8ED" d="M38 124.479h407" />
+            <path stroke="#8A9BA8" d="M38 124.479h-6" />
+            <path
+              fill="#8A9BA8"
+              d="M8.80328 127.578c1.46312 0 2.50712-1.033 2.50352-2.45.0036-1.406-.9765-2.429-2.3011-2.429-.53977 0-1.04048.206-1.32458.483h-.04261l.23082-2.035h3.08597v-.941H6.95669l-.40838 3.665 1.00497.149c.27344-.245.7635-.412 1.20384-.412.86293.007 1.48788.654 1.48788 1.541 0 .874-.6072 1.506-1.44172 1.506-.70312 0-1.26065-.447-1.31747-1.072H6.42047c.04261 1.157 1.04759 1.995 2.38281 1.995zM15.1358 127.6c1.6797 0 2.6634-1.371 2.6634-3.754 0-2.365-.9979-3.739-2.6634-3.739-1.669 0-2.6633 1.37-2.6669 3.739 0 2.379.9837 3.75 2.6669 3.754zm0-.949c-.9836 0-1.5767-.987-1.5767-2.805.0036-1.811.5966-2.809 1.5767-2.809.9766 0 1.5732.998 1.5732 2.809 0 1.818-.593 2.805-1.5732 2.805zM19.1584 127.479h1.0973v-2.262l.8594-.987 2.3508 3.249h1.321l-2.9438-3.999 2.9332-3.274h-1.3814l-3.0504 3.473h-.0888v-3.473h-1.0973v7.273zM71.0781 178.909h.6676l.0036-.799c1.5021-.11 2.3615-.969 2.3615-2.12 0-1.31-1.1683-1.818-2.0916-2.045l-.2593-.068.0071-2.28c.6641.089 1.1186.458 1.1861 1.041h1.0583c-.0285-1.083-.9233-1.893-2.2408-2l.0035-.82h-.6676l-.0035.828c-1.2749.127-2.2088.923-2.2088 2.07 0 1.012.7244 1.605 1.8927 1.921l.3054.082-.0071 2.418c-.6925-.085-1.2287-.462-1.2855-1.147h-1.1008c.0674 1.225.9517 2.013 2.3828 2.12l-.0036.799zm.6747-1.772l.0071-2.234c.7209.199 1.2642.462 1.2642 1.076 0 .622-.5184 1.059-1.2713 1.158zm-.6569-3.437c-.5291-.157-1.1115-.437-1.108-1.048 0-.533.4226-.948 1.1115-1.051l-.0035 2.099zM78.0818 170.727h-1.0689l-1.8146 1.186v1.051l1.7401-1.136h.0426V178h1.1008v-7.273zM82.5811 178.121c1.6797 0 2.6634-1.371 2.6634-3.754 0-2.365-.9979-3.739-2.6634-3.739-1.669 0-2.6633 1.371-2.6669 3.739 0 2.379.9837 3.75 2.6669 3.754zm0-.948c-.9836 0-1.5767-.988-1.5767-2.806.0036-1.811.5966-2.809 1.5767-2.809.9766 0 1.5732.998 1.5732 2.809 0 1.818-.5931 2.806-1.5732 2.806zM86.9446 178.067c.3871 0 .7102-.316.7102-.71 0-.387-.3231-.706-.7102-.706-.3906 0-.7102.319-.7102.706 0 .394.3196.71.7102.71zM91.3214 178.121c1.6797 0 2.6633-1.371 2.6633-3.754 0-2.365-.9978-3.739-2.6633-3.739-1.6691 0-2.6634 1.371-2.6669 3.739 0 2.379.9836 3.75 2.6669 3.754zm0-.948c-.9837 0-1.5767-.988-1.5767-2.806.0035-1.811.5966-2.809 1.5767-2.809.9765 0 1.5731.998 1.5731 2.809 0 1.818-.593 2.806-1.5731 2.806zM97.7764 178.121c1.6797 0 2.6636-1.371 2.6636-3.754 0-2.365-.9981-3.739-2.6636-3.739-1.669 0-2.6633 1.371-2.6669 3.739 0 2.379.9837 3.75 2.6669 3.754zm0-.948c-.9836 0-1.5767-.988-1.5767-2.806.0036-1.811.5966-2.809 1.5767-2.809.9766 0 1.5732.998 1.5732 2.809 0 1.818-.593 2.806-1.5732 2.806zM121.312 178.909h.668l.004-.799c1.502-.11 2.361-.969 2.361-2.12 0-1.31-1.168-1.818-2.091-2.045l-.26-.068.007-2.28c.664.089 1.119.458 1.186 1.041h1.059c-.029-1.083-.924-1.893-2.241-2l.004-.82h-.668l-.004.828c-1.275.127-2.208.923-2.208 2.07 0 1.012.724 1.605 1.892 1.921l.306.082-.007 2.418c-.693-.085-1.229-.462-1.286-1.147h-1.101c.068 1.225.952 2.013 2.383 2.12l-.004.799zm.675-1.772l.007-2.234c.721.199 1.265.462 1.265 1.076 0 .622-.519 1.059-1.272 1.158zm-.657-3.437c-.529-.157-1.111-.437-1.108-1.048 0-.533.423-.948 1.112-1.051l-.004 2.099zM128.316 170.727h-1.069l-1.814 1.186v1.051l1.74-1.136h.042V178h1.101v-7.273zM132.684 178.099c1.463 0 2.507-1.033 2.504-2.45.003-1.406-.977-2.429-2.301-2.429-.54 0-1.041.206-1.325.483h-.043l.231-2.035h3.086v-.941h-3.998l-.409 3.665 1.005.149c.274-.245.764-.412 1.204-.412.863.007 1.488.654 1.488 1.541 0 .874-.607 1.506-1.442 1.506-.703 0-1.261-.447-1.317-1.072h-1.066c.043 1.157 1.048 1.995 2.383 1.995zM136.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM141.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM147.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806zM171.672 178.909h.667l.004-.799c1.502-.11 2.362-.969 2.362-2.12 0-1.31-1.169-1.818-2.092-2.045l-.259-.068.007-2.28c.664.089 1.118.458 1.186 1.041h1.058c-.028-1.083-.923-1.893-2.241-2l.004-.82h-.668l-.003.828c-1.275.127-2.209.923-2.209 2.07 0 1.012.724 1.605 1.893 1.921l.305.082-.007 2.418c-.693-.085-1.229-.462-1.286-1.147h-1.1c.067 1.225.951 2.013 2.382 2.12l-.003.799zm.675-1.772l.007-2.234c.721.199 1.264.462 1.264 1.076 0 .622-.519 1.059-1.271 1.158zm-.657-3.437c-.529-.157-1.112-.437-1.108-1.048 0-.533.422-.948 1.111-1.051l-.003 2.099zM175.916 178h4.787v-.941h-3.274v-.053l1.445-1.513c1.332-1.346 1.712-1.989 1.712-2.802 0-1.168-.952-2.063-2.322-2.063-1.36 0-2.355.88-2.355 2.209h1.048c-.004-.782.501-1.293 1.285-1.293.739 0 1.3.455 1.3 1.179 0 .643-.383 1.104-1.165 1.932l-2.461 2.549V178zM184.581 178.121c1.68 0 2.663-1.371 2.663-3.754 0-2.365-.997-3.739-2.663-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.984 0-1.577-.988-1.577-2.806.004-1.811.597-2.809 1.577-2.809.977 0 1.573.998 1.573 2.809 0 1.818-.593 2.806-1.573 2.806zM188.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM193.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM199.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806zM222.906 178.909h.668l.003-.799c1.503-.11 2.362-.969 2.362-2.12 0-1.31-1.168-1.818-2.092-2.045l-.259-.068.007-2.28c.664.089 1.119.458 1.186 1.041h1.058c-.028-1.083-.923-1.893-2.24-2l.003-.82h-.667l-.004.828c-1.275.127-2.209.923-2.209 2.07 0 1.012.725 1.605 1.893 1.921l.305.082-.007 2.418c-.692-.085-1.228-.462-1.285-1.147h-1.101c.067 1.225.952 2.013 2.383 2.12l-.004.799zm.675-1.772l.007-2.234c.721.199 1.264.462 1.264 1.076 0 .622-.518 1.059-1.271 1.158zm-.657-3.437c-.529-.157-1.112-.437-1.108-1.048 0-.533.423-.948 1.112-1.051l-.004 2.099zM227.151 178h4.787v-.941h-3.274v-.053l1.445-1.513c1.332-1.346 1.711-1.989 1.711-2.802 0-1.168-.951-2.063-2.322-2.063-1.36 0-2.354.88-2.354 2.209h1.047c-.003-.782.501-1.293 1.286-1.293.738 0 1.299.455 1.299 1.179 0 .643-.383 1.104-1.164 1.932l-2.461 2.549V178zM235.684 178.099c1.463 0 2.507-1.033 2.504-2.45.003-1.406-.977-2.429-2.301-2.429-.54 0-1.041.206-1.325.483h-.043l.231-2.035h3.086v-.941h-3.998l-.409 3.665 1.005.149c.274-.245.764-.412 1.204-.412.863.007 1.488.654 1.488 1.541 0 .874-.607 1.506-1.442 1.506-.703 0-1.261-.447-1.317-1.072h-1.066c.043 1.157 1.048 1.995 2.383 1.995zM239.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM244.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM250.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806zM274.359 178.909h.668l.004-.799c1.502-.11 2.361-.969 2.361-2.12 0-1.31-1.168-1.818-2.092-2.045l-.259-.068.007-2.28c.664.089 1.119.458 1.186 1.041h1.059c-.029-1.083-.924-1.893-2.241-2l.003-.82h-.667l-.004.828c-1.275.127-2.209.923-2.209 2.07 0 1.012.725 1.605 1.893 1.921l.306.082-.008 2.418c-.692-.085-1.228-.462-1.285-1.147h-1.101c.068 1.225.952 2.013 2.383 2.12l-.004.799zm.675-1.772l.007-2.234c.721.199 1.264.462 1.264 1.076 0 .622-.518 1.059-1.271 1.158zm-.657-3.437c-.529-.157-1.111-.437-1.108-1.048 0-.533.423-.948 1.112-1.051l-.004 2.099zM281.136 178.099c1.484 0 2.574-.887 2.571-2.095.003-.92-.554-1.58-1.52-1.729v-.057c.76-.195 1.254-.792 1.25-1.609.004-1.069-.874-1.981-2.273-1.981-1.335 0-2.407.806-2.443 1.988h1.062c.025-.667.653-1.072 1.367-1.072.742 0 1.229.451 1.225 1.122.004.703-.561 1.165-1.367 1.165h-.614v.895h.614c1.009 0 1.591.511 1.591 1.243 0 .706-.614 1.186-1.47 1.186-.789 0-1.403-.405-1.446-1.051h-1.115c.047 1.186 1.098 1.995 2.568 1.995zM287.581 178.121c1.68 0 2.663-1.371 2.663-3.754 0-2.365-.997-3.739-2.663-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.984 0-1.577-.988-1.577-2.806.004-1.811.597-2.809 1.577-2.809.977 0 1.573.998 1.573 2.809 0 1.818-.593 2.806-1.573 2.806zM291.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM296.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM302.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806zM326.594 178.909h.667l.004-.799c1.502-.11 2.361-.969 2.361-2.12 0-1.31-1.168-1.818-2.091-2.045l-.259-.068.007-2.28c.664.089 1.118.458 1.186 1.041h1.058c-.028-1.083-.923-1.893-2.241-2l.004-.82h-.668l-.003.828c-1.275.127-2.209.923-2.209 2.07 0 1.012.724 1.605 1.893 1.921l.305.082-.007 2.418c-.693-.085-1.229-.462-1.286-1.147h-1.101c.068 1.225.952 2.013 2.383 2.12l-.003.799zm.674-1.772l.008-2.234c.72.199 1.264.462 1.264 1.076 0 .622-.519 1.059-1.272 1.158zm-.657-3.437c-.529-.157-1.111-.437-1.107-1.048 0-.533.422-.948 1.111-1.051l-.004 2.099zM333.37 178.099c1.485 0 2.575-.887 2.571-2.095.004-.92-.554-1.58-1.52-1.729v-.057c.76-.195 1.254-.792 1.25-1.609.004-1.069-.873-1.981-2.272-1.981-1.336 0-2.408.806-2.444 1.988h1.062c.025-.667.654-1.072 1.367-1.072.743 0 1.229.451 1.226 1.122.003.703-.562 1.165-1.368 1.165h-.614v.895h.614c1.009 0 1.591.511 1.591 1.243 0 .706-.614 1.186-1.47 1.186-.788 0-1.403-.405-1.445-1.051h-1.115c.046 1.186 1.097 1.995 2.567 1.995zM339.684 178.099c1.463 0 2.507-1.033 2.504-2.45.003-1.406-.977-2.429-2.301-2.429-.54 0-1.041.206-1.325.483h-.043l.231-2.035h3.086v-.941h-3.998l-.409 3.665 1.005.149c.274-.245.764-.412 1.204-.412.863.007 1.488.654 1.488 1.541 0 .874-.607 1.506-1.442 1.506-.703 0-1.261-.447-1.317-1.072h-1.066c.043 1.157 1.048 1.995 2.383 1.995zM343.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM348.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM354.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806zM378.262 178.909h.667l.004-.799c1.502-.11 2.361-.969 2.361-2.12 0-1.31-1.168-1.818-2.091-2.045l-.259-.068.007-2.28c.664.089 1.118.458 1.186 1.041h1.058c-.028-1.083-.923-1.893-2.241-2l.004-.82h-.668l-.003.828c-1.275.127-2.209.923-2.209 2.07 0 1.012.724 1.605 1.893 1.921l.305.082-.007 2.418c-.693-.085-1.229-.462-1.286-1.147h-1.101c.068 1.225.952 2.013 2.383 2.12l-.003.799zm.674-1.772l.008-2.234c.72.199 1.264.462 1.264 1.076 0 .622-.519 1.059-1.272 1.158zm-.657-3.437c-.529-.157-1.111-.437-1.107-1.048 0-.533.422-.948 1.111-1.051l-.004 2.099zM382.354 176.579h3.448V178h1.047v-1.421h.963v-.93h-.963v-4.922h-1.353l-3.142 4.965v.887zm3.455-.93h-2.305v-.057l2.248-3.558h.057v3.615zM391.581 178.121c1.68 0 2.663-1.371 2.663-3.754 0-2.365-.997-3.739-2.663-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.984 0-1.577-.988-1.577-2.806.004-1.811.597-2.809 1.577-2.809.977 0 1.573.998 1.573 2.809 0 1.818-.593 2.806-1.573 2.806zM395.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM400.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM406.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806z"
+            />
+            <path stroke="#8A9BA8" d="M38 26v134M149 26v133M200 26v133" />
+            <path
+              fill="#8A9BA8"
+              d="M151.383 17.7273h.534l.003-.6392c1.201-.0881 1.889-.7756 1.889-1.696 0-1.0483-.935-1.4546-1.673-1.6364l-.208-.054.006-1.8238c.531.071.895.3665.949.8324h.846c-.022-.8665-.738-1.5142-1.792-1.5995l.003-.6562h-.534l-.003.6619c-1.02.1023-1.767.7387-1.767 1.6563 0 .8096.579 1.2841 1.514 1.5369l.244.0653-.006 1.9347c-.554-.0682-.982-.3693-1.028-.9176h-.881c.054.9801.762 1.6108 1.907 1.696l-.003.6392zm.54-1.4176l.005-1.7869c.577.1591 1.012.3693 1.012.8608 0 .4971-.415.8466-1.017.9261zm-.526-2.75c-.423-.125-.889-.3494-.886-.8381 0-.4261.338-.7585.889-.8409l-.003 1.679zM156.986 11.1819h-.855l-1.452.9488v.8409l1.392-.9091h.034V17h.881v-5.8181zM158.803 17.054c.309 0 .568-.2528.568-.5682 0-.3096-.259-.5653-.568-.5653-.313 0-.569.2557-.569.5653 0 .3154.256.5682.569.5682zM160.497 17h3.83v-.7528h-2.62v-.0426l1.157-1.2102c1.065-1.0767 1.369-1.5909 1.369-2.2415 0-.9347-.761-1.6506-1.858-1.6506-1.088 0-1.884.7046-1.884 1.7671h.839c-.003-.625.4-1.0341 1.028-1.0341.591 0 1.04.3636 1.04.9432 0 .5142-.307.8835-.932 1.5454l-1.969 2.0398V17zM167.429 17.0796c1.187 0 2.06-.7102 2.057-1.6761.003-.7358-.443-1.2643-1.216-1.3836v-.0454c.608-.1563 1.003-.6335 1-1.287.003-.8551-.699-1.5852-1.818-1.5852-1.069 0-1.926.6449-1.955 1.5909h.85c.019-.5341.522-.8579 1.093-.8579.594 0 .983.3608.98.8977.003.5625-.448.9318-1.093.9318h-.492v.7159h.492c.806 0 1.272.4091 1.272.9943 0 .5654-.491.9489-1.176.9489-.63 0-1.122-.3239-1.156-.8409h-.892c.037.9489.878 1.5966 2.054 1.5966zM200.93 17.7273h.534l.003-.6392c1.201-.0881 1.889-.7756 1.889-1.696 0-1.0483-.935-1.4546-1.674-1.6364l-.207-.054.006-1.8238c.531.071.895.3665.949.8324h.846c-.022-.8665-.738-1.5142-1.792-1.5995l.002-.6562h-.534l-.002.6619c-1.02.1023-1.768.7387-1.768 1.6563 0 .8096.58 1.2841 1.515 1.5369l.244.0653-.006 1.9347c-.554-.0682-.983-.3693-1.028-.9176h-.881c.054.9801.762 1.6108 1.906 1.696l-.002.6392zm.539-1.4176l.006-1.7869c.577.1591 1.011.3693 1.011.8608 0 .4971-.414.8466-1.017.9261zm-.525-2.75c-.423-.125-.889-.3494-.887-.8381 0-.4261.339-.7585.89-.8409l-.003 1.679zM204.325 17h3.83v-.7528h-2.62v-.0426l1.157-1.2102c1.065-1.0767 1.369-1.5909 1.369-2.2415 0-.9347-.761-1.6506-1.858-1.6506-1.088 0-1.883.7046-1.883 1.7671h.838c-.003-.625.4-1.0341 1.028-1.0341.591 0 1.04.3636 1.04.9432 0 .5142-.307.8835-.932 1.5454l-1.969 2.0398V17zM209.803 17.054c.309 0 .568-.2528.568-.5682 0-.3096-.259-.5653-.568-.5653-.313 0-.569.2557-.569.5653 0 .3154.256.5682.569.5682zM211.497 17h3.83v-.7528h-2.62v-.0426l1.157-1.2102c1.065-1.0767 1.369-1.5909 1.369-2.2415 0-.9347-.761-1.6506-1.858-1.6506-1.088 0-1.884.7046-1.884 1.7671h.839c-.003-.625.4-1.0341 1.028-1.0341.591 0 1.04.3636 1.04.9432 0 .5142-.307.8835-.932 1.5454l-1.969 2.0398V17zM218.429 17.0796c1.187 0 2.06-.7102 2.057-1.6761.003-.7358-.443-1.2643-1.216-1.3836v-.0454c.608-.1563 1.003-.6335 1-1.287.003-.8551-.699-1.5852-1.818-1.5852-1.069 0-1.926.6449-1.955 1.5909h.85c.019-.5341.522-.8579 1.093-.8579.594 0 .983.3608.98.8977.003.5625-.448.9318-1.093.9318h-.492v.7159h.492c.806 0 1.272.4091 1.272.9943 0 .5654-.491.9489-1.176.9489-.63 0-1.122-.3239-1.156-.8409h-.892c.037.9489.878 1.5966 2.054 1.5966zM150.17 7.00007h.878V4.46313h2.472v-.75284h-2.472V1.93757h2.73v-.75569h-3.608v5.81819zM154.858 1.18188v5.81819h.835V2.787h.054l1.716 4.20454h.693l1.716-4.2017h.054v4.21023h.835V1.18188h-1.065l-1.852 4.52273h-.068l-1.853-4.52273h-1.065zM162.546 1.18188h-.949l2.094 5.81819h1.014l2.094-5.81819h-.949l-1.619 4.73864h-.065l-1.62-4.73864zM199.295 7.00009h3.515v-.75568h-2.637v-5.0625h-.878v5.81818zM205.013 7.09668c.721 0 1.128-.36648 1.29-.69318h.034v.59659h.829V4.10236c0-1.26988-1-1.52273-1.693-1.52273-.79 0-1.517.31819-1.801 1.11364l.798.18182c.125-.30966.443-.60796 1.014-.60796.549 0 .83.28694.83.78125v.01989c0 .30966-.318.30398-1.102.39489-.827.09659-1.674.3125-1.674 1.30397 0 .85796.645 1.32955 1.475 1.32955zm.184-.68182c-.48 0-.826-.21591-.826-.63636 0-.45455.403-.61648.895-.68182.275-.03693.929-.1108 1.051-.23295v.5625c0 .51704-.412.98863-1.12.98863zM211.567 3.70179c-.176-.67897-.707-1.12216-1.65-1.12216-.986 0-1.685.51989-1.685 1.29262 0 .61932.375 1.03125 1.193 1.21307l.739.16193c.421.09375.617.28125.617.55398 0 .33806-.361.60227-.918.60227-.509 0-.835-.21875-.938-.64773l-.821.125c.142.77273.785 1.20739 1.765 1.20739 1.054 0 1.784-.55966 1.784-1.34943 0-.61648-.392-.99716-1.193-1.18182l-.694-.15909c-.48-.11364-.687-.27557-.684-.57103-.003-.33522.36-.57386.843-.57386.529 0 .773.29261.873.58523l.769-.13637zM214.624 2.63645h-.895V1.591h-.85v1.04545h-.639v.68182h.639v2.57671c-.003.79261.603 1.17613 1.273 1.16193.27-.00284.452-.05398.551-.09091l-.153-.70171c-.057.01137-.162.03694-.299.03694-.275 0-.522-.09091-.522-.58239V3.31827h.895v-.68182zM217.749 7.00009h.877V4.95463h1.194c1.349 0 2.017-.81534 2.017-1.8892 0-1.07102-.662-1.88352-2.015-1.88352h-2.073v5.81818zm.877-2.78977V1.93475h1.103c.869 0 1.224.47159 1.224 1.13068s-.355 1.14489-1.213 1.14489h-1.114zM222.798 7.00009h.849V4.33532c0-.57103.44-.98296 1.043-.98296.176 0 .375.03125.443.05114V2.591c-.085-.01137-.253-.01989-.361-.01989-.511 0-.949.28977-1.108.75852h-.045v-.69318h-.821v4.36364zM227.592 7.08816c.952 0 1.625-.46875 1.819-1.17898l-.804-.14489c-.154.41194-.523.62216-1.006.62216-.727 0-1.216-.47159-1.239-1.3125h3.103v-.30113c0-1.57671-.944-2.19319-1.932-2.19319-1.216 0-2.017.92614-2.017 2.26705 0 1.35511.789 2.24148 2.076 2.24148zm-1.227-2.65057c.034-.61932.483-1.15625 1.173-1.15625.659 0 1.091.48864 1.094 1.15625h-2.267zM232.484 2.63645h-.941v-.39204c0-.38637.159-.59659.574-.59659.176 0 .301.03977.381.06534l.199-.6875c-.12-.045457-.367-.11648-.71-.11648-.691 0-1.296.40341-1.296 1.22159v.50568h-.673v.68182h.673v3.68182h.852V3.31827h.941v-.68182zM235.069 7.08816c.952 0 1.625-.46875 1.818-1.17898l-.804-.14489c-.153.41194-.523.62216-1.006.62216-.727 0-1.215-.47159-1.238-1.3125h3.102v-.30113c0-1.57671-.943-2.19319-1.932-2.19319-1.216 0-2.017.92614-2.017 2.26705 0 1.35511.79 2.24148 2.077 2.24148zm-1.227-2.65057c.034-.61932.483-1.15625 1.173-1.15625.659 0 1.091.48864 1.094 1.15625h-2.267zM237.884 7.00009h.849V4.33532c0-.57103.44-.98296 1.043-.98296.176 0 .375.03125.443.05114V2.591c-.085-.01137-.253-.01989-.361-.01989-.511 0-.949.28977-1.108.75852h-.045v-.69318h-.821v4.36364zM240.954 7.00009h.849V4.33532c0-.57103.441-.98296 1.043-.98296.176 0 .375.03125.443.05114V2.591c-.085-.01137-.253-.01989-.361-.01989-.511 0-.949.28977-1.108.75852h-.045v-.69318h-.821v4.36364zM245.749 7.08816c.951 0 1.625-.46875 1.818-1.17898l-.804-.14489c-.154.41194-.523.62216-1.006.62216-.727 0-1.216-.47159-1.239-1.3125h3.103v-.30113c0-1.57671-.943-2.19319-1.932-2.19319-1.216 0-2.017.92614-2.017 2.26705 0 1.35511.79 2.24148 2.077 2.24148zm-1.228-2.65057c.034-.61932.483-1.15625 1.174-1.15625.659 0 1.091.48864 1.093 1.15625h-2.267zM250.197 7.08532c.795 0 1.108-.4858 1.261-.76421h.071v.67898h.83V1.18191h-.85v2.16193h-.051c-.153-.26989-.443-.76421-1.256-.76421-1.054 0-1.829.83239-1.829 2.24716 0 1.41194.764 2.25853 1.824 2.25853zm.187-.72444c-.758 0-1.153-.66761-1.153-1.54261 0-.86648.386-1.51704 1.153-1.51704.742 0 1.139.60511 1.139 1.51704 0 .91761-.406 1.54261-1.139 1.54261z"
+            />
+            <path
+              fill="#DCE4F3"
+              stroke="#B3C4E5"
+              d="M140 116.697V154.8c0 .11.09.2.2.2h301.6c.11 0 .2-.09.2-.2V44.2332c0-.1226-.109-.2163-.231-.1976L240.836 75.0538c-.097.0151-.169.099-.169.1977v28.8815c0 .101-.076.186-.176.198l-100.315 12.168c-.1.012-.176.097-.176.198z"
+              opacity=".6"
+            />
+            <path
+              fill="#547AC5"
+              stroke="#20355F"
+              d="M140 116.697V154.8c0 .111.09.2.2.2h150.6c.11 0 .2-.089.2-.2V67.5433c0-.1226-.109-.2164-.231-.1977l-49.933 7.7083c-.097.015-.169.099-.169.1977v28.8814c0 .101-.076.186-.176.198l-100.315 12.168c-.1.012-.176.097-.176.198z"
+              opacity=".6"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear"
+                x1="174"
+                x2="174"
+                y1="60"
+                y2="194.5"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#E1E8ED" />
+                <stop offset="1" stop-color="#fff" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </>
+      );
+    };
+    const BuySideChart = () => {
+      return (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 445 179"
+        >
+          <defs />
+          <path stroke="#E1E8ED" d="M88 26v133" />
+          <path stroke="#8A9BA8" d="M88 160v-4" />
+          <path stroke="#E1E8ED" d="M139 26v133" />
+          <path stroke="#8A9BA8" d="M139 160v-4" />
+          <path stroke="#E1E8ED" d="M190 26v133" />
+          <path stroke="#8A9BA8" d="M190 160v-4" />
+          <path stroke="#E1E8ED" d="M241 26v133" />
+          <path stroke="#8A9BA8" d="M241 160v-4" />
+          <path stroke="#E1E8ED" d="M292 26v133" />
+          <path stroke="#8A9BA8" d="M292 160v-4" />
+          <path stroke="#E1E8ED" d="M343 26v133" />
+          <path stroke="#8A9BA8" d="M343 160v-4" />
+          <path stroke="#E1E8ED" d="M394 26v133" />
+          <path stroke="#8A9BA8" d="M394 160v-4M38 156.5h407" />
+          <path
+            fill="#8A9BA8"
+            d="M.0159523 30.0001H4.80288v-.9411H1.52874v-.0532l1.44531-1.5128c1.33168-1.3459 1.71165-1.9886 1.71165-2.8019 0-1.1683-.95171-2.0632-2.32245-2.0632-1.36008 0-2.3543999.8807-2.3543999 2.2088H1.05644c-.00356-.7812.50071-1.2926 1.28551-1.2926.73863 0 1.29971.4546 1.29971 1.179 0 .6428-.38352 1.1044-1.16477 1.9318L.0159523 29.2046v.7955zM8.68073 30.1208c1.67967 0 2.66337-1.3707 2.66337-3.7535 0-2.3651-.9979-3.7394-2.66337-3.7394-1.66904 0-2.66336 1.3708-2.66691 3.7394 0 2.3792.98367 3.75 2.66691 3.7535zm0-.9481c-.98367 0-1.57671-.9872-1.57671-2.8054.00355-1.8111.59659-2.809 1.57671-2.809.97656 0 1.57317.9979 1.57317 2.809 0 1.8182-.59306 2.8054-1.57317 2.8054zM15.1358 30.1208c1.6797 0 2.6634-1.3707 2.6634-3.7535 0-2.3651-.9979-3.7394-2.6634-3.7394-1.669 0-2.6633 1.3708-2.6669 3.7394 0 2.3792.9837 3.75 2.6669 3.7535zm0-.9481c-.9837 0-1.5767-.9872-1.5767-2.8054.0036-1.8111.5966-2.809 1.5767-2.809.9766 0 1.5732.9979 1.5732 2.809 0 1.8182-.5931 2.8054-1.5732 2.8054zM19.1584 30.0001h1.0973V27.738l.8593-.9872 2.3509 3.2493h1.321l-2.9439-3.9986 2.9333-3.2741h-1.3814l-3.0505 3.473h-.0887v-3.473h-1.0973v7.2727z"
+          />
+          <path stroke="#8A9BA8" d="M38 26l-6 .0002" />
+          <path
+            fill="url(#paint0_linear)"
+            d="M149 26h50v130h-50z"
+            opacity=".6"
+          />
+          <path stroke="#E1E8ED" d="M38 26h407M38 58.4929l407 .0001" />
+          <path stroke="#8A9BA8" d="M38 58.4929l-6 .0002" />
+          <path
+            fill="#8A9BA8"
+            d="M4.43534 55.2203H3.36645l-1.81463 1.1861v1.0511l1.74006-1.1364h.04261v6.1719h1.10085v-7.2727zM8.80324 62.5924c1.46306 0 2.50706-1.0333 2.50356-2.4502.0035-1.4063-.9766-2.429-2.30115-2.429-.53977 0-1.04048.2059-1.32457.4829h-.04261l.23082-2.0348h3.08591v-.941H6.95665l-.40838 3.6648 1.00497.1491c.27344-.245.76349-.4119 1.20384-.4119.86292.0071 1.48792.6534 1.48792 1.5412 0 .8735-.60724 1.5056-1.44176 1.5056-.70313 0-1.26065-.4474-1.31747-1.0724H6.42043c.04261 1.1577 1.04758 1.9957 2.38281 1.9957zM15.1358 62.6137c1.6797 0 2.6634-1.3707 2.6634-3.7535 0-2.3651-.9979-3.7394-2.6634-3.7394-1.669 0-2.6633 1.3708-2.6669 3.7394 0 2.3793.9837 3.75 2.6669 3.7535zm0-.9481c-.9837 0-1.5767-.9872-1.5767-2.8054.0036-1.8111.5966-2.809 1.5767-2.809.9766 0 1.5732.9979 1.5732 2.809 0 1.8182-.5931 2.8054-1.5732 2.8054zM19.1584 62.493h1.0973v-2.2621l.8593-.9872 2.3509 3.2493h1.321l-2.9439-3.9986 2.9333-3.2741h-1.3814l-3.0505 3.473h-.0887v-3.473h-1.0973v7.2727z"
+          />
+          <path stroke="#E1E8ED" d="M38 90.9858l407 .0001" />
+          <path stroke="#8A9BA8" d="M38 90.9858l-6 .0003" />
+          <path
+            fill="#8A9BA8"
+            d="M4.18144 87.7132h-1.0689l-1.81463 1.1861v1.0511l1.74006-1.1363h.04261v6.1718h1.10086v-7.2727zM8.68073 95.1067c1.67967 0 2.66337-1.3708 2.66337-3.7536 0-2.365-.9979-3.7393-2.66337-3.7393-1.66904 0-2.66336 1.3707-2.66691 3.7393 0 2.3793.98367 3.75 2.66691 3.7536zm0-.9482c-.98367 0-1.57671-.9872-1.57671-2.8054.00355-1.8111.59659-2.8089 1.57671-2.8089.97656 0 1.57317.9978 1.57317 2.8089 0 1.8182-.59306 2.8054-1.57317 2.8054zM15.1358 95.1067c1.6797 0 2.6634-1.3708 2.6634-3.7536 0-2.365-.9979-3.7393-2.6634-3.7393-1.669 0-2.6633 1.3707-2.6669 3.7393 0 2.3793.9837 3.75 2.6669 3.7536zm0-.9482c-.9837 0-1.5767-.9872-1.5767-2.8054.0036-1.8111.5966-2.8089 1.5767-2.8089.9766 0 1.5732.9978 1.5732 2.8089 0 1.8182-.5931 2.8054-1.5732 2.8054zM19.1584 94.9859h1.0973v-2.262l.8593-.9873 2.3509 3.2493h1.321l-2.9439-3.9986 2.9333-3.2741h-1.3814l-3.0505 3.473h-.0887v-3.473h-1.0973v7.2727z"
+          />
+          <path stroke="#E1E8ED" d="M38 124.479h407" />
+          <path stroke="#8A9BA8" d="M38 124.479h-6" />
+          <path
+            fill="#8A9BA8"
+            d="M8.80328 127.578c1.46312 0 2.50712-1.033 2.50352-2.45.0036-1.406-.9765-2.429-2.3011-2.429-.53977 0-1.04048.206-1.32458.483h-.04261l.23082-2.035h3.08597v-.941H6.95669l-.40838 3.665 1.00497.149c.27344-.245.7635-.412 1.20384-.412.86293.007 1.48788.654 1.48788 1.541 0 .874-.6072 1.506-1.44172 1.506-.70312 0-1.26065-.447-1.31747-1.072H6.42047c.04261 1.157 1.04759 1.995 2.38281 1.995zM15.1358 127.6c1.6797 0 2.6634-1.371 2.6634-3.754 0-2.365-.9979-3.739-2.6634-3.739-1.669 0-2.6633 1.37-2.6669 3.739 0 2.379.9837 3.75 2.6669 3.754zm0-.949c-.9836 0-1.5767-.987-1.5767-2.805.0036-1.811.5966-2.809 1.5767-2.809.9766 0 1.5732.998 1.5732 2.809 0 1.818-.593 2.805-1.5732 2.805zM19.1584 127.479h1.0973v-2.262l.8594-.987 2.3508 3.249h1.321l-2.9438-3.999 2.9332-3.274h-1.3814l-3.0504 3.473h-.0888v-3.473h-1.0973v7.273zM71.0781 178.909h.6676l.0036-.799c1.5021-.11 2.3615-.969 2.3615-2.12 0-1.31-1.1683-1.818-2.0916-2.045l-.2593-.068.0071-2.28c.6641.089 1.1186.458 1.1861 1.041h1.0583c-.0285-1.083-.9233-1.893-2.2408-2l.0035-.82h-.6676l-.0035.828c-1.2749.127-2.2088.923-2.2088 2.07 0 1.012.7244 1.605 1.8927 1.921l.3054.082-.0071 2.418c-.6925-.085-1.2287-.462-1.2855-1.147h-1.1008c.0674 1.225.9517 2.013 2.3828 2.12l-.0036.799zm.6747-1.772l.0071-2.234c.7209.199 1.2642.462 1.2642 1.076 0 .622-.5184 1.059-1.2713 1.158zm-.6569-3.437c-.5291-.157-1.1115-.437-1.108-1.048 0-.533.4226-.948 1.1115-1.051l-.0035 2.099zM78.0818 170.727h-1.0689l-1.8146 1.186v1.051l1.7401-1.136h.0426V178h1.1008v-7.273zM82.5811 178.121c1.6797 0 2.6634-1.371 2.6634-3.754 0-2.365-.9979-3.739-2.6634-3.739-1.669 0-2.6633 1.371-2.6669 3.739 0 2.379.9837 3.75 2.6669 3.754zm0-.948c-.9836 0-1.5767-.988-1.5767-2.806.0036-1.811.5966-2.809 1.5767-2.809.9766 0 1.5732.998 1.5732 2.809 0 1.818-.5931 2.806-1.5732 2.806zM86.9446 178.067c.3871 0 .7102-.316.7102-.71 0-.387-.3231-.706-.7102-.706-.3906 0-.7102.319-.7102.706 0 .394.3196.71.7102.71zM91.3214 178.121c1.6797 0 2.6633-1.371 2.6633-3.754 0-2.365-.9978-3.739-2.6633-3.739-1.6691 0-2.6634 1.371-2.6669 3.739 0 2.379.9836 3.75 2.6669 3.754zm0-.948c-.9837 0-1.5767-.988-1.5767-2.806.0035-1.811.5966-2.809 1.5767-2.809.9765 0 1.5731.998 1.5731 2.809 0 1.818-.593 2.806-1.5731 2.806zM97.7764 178.121c1.6797 0 2.6636-1.371 2.6636-3.754 0-2.365-.9981-3.739-2.6636-3.739-1.669 0-2.6633 1.371-2.6669 3.739 0 2.379.9837 3.75 2.6669 3.754zm0-.948c-.9836 0-1.5767-.988-1.5767-2.806.0036-1.811.5966-2.809 1.5767-2.809.9766 0 1.5732.998 1.5732 2.809 0 1.818-.593 2.806-1.5732 2.806zM121.312 178.909h.668l.004-.799c1.502-.11 2.361-.969 2.361-2.12 0-1.31-1.168-1.818-2.091-2.045l-.26-.068.007-2.28c.664.089 1.119.458 1.186 1.041h1.059c-.029-1.083-.924-1.893-2.241-2l.004-.82h-.668l-.004.828c-1.275.127-2.208.923-2.208 2.07 0 1.012.724 1.605 1.892 1.921l.306.082-.007 2.418c-.693-.085-1.229-.462-1.286-1.147h-1.101c.068 1.225.952 2.013 2.383 2.12l-.004.799zm.675-1.772l.007-2.234c.721.199 1.265.462 1.265 1.076 0 .622-.519 1.059-1.272 1.158zm-.657-3.437c-.529-.157-1.111-.437-1.108-1.048 0-.533.423-.948 1.112-1.051l-.004 2.099zM128.316 170.727h-1.069l-1.814 1.186v1.051l1.74-1.136h.042V178h1.101v-7.273zM132.684 178.099c1.463 0 2.507-1.033 2.504-2.45.003-1.406-.977-2.429-2.301-2.429-.54 0-1.041.206-1.325.483h-.043l.231-2.035h3.086v-.941h-3.998l-.409 3.665 1.005.149c.274-.245.764-.412 1.204-.412.863.007 1.488.654 1.488 1.541 0 .874-.607 1.506-1.442 1.506-.703 0-1.261-.447-1.317-1.072h-1.066c.043 1.157 1.048 1.995 2.383 1.995zM136.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM141.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM147.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806zM171.672 178.909h.667l.004-.799c1.502-.11 2.362-.969 2.362-2.12 0-1.31-1.169-1.818-2.092-2.045l-.259-.068.007-2.28c.664.089 1.118.458 1.186 1.041h1.058c-.028-1.083-.923-1.893-2.241-2l.004-.82h-.668l-.003.828c-1.275.127-2.209.923-2.209 2.07 0 1.012.724 1.605 1.893 1.921l.305.082-.007 2.418c-.693-.085-1.229-.462-1.286-1.147h-1.1c.067 1.225.951 2.013 2.382 2.12l-.003.799zm.675-1.772l.007-2.234c.721.199 1.264.462 1.264 1.076 0 .622-.519 1.059-1.271 1.158zm-.657-3.437c-.529-.157-1.112-.437-1.108-1.048 0-.533.422-.948 1.111-1.051l-.003 2.099zM175.916 178h4.787v-.941h-3.274v-.053l1.445-1.513c1.332-1.346 1.712-1.989 1.712-2.802 0-1.168-.952-2.063-2.322-2.063-1.36 0-2.355.88-2.355 2.209h1.048c-.004-.782.501-1.293 1.285-1.293.739 0 1.3.455 1.3 1.179 0 .643-.383 1.104-1.165 1.932l-2.461 2.549V178zM184.581 178.121c1.68 0 2.663-1.371 2.663-3.754 0-2.365-.997-3.739-2.663-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.984 0-1.577-.988-1.577-2.806.004-1.811.597-2.809 1.577-2.809.977 0 1.573.998 1.573 2.809 0 1.818-.593 2.806-1.573 2.806zM188.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM193.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM199.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806zM222.906 178.909h.668l.003-.799c1.503-.11 2.362-.969 2.362-2.12 0-1.31-1.168-1.818-2.092-2.045l-.259-.068.007-2.28c.664.089 1.119.458 1.186 1.041h1.058c-.028-1.083-.923-1.893-2.24-2l.003-.82h-.667l-.004.828c-1.275.127-2.209.923-2.209 2.07 0 1.012.725 1.605 1.893 1.921l.305.082-.007 2.418c-.692-.085-1.228-.462-1.285-1.147h-1.101c.067 1.225.952 2.013 2.383 2.12l-.004.799zm.675-1.772l.007-2.234c.721.199 1.264.462 1.264 1.076 0 .622-.518 1.059-1.271 1.158zm-.657-3.437c-.529-.157-1.112-.437-1.108-1.048 0-.533.423-.948 1.112-1.051l-.004 2.099zM227.151 178h4.787v-.941h-3.274v-.053l1.445-1.513c1.332-1.346 1.711-1.989 1.711-2.802 0-1.168-.951-2.063-2.322-2.063-1.36 0-2.354.88-2.354 2.209h1.047c-.003-.782.501-1.293 1.286-1.293.738 0 1.299.455 1.299 1.179 0 .643-.383 1.104-1.164 1.932l-2.461 2.549V178zM235.684 178.099c1.463 0 2.507-1.033 2.504-2.45.003-1.406-.977-2.429-2.301-2.429-.54 0-1.041.206-1.325.483h-.043l.231-2.035h3.086v-.941h-3.998l-.409 3.665 1.005.149c.274-.245.764-.412 1.204-.412.863.007 1.488.654 1.488 1.541 0 .874-.607 1.506-1.442 1.506-.703 0-1.261-.447-1.317-1.072h-1.066c.043 1.157 1.048 1.995 2.383 1.995zM239.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM244.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM250.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806zM274.359 178.909h.668l.004-.799c1.502-.11 2.361-.969 2.361-2.12 0-1.31-1.168-1.818-2.092-2.045l-.259-.068.007-2.28c.664.089 1.119.458 1.186 1.041h1.059c-.029-1.083-.924-1.893-2.241-2l.003-.82h-.667l-.004.828c-1.275.127-2.209.923-2.209 2.07 0 1.012.725 1.605 1.893 1.921l.306.082-.008 2.418c-.692-.085-1.228-.462-1.285-1.147h-1.101c.068 1.225.952 2.013 2.383 2.12l-.004.799zm.675-1.772l.007-2.234c.721.199 1.264.462 1.264 1.076 0 .622-.518 1.059-1.271 1.158zm-.657-3.437c-.529-.157-1.111-.437-1.108-1.048 0-.533.423-.948 1.112-1.051l-.004 2.099zM281.136 178.099c1.484 0 2.574-.887 2.571-2.095.003-.92-.554-1.58-1.52-1.729v-.057c.76-.195 1.254-.792 1.25-1.609.004-1.069-.874-1.981-2.273-1.981-1.335 0-2.407.806-2.443 1.988h1.062c.025-.667.653-1.072 1.367-1.072.742 0 1.229.451 1.225 1.122.004.703-.561 1.165-1.367 1.165h-.614v.895h.614c1.009 0 1.591.511 1.591 1.243 0 .706-.614 1.186-1.47 1.186-.789 0-1.403-.405-1.446-1.051h-1.115c.047 1.186 1.098 1.995 2.568 1.995zM287.581 178.121c1.68 0 2.663-1.371 2.663-3.754 0-2.365-.997-3.739-2.663-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.984 0-1.577-.988-1.577-2.806.004-1.811.597-2.809 1.577-2.809.977 0 1.573.998 1.573 2.809 0 1.818-.593 2.806-1.573 2.806zM291.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM296.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM302.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806zM326.594 178.909h.667l.004-.799c1.502-.11 2.361-.969 2.361-2.12 0-1.31-1.168-1.818-2.091-2.045l-.259-.068.007-2.28c.664.089 1.118.458 1.186 1.041h1.058c-.028-1.083-.923-1.893-2.241-2l.004-.82h-.668l-.003.828c-1.275.127-2.209.923-2.209 2.07 0 1.012.724 1.605 1.893 1.921l.305.082-.007 2.418c-.693-.085-1.229-.462-1.286-1.147h-1.101c.068 1.225.952 2.013 2.383 2.12l-.003.799zm.674-1.772l.008-2.234c.72.199 1.264.462 1.264 1.076 0 .622-.519 1.059-1.272 1.158zm-.657-3.437c-.529-.157-1.111-.437-1.107-1.048 0-.533.422-.948 1.111-1.051l-.004 2.099zM333.37 178.099c1.485 0 2.575-.887 2.571-2.095.004-.92-.554-1.58-1.52-1.729v-.057c.76-.195 1.254-.792 1.25-1.609.004-1.069-.873-1.981-2.272-1.981-1.336 0-2.408.806-2.444 1.988h1.062c.025-.667.654-1.072 1.367-1.072.743 0 1.229.451 1.226 1.122.003.703-.562 1.165-1.368 1.165h-.614v.895h.614c1.009 0 1.591.511 1.591 1.243 0 .706-.614 1.186-1.47 1.186-.788 0-1.403-.405-1.445-1.051h-1.115c.046 1.186 1.097 1.995 2.567 1.995zM339.684 178.099c1.463 0 2.507-1.033 2.504-2.45.003-1.406-.977-2.429-2.301-2.429-.54 0-1.041.206-1.325.483h-.043l.231-2.035h3.086v-.941h-3.998l-.409 3.665 1.005.149c.274-.245.764-.412 1.204-.412.863.007 1.488.654 1.488 1.541 0 .874-.607 1.506-1.442 1.506-.703 0-1.261-.447-1.317-1.072h-1.066c.043 1.157 1.048 1.995 2.383 1.995zM343.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM348.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM354.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806zM378.262 178.909h.667l.004-.799c1.502-.11 2.361-.969 2.361-2.12 0-1.31-1.168-1.818-2.091-2.045l-.259-.068.007-2.28c.664.089 1.118.458 1.186 1.041h1.058c-.028-1.083-.923-1.893-2.241-2l.004-.82h-.668l-.003.828c-1.275.127-2.209.923-2.209 2.07 0 1.012.724 1.605 1.893 1.921l.305.082-.007 2.418c-.693-.085-1.229-.462-1.286-1.147h-1.101c.068 1.225.952 2.013 2.383 2.12l-.003.799zm.674-1.772l.008-2.234c.72.199 1.264.462 1.264 1.076 0 .622-.519 1.059-1.272 1.158zm-.657-3.437c-.529-.157-1.111-.437-1.107-1.048 0-.533.422-.948 1.111-1.051l-.004 2.099zM382.354 176.579h3.448V178h1.047v-1.421h.963v-.93h-.963v-4.922h-1.353l-3.142 4.965v.887zm3.455-.93h-2.305v-.057l2.248-3.558h.057v3.615zM391.581 178.121c1.68 0 2.663-1.371 2.663-3.754 0-2.365-.997-3.739-2.663-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.984 0-1.577-.988-1.577-2.806.004-1.811.597-2.809 1.577-2.809.977 0 1.573.998 1.573 2.809 0 1.818-.593 2.806-1.573 2.806zM395.945 178.067c.387 0 .71-.316.71-.71 0-.387-.323-.706-.71-.706-.391 0-.711.319-.711.706 0 .394.32.71.711.71zM400.321 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.667 3.739 0 2.379.984 3.75 2.667 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.594 2.806-1.574 2.806zM406.776 178.121c1.68 0 2.664-1.371 2.664-3.754 0-2.365-.998-3.739-2.664-3.739-1.669 0-2.663 1.371-2.666 3.739 0 2.379.983 3.75 2.666 3.754zm0-.948c-.983 0-1.576-.988-1.576-2.806.003-1.811.596-2.809 1.576-2.809.977 0 1.574.998 1.574 2.809 0 1.818-.593 2.806-1.574 2.806z"
+          />
+          <path stroke="#8A9BA8" d="M38 26v134M149 26v130M200 26v130" />
+          <path
+            fill="#8A9BA8"
+            d="M151.383 17.7273h.534l.003-.6392c1.201-.0881 1.889-.7756 1.889-1.696 0-1.0483-.935-1.4546-1.673-1.6364l-.208-.054.006-1.8238c.531.071.895.3665.949.8324h.846c-.022-.8665-.738-1.5142-1.792-1.5995l.003-.6562h-.534l-.003.6619c-1.02.1023-1.767.7387-1.767 1.6563 0 .8096.579 1.2841 1.514 1.5369l.244.0653-.006 1.9347c-.553-.0682-.982-.3693-1.028-.9176h-.881c.054.9801.762 1.6108 1.907 1.696l-.003.6392zm.54-1.4176l.005-1.7869c.577.1591 1.012.3693 1.012.8608 0 .4971-.415.8466-1.017.9261zm-.526-2.75c-.423-.125-.889-.3494-.886-.8381 0-.4261.338-.7585.889-.8409l-.003 1.679zM156.986 11.1819h-.855l-1.452.9488v.8409l1.392-.9091h.034V17h.881v-5.8181zM158.803 17.054c.309 0 .568-.2528.568-.5682 0-.3096-.259-.5653-.568-.5653-.313 0-.569.2557-.569.5653 0 .3154.256.5682.569.5682zM160.497 17h3.83v-.7528h-2.62v-.0426l1.157-1.2102c1.065-1.0767 1.369-1.5909 1.369-2.2415 0-.9347-.761-1.6506-1.858-1.6506-1.088 0-1.884.7046-1.884 1.7671h.839c-.003-.625.4-1.0341 1.028-1.0341.591 0 1.04.3636 1.04.9432 0 .5142-.307.8835-.932 1.5454l-1.969 2.0398V17zM167.429 17.0796c1.187 0 2.06-.7102 2.057-1.6761.003-.7358-.443-1.2643-1.216-1.3836v-.0454c.608-.1563 1.003-.6335 1-1.287.003-.8551-.699-1.5852-1.818-1.5852-1.068 0-1.926.6449-1.955 1.5909h.85c.019-.5341.522-.8579 1.093-.8579.594 0 .983.3608.98.8977.003.5625-.448.9318-1.093.9318h-.492v.7159h.492c.807 0 1.272.4091 1.272.9943 0 .5654-.491.9489-1.176.9489-.63 0-1.122-.3239-1.156-.8409h-.892c.037.9489.878 1.5966 2.054 1.5966zM200.93 17.7273h.534l.003-.6392c1.201-.0881 1.889-.7756 1.889-1.696 0-1.0483-.935-1.4546-1.673-1.6364l-.208-.054.006-1.8238c.531.071.895.3665.949.8324h.846c-.022-.8665-.738-1.5142-1.792-1.5995l.003-.6562h-.535l-.002.6619c-1.02.1023-1.767.7387-1.767 1.6563 0 .8096.579 1.2841 1.514 1.5369l.244.0653-.006 1.9347c-.554-.0682-.983-.3693-1.028-.9176h-.881c.054.9801.762 1.6108 1.907 1.696l-.003.6392zm.539-1.4176l.006-1.7869c.577.1591 1.012.3693 1.012.8608 0 .4971-.415.8466-1.018.9261zm-.525-2.75c-.423-.125-.889-.3494-.886-.8381 0-.4261.338-.7585.889-.8409l-.003 1.679zM204.325 17h3.83v-.7528h-2.619v-.0426l1.156-1.2102c1.065-1.0767 1.369-1.5909 1.369-2.2415 0-.9347-.761-1.6506-1.858-1.6506-1.088 0-1.883.7046-1.883 1.7671h.838c-.003-.625.4-1.0341 1.028-1.0341.591 0 1.04.3636 1.04.9432 0 .5142-.307.8835-.932 1.5454l-1.969 2.0398V17zM209.803 17.054c.309 0 .568-.2528.568-.5682 0-.3096-.259-.5653-.568-.5653-.313 0-.569.2557-.569.5653 0 .3154.256.5682.569.5682zM211.497 17h3.83v-.7528h-2.62v-.0426l1.157-1.2102c1.065-1.0767 1.369-1.5909 1.369-2.2415 0-.9347-.761-1.6506-1.858-1.6506-1.088 0-1.884.7046-1.884 1.7671h.839c-.003-.625.4-1.0341 1.028-1.0341.591 0 1.04.3636 1.04.9432 0 .5142-.307.8835-.932 1.5454l-1.969 2.0398V17zM218.429 17.0796c1.187 0 2.06-.7102 2.057-1.6761.003-.7358-.443-1.2643-1.216-1.3836v-.0454c.608-.1563 1.003-.6335 1-1.287.003-.8551-.699-1.5852-1.818-1.5852-1.068 0-1.926.6449-1.955 1.5909h.85c.019-.5341.522-.8579 1.093-.8579.594 0 .983.3608.98.8977.003.5625-.448.9318-1.093.9318h-.492v.7159h.492c.807 0 1.272.4091 1.272.9943 0 .5654-.491.9489-1.176.9489-.63 0-1.122-.3239-1.156-.8409h-.892c.037.9489.878 1.5966 2.054 1.5966zM150.17 7.00007h.878V4.46313h2.472v-.75284h-2.472V1.93757h2.73v-.75569h-3.608v5.81819zM154.858 1.18188v5.81819h.835V2.787h.054l1.716 4.20454h.693l1.716-4.2017h.054v4.21023h.835V1.18188h-1.065l-1.852 4.52273h-.068l-1.853-4.52273h-1.065zM162.546 1.18188h-.949l2.094 5.81819h1.014l2.094-5.81819h-.949l-1.619 4.73864h-.065l-1.62-4.73864zM199.295 7.00009h3.515v-.75568h-2.637v-5.0625h-.878v5.81818zM205.013 7.09668c.721 0 1.128-.36648 1.29-.69318h.034v.59659h.829V4.10236c0-1.26988-1-1.52273-1.693-1.52273-.79 0-1.517.31819-1.801 1.11364l.798.18182c.125-.30966.443-.60796 1.014-.60796.549 0 .83.28694.83.78125v.01989c0 .30966-.318.30398-1.102.39489-.827.09659-1.674.3125-1.674 1.30397 0 .85796.645 1.32955 1.475 1.32955zm.184-.68182c-.48 0-.826-.21591-.826-.63636 0-.45455.403-.61648.895-.68182.275-.03693.929-.1108 1.051-.23295v.5625c0 .51704-.412.98863-1.12.98863zM211.567 3.70179c-.176-.67897-.707-1.12216-1.65-1.12216-.986 0-1.685.51989-1.685 1.29262 0 .61932.375 1.03125 1.193 1.21307l.739.16193c.421.09375.617.28125.617.55398 0 .33806-.361.60227-.918.60227-.509 0-.835-.21875-.938-.64773l-.821.125c.142.77273.785 1.20739 1.765 1.20739 1.054 0 1.784-.55966 1.784-1.34943 0-.61648-.392-.99716-1.193-1.18182l-.694-.15909c-.48-.11364-.687-.27557-.684-.57103-.003-.33522.36-.57386.843-.57386.529 0 .773.29261.873.58523l.769-.13637zM214.624 2.63645h-.895V1.591h-.85v1.04545h-.639v.68182h.639v2.57671c-.003.79261.603 1.17613 1.273 1.16193.27-.00284.452-.05398.551-.09091l-.153-.70171c-.057.01137-.162.03694-.299.03694-.275 0-.522-.09091-.522-.58239V3.31827h.895v-.68182zM217.749 7.00009h.877V4.95463h1.194c1.349 0 2.017-.81534 2.017-1.8892 0-1.07102-.662-1.88352-2.015-1.88352h-2.073v5.81818zm.877-2.78977V1.93475h1.103c.869 0 1.224.47159 1.224 1.13068s-.355 1.14489-1.213 1.14489h-1.114zM222.798 7.00009h.849V4.33532c0-.57103.44-.98296 1.043-.98296.176 0 .375.03125.443.05114V2.591c-.085-.01137-.253-.01989-.361-.01989-.511 0-.949.28977-1.108.75852h-.045v-.69318h-.821v4.36364zM227.592 7.08816c.952 0 1.625-.46875 1.819-1.17898l-.804-.14489c-.154.41194-.523.62216-1.006.62216-.727 0-1.216-.47159-1.239-1.3125h3.103v-.30113c0-1.57671-.944-2.19319-1.932-2.19319-1.216 0-2.017.92614-2.017 2.26705 0 1.35511.789 2.24148 2.076 2.24148zm-1.227-2.65057c.034-.61932.483-1.15625 1.173-1.15625.659 0 1.091.48864 1.094 1.15625h-2.267zM232.484 2.63645h-.941v-.39204c0-.38637.159-.59659.574-.59659.176 0 .301.03977.381.06534l.199-.6875c-.12-.045457-.367-.11648-.71-.11648-.691 0-1.296.40341-1.296 1.22159v.50568h-.673v.68182h.673v3.68182h.852V3.31827h.941v-.68182zM235.069 7.08816c.952 0 1.625-.46875 1.818-1.17898l-.804-.14489c-.153.41194-.523.62216-1.006.62216-.727 0-1.215-.47159-1.238-1.3125h3.102v-.30113c0-1.57671-.943-2.19319-1.932-2.19319-1.216 0-2.017.92614-2.017 2.26705 0 1.35511.79 2.24148 2.077 2.24148zm-1.227-2.65057c.034-.61932.483-1.15625 1.173-1.15625.659 0 1.091.48864 1.094 1.15625h-2.267zM237.884 7.00009h.849V4.33532c0-.57103.44-.98296 1.043-.98296.176 0 .375.03125.443.05114V2.591c-.085-.01137-.253-.01989-.361-.01989-.511 0-.949.28977-1.108.75852h-.045v-.69318h-.821v4.36364zM240.954 7.00009h.849V4.33532c0-.57103.441-.98296 1.043-.98296.176 0 .375.03125.443.05114V2.591c-.085-.01137-.253-.01989-.361-.01989-.511 0-.949.28977-1.108.75852h-.045v-.69318h-.821v4.36364zM245.749 7.08816c.951 0 1.625-.46875 1.818-1.17898l-.804-.14489c-.154.41194-.523.62216-1.006.62216-.727 0-1.216-.47159-1.239-1.3125h3.103v-.30113c0-1.57671-.943-2.19319-1.932-2.19319-1.216 0-2.017.92614-2.017 2.26705 0 1.35511.79 2.24148 2.077 2.24148zm-1.228-2.65057c.034-.61932.483-1.15625 1.174-1.15625.659 0 1.091.48864 1.093 1.15625h-2.267zM250.197 7.08532c.795 0 1.108-.4858 1.261-.76421h.071v.67898h.83V1.18191h-.85v2.16193h-.051c-.153-.26989-.443-.76421-1.256-.76421-1.054 0-1.829.83239-1.829 2.24716 0 1.41194.764 2.25853 1.824 2.25853zm.187-.72444c-.758 0-1.153-.66761-1.153-1.54261 0-.86648.386-1.51704 1.153-1.51704.742 0 1.139.60511 1.139 1.51704 0 .91761-.406 1.54261-1.139 1.54261z"
+          />
+          <path
+            fill="#DCE4F3"
+            stroke="#B3C4E5"
+            d="M341 117.697V155.8c0 .11-.09.2-.2.2H39.2c-.1105 0-.2-.09-.2-.2V45.2332c0-.1226.1093-.2163.2305-.1976L240.164 76.0538c.097.0151.169.099.169.1977v28.8815c0 .101.076.186.176.198l100.315 12.168c.1.012.176.097.176.198z"
+            opacity=".6"
+          />
+          <path
+            fill="#547AC5"
+            stroke="#20355F"
+            d="M341 117.697V155.8c0 .111-.09.2-.2.2H190.2c-.11 0-.2-.089-.2-.2V68.5433c0-.1226.109-.2164.231-.1977l49.933 7.7083c.097.015.169.099.169.1977v28.8814c0 .101.076.186.176.198l100.315 12.168c.1.012.176.097.176.198z"
+            opacity=".6"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear"
+              x1="174"
+              x2="174"
+              y1="60"
+              y2="194.5"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#E1E8ED" />
+              <stop offset="1" stop-color="#fff" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+        </svg>
+      );
+    };
+    const Bulk = () => {
+      return (
+        <div
+          style={{
+            height: "300px",
+            width: "100%",
+            display: "block",
+            overflow: "hidden",
+            borderTop: "1px solid rgb(0 0 0 / 20%)",
+            borderBottom: "1px solid rgb(0 0 0 / 20%)",
+          }}
+        >
+          <div style={{ marginTop: "-60px" }}>
+            <Spreadsheet
+              heightSet="short"
+              noSlider
+              search={false}
+              id="spreadsheet"
+              columns={[
+                new Spreadsheet.columns.NumberColumn({
+                  prop: "numberOfShares",
+                  label: `Quantity`,
+                }),
+                new Spreadsheet.columns.CurrencyColumn({
+                  prop: "pricePerShare",
+                  label: "Price",
+                }),
+              ]}
+            />
+          </div>
+        </div>
+      );
+    };
+    const remainingEligibleShares = 30000;
+    const eligibleShares = 30000;
+    const trxDetails = [
+      {
+        key: "Share types",
+        value: "CS",
+      },
+      {
+        key: "Price range",
+        value: "$1.23 - $5.75",
+      },
+      {
+        key: "Current FMV",
+        value: "$1.75",
+      },
+      {
+        key: "Last preferred",
+        value: "$1.75",
+      },
+    ];
+    const [active, setActive] = React.useState("item 1");
+    const [ignored, forceUpdate] = React.useReducer((x) => x + 1, 0);
+    const [data, setData] = React.useState([
+      {
+        id: "123",
+        side: "Sell",
+        isActive: true,
+        qty: "1634",
+        price: "1.23",
+        isEditing: false,
+      },
+      {
+        id: "234",
+        side: "Sell",
+        isActive: true,
+        qty: "1234",
+        price: "1.23",
+        isEditing: false,
+      },
+      {
+        id: "456",
+        side: "Sell",
+        isActive: true,
+        qty: "1234",
+        price: "1.23",
+        isEditing: false,
+      },
+    ]);
+
+    const orderDataHeader1 = [
+      { label: "Id", direction: "" },
+      {
+        label: (
+          <>
+            Status
+            <Help
+              tooltipDirection="right"
+              type="tooltip"
+              text={
+                <>
+                  <Li>
+                    <VStack spacing="xsmall">
+                      <CustomText size="small" color="white" display="inline">
+                        Active
+                      </CustomText>
+                    </VStack>
+                  </Li>
+                  <Li>
+                    <VStack spacing="xsmall">
+                      <CustomText size="small" color="white" display="inline">
+                        Amended
+                      </CustomText>
+                    </VStack>
+                  </Li>
+                  <Li>
+                    <VStack spacing="xsmall">
+                      <CustomText size="small" color="white" display="inline">
+                        Canceled
+                      </CustomText>
+                    </VStack>
+                  </Li>
+                  <Li>
+                    <VStack spacing="xsmall">
+                      <CustomText size="small" color="white" display="inline">
+                        Withdrawn
+                      </CustomText>
+                    </VStack>
+                  </Li>
+                </>
+              }
+            />
+          </>
+        ),
+        direction: "",
+      },
+      { label: "Price", direction: "right" },
+      { label: "Quantity", direction: "right" },
+      { label: "Gross", direction: "right" },
+      { label: "Cost", direction: "right" },
+      { label: "Withholdings", direction: "right" },
+      { label: "Fees", direction: "right" },
+      { label: "Net", direction: "right" },
+      "",
+    ];
+    const orderData1 = [
+      {
+        id: 144,
+        isActive: true,
+        isCancel: true,
+        price: 1.23,
+        qty: 1000,
+        gross: 12345,
+        fees: 12.33,
+        withholdings: 0,
+        cost: 1.75,
+        net: 12345,
+        impliedValuation: " ",
+      },
+      {
+        id: 642,
+        isActive: true,
+        isCancel: true,
+        price: 1.23,
+        qty: 1000,
+        gross: 12345,
+        fees: 12.33,
+        withholdings: 0,
+        cost: 1.75,
+        net: 12345,
+        impliedValuation: " ",
+      },
+      {
+        id: 121,
+        isActive: true,
+        isCancel: false,
+        price: 1.23,
+        qty: 1000,
+        gross: 12345,
+        fees: 12.33,
+        withholdings: 0,
+        cost: 1.75,
+        net: 12345,
+        impliedValuation: " ",
+      },
+      {
+        id: 332,
+        isActive: true,
+        isCancel: false,
+        price: 1.23,
+        qty: 1000,
+        gross: 12345,
+        fees: 12.33,
+        withholdings: 0,
+        cost: 1.75,
+        net: 12345,
+        impliedValuation: "$1.2B",
+      },
+    ];
+    const orderDataHeader2 = [
+      { label: "Id", direction: "" },
+      {
+        label: (
+          <>
+            Status
+            <Help
+              tooltipDirection="right"
+              type="tooltip"
+              text={
+                <VStack spacing="large">
+                  <VStack spacing="small">
+                    <CustomText size="small" color="white">
+                      Active
+                    </CustomText>
+                    <CustomText size="xsmall" color="white" weight="light">
+                      Description
+                    </CustomText>
+                  </VStack>
+                  <VStack spacing="small">
+                    <CustomText size="small" color="white">
+                      Amended
+                    </CustomText>
+                    <CustomText size="xsmall" color="white" weight="light">
+                      Description
+                    </CustomText>
+                  </VStack>
+                  <VStack spacing="small">
+                    <CustomText size="small" color="white">
+                      Canceled
+                    </CustomText>
+                    <CustomText size="xsmall" color="white" weight="light">
+                      Description
+                    </CustomText>
+                  </VStack>
+                  <VStack spacing="small">
+                    <CustomText size="small" color="white">
+                      Withdrawn
+                    </CustomText>
+                    <CustomText size="xsmall" color="white" weight="light">
+                      Description
+                    </CustomText>
+                  </VStack>
+                </VStack>
+              }
+            />
+          </>
+        ),
+        direction: "",
+      },
+      { label: "Price", direction: "right" },
+      { label: "Quantity", direction: "right" },
+      { label: "Gross", direction: "right" },
+      { label: "Fees", direction: "right" },
+      { label: "Net", direction: "right" },
+      {
+        label: (
+          <>
+            IV
+            <Help
+              tooltipDirection="right"
+              type="tooltip"
+              text={
+                <VStack spacing="small">
+                  <CustomText size="small" color="white">
+                    Implied valuation
+                  </CustomText>
+                  <CustomText size="xsmall" color="white" weight="light">
+                    Description
+                  </CustomText>
+                </VStack>
+              }
+            />
+          </>
+        ),
+        direction: "right",
+      },
+      "",
+    ];
+    const orderData2 = [
+      {
+        id: 144,
+        isActive: true,
+        isCancel: true,
+        price: 1.23,
+        qty: 1000,
+        gross: 12345,
+        fees: 12.33,
+        withholdings: 0,
+        cost: 1.75,
+        net: 12345,
+        impliedValuation: "",
+      },
+      {
+        id: 222,
+        isActive: true,
+        isCancel: true,
+        price: 1.23,
+        qty: 1000,
+        gross: 12345,
+        fees: 12.33,
+        withholdings: 0,
+        cost: 1.75,
+        net: 12345,
+        impliedValuation: "",
+      },
+      {
+        id: 141,
+        isActive: true,
+        isCancel: false,
+        price: 1.23,
+        qty: 1000,
+        gross: 12345,
+        fees: 12.33,
+        withholdings: 0,
+        cost: 1.75,
+        net: 12345,
+        impliedValuation: "",
+      },
+      {
+        id: 234,
+        isActive: true,
+        isCancel: false,
+        price: 1.23,
+        qty: 1000,
+        gross: 12345,
+        fees: 12.33,
+        withholdings: 0,
+        cost: 1.75,
+        net: 12345,
+        impliedValuation: "$1.2B",
+      },
+    ];
+    const [selected, actions] = useSelectable(orderData2, {
+      initialState: [],
+    });
+    const [isCancelOpen, setCancelOpen] = React.useState(false);
+    const [cancelActionIsLoading, setCancelActionIsLoading] = React.useState(
+      false
+    );
+    const handleCancelOpen = (event) => setCancelOpen(true);
+    const handleCancelClose = (event) => {
+      if (!cancelActionIsLoading) {
+        setCancelOpen(false);
+      }
+    };
+    const Timeline = () => {
+      return (
+        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 490 49"
+                      >
+                        <defs />
+                        <path
+                          fill="#02A1FE"
+                          d="M211.639 47h.878v-2.0455h1.193c1.35 0 2.017-.8153 2.017-1.8892 0-1.071-.662-1.8835-2.014-1.8835h-2.074V47zm.878-2.7898v-2.2756h1.102c.87 0 1.225.4716 1.225 1.1307s-.355 1.1449-1.213 1.1449h-1.114zM216.488 47h.85v-2.6648c0-.571.44-.9829 1.042-.9829.176 0 .375.0312.443.0511v-.8125c-.085-.0114-.252-.0199-.36-.0199-.512 0-.949.2898-1.108.7585h-.046v-.6931h-.821V47zM221.04 47.0881c1.23 0 2.034-.9006 2.034-2.25 0-1.358-.804-2.2586-2.034-2.2586-1.23 0-2.034.9006-2.034 2.2586 0 1.3494.804 2.25 2.034 2.25zm.003-.7131c-.804 0-1.179-.7017-1.179-1.5398 0-.8352.375-1.5454 1.179-1.5454.798 0 1.173.7102 1.173 1.5454 0 .8381-.375 1.5398-1.173 1.5398zM227.399 42.6364h-.912l-1.102 3.3579h-.045l-1.106-3.3579h-.911L224.908 47h.909l1.582-4.3636zM227.998 47h.849v-4.3636h-.849V47zm.429-5.0369c.292 0 .536-.2273.536-.5057 0-.2784-.244-.5085-.536-.5085-.296 0-.537.2301-.537.5085s.241.5057.537.5057zM233.06 43.7017c-.177-.679-.708-1.1222-1.651-1.1222-.986 0-1.685.5199-1.685 1.2926 0 .6194.375 1.0313 1.194 1.2131l.738.1619c.421.0938.617.2813.617.554 0 .3381-.361.6023-.918.6023-.508 0-.835-.2188-.937-.6477l-.821.125c.142.7727.784 1.2074 1.764 1.2074 1.054 0 1.784-.5597 1.784-1.3495 0-.6165-.392-.9971-1.193-1.1818l-.694-.1591c-.48-.1136-.687-.2756-.684-.571-.003-.3352.361-.5739.844-.5739.528 0 .772.2926.872.5853l.77-.1364zM233.879 47h.849v-4.3636h-.849V47zm.429-5.0369c.292 0 .537-.2273.537-.5057 0-.2784-.245-.5085-.537-.5085-.296 0-.537.2301-.537.5085s.241.5057.537.5057zM237.509 47.0881c1.23 0 2.034-.9006 2.034-2.25 0-1.358-.804-2.2586-2.034-2.2586-1.23 0-2.034.9006-2.034 2.2586 0 1.3494.804 2.25 2.034 2.25zm.003-.7131c-.804 0-1.179-.7017-1.179-1.5398 0-.8352.375-1.5454 1.179-1.5454.798 0 1.173.7102 1.173 1.5454 0 .8381-.375 1.5398-1.173 1.5398zM241.141 44.4091c0-.696.426-1.0938 1.017-1.0938.576 0 .926.3779.926 1.0114V47h.849v-2.7756c0-1.0795-.593-1.6449-1.485-1.6449-.657 0-1.086.304-1.287.7671h-.054v-.7102h-.816V47h.85v-2.5909zM246.142 47.0966c.722 0 1.128-.3665 1.29-.6932h.034V47h.83v-2.8977c0-1.2699-1-1.5228-1.693-1.5228-.79 0-1.517.3182-1.801 1.1137l.798.1818c.125-.3097.443-.608 1.014-.608.548 0 .83.287.83.7813v.0199c0 .3096-.319.3039-1.103.3949-.826.0965-1.673.3125-1.673 1.3039 0 .858.645 1.3296 1.474 1.3296zm.185-.6818c-.48 0-.827-.2159-.827-.6364 0-.4545.404-.6165.895-.6818.276-.037.929-.1108 1.051-.233v.5625c0 .5171-.412.9887-1.119.9887zM250.077 41.1818h-.85V47h.85v-5.8182zM254.206 47.0966c.722 0 1.128-.3665 1.29-.6932h.034V47h.83v-2.8977c0-1.2699-1-1.5228-1.693-1.5228-.79 0-1.517.3182-1.801 1.1137l.798.1818c.125-.3097.443-.608 1.014-.608.548 0 .83.287.83.7813v.0199c0 .3096-.319.3039-1.103.3949-.826.0965-1.673.3125-1.673 1.3039 0 .858.645 1.3296 1.474 1.3296zm.185-.6818c-.48 0-.827-.2159-.827-.6364 0-.4545.404-.6165.895-.6818.276-.037.929-.1108 1.051-.233v.5625c0 .5171-.411.9887-1.119.9887zM260.055 45.1903c.003.7415-.548 1.0938-1.025 1.0938-.526 0-.889-.3807-.889-.9745v-2.6732h-.85v2.7755c0 1.0824.594 1.6449 1.432 1.6449.656 0 1.102-.3466 1.304-.8125h.046V47h.835v-4.3636h-.853v2.5539zM263.687 47.0881c1.031 0 1.699-.6194 1.793-1.4688h-.827c-.108.4716-.474.75-.96.75-.719 0-1.182-.5994-1.182-1.5511 0-.9347.472-1.5228 1.182-1.5228.54 0 .869.341.96.75h.827c-.091-.8806-.81-1.4659-1.801-1.4659-1.23 0-2.026.9262-2.026 2.2586 0 1.3153.767 2.25 2.034 2.25zM268.225 42.6364h-.895v-1.0455h-.849v1.0455h-.639v.6818h.639v2.5767c-.003.7926.602 1.1761 1.273 1.1619.269-.0028.451-.054.551-.0909l-.154-.7017c-.057.0114-.162.0369-.298.0369-.276 0-.523-.0909-.523-.5824v-2.4005h.895v-.6818zM268.965 47h.849v-4.3636h-.849V47zm.429-5.0369c.292 0 .537-.2273.537-.5057 0-.2784-.245-.5085-.537-.5085-.296 0-.537.2301-.537.5085s.241.5057.537.5057zM272.595 47.0881c1.23 0 2.034-.9006 2.034-2.25 0-1.358-.804-2.2586-2.034-2.2586-1.23 0-2.034.9006-2.034 2.2586 0 1.3494.804 2.25 2.034 2.25zm.003-.7131c-.804 0-1.179-.7017-1.179-1.5398 0-.8352.375-1.5454 1.179-1.5454.798 0 1.173.7102 1.173 1.5454 0 .8381-.375 1.5398-1.173 1.5398zM276.227 44.4091c0-.696.426-1.0938 1.017-1.0938.576 0 .926.3779.926 1.0114V47h.849v-2.7756c0-1.0795-.593-1.6449-1.486-1.6449-.656 0-1.085.304-1.286.7671h-.054v-.7102h-.816V47h.85v-2.5909zM281.876 48.6364h.849V46.321h.051c.154.2784.466.7642 1.262.7642 1.056 0 1.823-.8466 1.823-2.2585 0-1.4148-.778-2.2472-1.832-2.2472-.81 0-1.102.4944-1.253.7642h-.071v-.7073h-.829v6zm.832-3.8182c0-.912.398-1.5171 1.139-1.5171.77 0 1.157.6506 1.157 1.5171 0 .875-.398 1.5426-1.157 1.5426-.73 0-1.139-.625-1.139-1.5426zM286.613 47h.85v-2.6648c0-.571.44-.9829 1.042-.9829.176 0 .375.0312.443.0511v-.8125c-.085-.0114-.252-.0199-.36-.0199-.512 0-.949.2898-1.108.7585h-.046v-.6931h-.821V47zM289.483 47h.85v-4.3636h-.85V47zm.429-5.0369c.293 0 .537-.2273.537-.5057 0-.2784-.244-.5085-.537-.5085-.295 0-.536.2301-.536.5085s.241.5057.536.5057zM293.114 47.0881c1.031 0 1.699-.6194 1.792-1.4688h-.826c-.108.4716-.475.75-.961.75-.718 0-1.181-.5994-1.181-1.5511 0-.9347.471-1.5228 1.181-1.5228.54 0 .87.341.961.75h.826c-.091-.8806-.809-1.4659-1.801-1.4659-1.23 0-2.025.9262-2.025 2.2586 0 1.3153.767 2.25 2.034 2.25zM297.495 47.0881c.952 0 1.625-.4688 1.819-1.179l-.804-.1449c-.154.4119-.523.6222-1.006.6222-.727 0-1.216-.4716-1.239-1.3125h3.103v-.3012c0-1.5767-.944-2.1932-1.932-2.1932-1.216 0-2.017.9262-2.017 2.2671 0 1.3551.789 2.2415 2.076 2.2415zm-1.227-2.6506c.034-.6193.483-1.1563 1.173-1.1563.66 0 1.091.4887 1.094 1.1563h-2.267zM303.38 43.7017c-.176-.679-.707-1.1222-1.651-1.1222-.985 0-1.684.5199-1.684 1.2926 0 .6194.375 1.0313 1.193 1.2131l.739.1619c.42.0938.616.2813.616.554 0 .3381-.361.6023-.918.6023-.508 0-.835-.2188-.937-.6477l-.821.125c.142.7727.784 1.2074 1.764 1.2074 1.054 0 1.784-.5597 1.784-1.3495 0-.6165-.392-.9971-1.193-1.1818l-.693-.1591c-.48-.1136-.688-.2756-.685-.571-.003-.3352.361-.5739.844-.5739.528 0 .773.2926.872.5853l.77-.1364z"
+                        />
+                        <path
+                          fill="#41D4C7"
+                          d="M422.506 32.0001h1.23v-2.4035h2.366v-1.0142h-2.366v-1.3863h2.622v-1.0142h-3.852v5.8182zM426.963 32.0001h1.21v-4.3637h-1.21v4.3637zm.608-4.9262c.36 0 .656-.2755.656-.6136 0-.3352-.296-.6108-.656-.6108-.358 0-.654.2756-.654.6108 0 .3381.296.6136.654.6136zM430.152 29.4773c.003-.5625.339-.892.827-.892.486 0 .779.3182.776.8523v2.5625h1.21v-2.7785c0-1.017-.597-1.642-1.506-1.642-.647 0-1.116.3182-1.312.8267h-.051v-.7699h-1.154v4.3637h1.21v-2.5228zM434.963 32.0824c.645 0 1.063-.2812 1.276-.6875h.034v.6052h1.148v-2.9432c0-1.0398-.881-1.4773-1.853-1.4773-1.045 0-1.733.5-1.9 1.2955l1.119.0909c.082-.2898.341-.5029.776-.5029.412 0 .647.2074.647.5654v.017c0 .2813-.298.3182-1.057.3921-.863.0795-1.639.3693-1.639 1.3437 0 .8636.617 1.3011 1.449 1.3011zm.347-.8352c-.372 0-.639-.1733-.639-.5057 0-.3409.281-.5085.707-.5681.264-.037.696-.0995.841-.1961v.4631c0 .4574-.378.8068-.909.8068zM439.37 26.1819h-1.211v5.8182h1.211v-5.8182zM443.035 32.0824c.645 0 1.063-.2812 1.276-.6875h.034v.6052h1.147v-2.9432c0-1.0398-.88-1.4773-1.852-1.4773-1.045 0-1.733.5-1.9 1.2955l1.119.0909c.082-.2898.341-.5029.775-.5029.412 0 .648.2074.648.5654v.017c0 .2813-.298.3182-1.057.3921-.863.0795-1.639.3693-1.639 1.3437 0 .8636.617 1.3011 1.449 1.3011zm.347-.8352c-.373 0-.64-.1733-.64-.5057 0-.3409.282-.5085.708-.5681.264-.037.696-.0995.841-.1961v.4631c0 .4574-.378.8068-.909.8068zM449.03 30.1421c.002.5852-.398.892-.833.892-.457 0-.753-.321-.755-.8352v-2.5625h-1.211v2.7784c.003 1.0199.6 1.6421 1.478 1.6421.656 0 1.127-.3381 1.323-.8495h.046v.7927h1.162v-4.3637h-1.21v2.5057zM452.979 32.0853c1.162 0 1.893-.6818 1.949-1.6847h-1.142c-.071.4659-.378.7273-.792.7273-.566 0-.932-.4744-.932-1.3097 0-.8238.369-1.2954.932-1.2954.443 0 .727.2926.792.7273h1.142c-.051-1.0086-.815-1.6705-1.954-1.6705-1.324 0-2.142.9176-2.142 2.2557 0 1.3267.804 2.25 2.147 2.25zM457.824 27.6364h-.821V26.591h-1.21v1.0454h-.597v.9091h.597v2.2727c-.006.8552.577 1.2784 1.455 1.2415.312-.0113.534-.0738.656-.1136l-.191-.9006c-.059.0114-.187.0398-.301.0398-.241 0-.409-.0909-.409-.4262v-2.1136h.821v-.9091zM458.413 32.0001h1.21v-4.3637h-1.21v4.3637zm.608-4.9262c.36 0 .656-.2755.656-.6136 0-.3352-.296-.6108-.656-.6108-.358 0-.654.2756-.654.6108 0 .3381.296.6136.654.6136zM462.364 32.0853c1.324 0 2.148-.9063 2.148-2.25 0-1.3523-.824-2.2557-2.148-2.2557-1.324 0-2.148.9034-2.148 2.2557 0 1.3437.824 2.25 2.148 2.25zm.006-.9375c-.611 0-.924-.5597-.924-1.321 0-.7614.313-1.3239.924-1.3239.599 0 .911.5625.911 1.3239 0 .7613-.312 1.321-.911 1.321zM466.309 29.4773c.003-.5625.338-.892.826-.892.486 0 .779.3182.776.8523v2.5625h1.21v-2.7785c0-1.017-.596-1.642-1.505-1.642-.648 0-1.117.3182-1.313.8267h-.051v-.7699h-1.153v4.3637h1.21v-2.5228zM471.527 33.6364h1.21v-2.3352h.037c.167.3636.534.7699 1.238.7699.995 0 1.77-.787 1.77-2.2472 0-1.5-.809-2.2443-1.767-2.2443-.73 0-1.079.4347-1.241.7898h-.054v-.733h-1.193v6zm1.184-3.8182c0-.7784.33-1.2755.918-1.2755.599 0 .918.5199.918 1.2755 0 .7614-.324 1.2898-.918 1.2898-.582 0-.918-.5114-.918-1.2898zM476.389 32.0001h1.21v-2.4688c0-.5369.392-.9062.927-.9062.167 0 .397.0284.511.0653v-1.0739c-.108-.0255-.259-.0426-.381-.0426-.488 0-.889.2841-1.048.8239h-.046v-.7614h-1.173v4.3637zM479.463 32.0001h1.21v-4.3637h-1.21v4.3637zm.608-4.9262c.36 0 .656-.2755.656-.6136 0-.3352-.296-.6108-.656-.6108-.358 0-.654.2756-.654.6108 0 .3381.296.6136.654.6136zM483.414 32.0853c1.162 0 1.892-.6818 1.949-1.6847h-1.142c-.071.4659-.378.7273-.793.7273-.565 0-.932-.4744-.932-1.3097 0-.8238.37-1.2954.932-1.2954.443 0 .727.2926.793.7273h1.142c-.051-1.0086-.816-1.6705-1.955-1.6705-1.324 0-2.142.9176-2.142 2.2557 0 1.3267.804 2.25 2.148 2.25zM487.926 32.0853c1.08 0 1.807-.5256 1.977-1.3352l-1.119-.0739c-.122.3324-.434.5057-.838.5057-.605 0-.989-.4006-.989-1.0512v-.0028h2.972v-.3324c0-1.4829-.898-2.2159-2.051-2.2159-1.284 0-2.117.9119-2.117 2.2585 0 1.3835.821 2.2472 2.165 2.2472zm-.969-2.7074c.026-.4972.404-.8949.941-.8949.525 0 .889.375.892.8949h-1.833z"
+                        />
+                        <path
+                          fill="#35476E"
+                          d="M14.8522 4.09096c0-1.9034-1.1818-2.98863-2.7244-2.98863-1.5512 0-2.72448 1.08523-2.72448 2.98863 0 1.89489 1.17328 2.98864 2.72448 2.98864 1.5426 0 2.7244-1.08523 2.7244-2.98864zm-1.2472 0c0 1.23296-.5852 1.90057-1.4772 1.90057-.8949 0-1.4773-.66761-1.4773-1.90057 0-1.23295.5824-1.90056 1.4773-1.90056.892 0 1.4772.66761 1.4772 1.90056zM15.5407 7.00006h1.2102V4.53131c0-.53694.3921-.90625.9261-.90625.1677 0 .3978.0284.5114.06534V2.61653c-.1079-.02557-.2585-.04261-.3807-.04261-.4886 0-.8892.28409-1.0483.82386h-.0454v-.76136h-1.1733v4.36364zM20.0189 7.07108c.7046 0 1.0711-.40625 1.2387-.76989h.0511v.69887h1.1932V1.18187h-1.2074v2.1875h-.0369c-.1619-.35511-.5114-.78977-1.2415-.78977-.9574 0-1.767.74432-1.767 2.24432 0 1.46023.7755 2.24716 1.7698 2.24716zm.3836-.96307c-.5938 0-.9176-.52841-.9176-1.28977 0-.75568.3181-1.27557.9176-1.27557.588 0 .9176.49716.9176 1.27557s-.3352 1.28977-.9176 1.28977zM25.2856 7.08528c1.0795 0 1.8068-.52557 1.9772-1.33522l-1.1193-.07387c-.1221.33239-.4346.50568-.838.50568-.6052 0-.9887-.40056-.9887-1.05113V5.1279h2.9716v-.33239c0-1.48296-.8977-2.21591-2.0511-2.21591-1.2841 0-2.1165.91193-2.1165 2.25852 0 1.38353.821 2.24716 2.1648 2.24716zm-.9688-2.70738c.0256-.49716.4034-.89489.9404-.89489.5255 0 .8892.375.892.89489h-1.8324zM27.8782 7.00006h1.2102V4.53131c0-.53694.3921-.90625.9261-.90625.1677 0 .3978.0284.5114.06534V2.61653c-.1079-.02557-.2585-.04261-.3807-.04261-.4886 0-.8892.28409-1.0483.82386h-.0454v-.76136h-1.1733v4.36364zM32.6259 7.00006h3.9318V5.98585H33.856v-1.3892h2.4887V3.58244H33.856V2.19608h2.6904V1.18187h-3.9205v5.81819zM38.5118 4.47733c.0029-.5625.3381-.89205.8267-.89205.4858 0 .7785.31818.7756.85228v2.5625h1.2102V4.22165c0-1.01705-.5965-1.64205-1.5056-1.64205-.6478 0-1.1165.31818-1.3125.82671h-.0512v-.76989h-1.1534v4.36364h1.2102V4.47733zM44.3992 2.63642h-.821V1.59096H42.368v1.04546h-.5966v.90909h.5966v2.27273c-.0057.85511.5767 1.27841 1.4545 1.24148.3125-.01137.5341-.07387.6562-.11364l-.1903-.90057c-.0596.01136-.1875.03977-.3011.03977-.2415 0-.4091-.09091-.4091-.42613V3.54551h.821v-.90909zM44.9876 7.00006h1.2102V4.53131c0-.53694.392-.90625.9261-.90625.1676 0 .3977.0284.5114.06534V2.61653c-.108-.02557-.2585-.04261-.3807-.04261-.4886 0-.8892.28409-1.0483.82386h-.0454v-.76136h-1.1733v4.36364zM48.941 8.63642c.9005 0 1.3778-.46023 1.625-1.16477l1.696-4.82955-1.2813-.00568-.9119 3.20454h-.0455l-.9034-3.20454h-1.2727l1.5654 4.48864-.0711.18466c-.1591.40909-.463.42897-.8892.29829l-.2727.90341c.1733.07386.4545.125.7614.125zM54.3556 7.00006h1.2301V5.11369h1.0341c1.3381 0 2.1165-.79829 2.1165-1.96023 0-1.15625-.7642-1.97159-2.0853-1.97159h-2.2954v5.81819zm1.2301-2.87216V2.18756h.8296c.7102 0 1.0539.38636 1.0539.9659 0 .57671-.3437.97444-1.0483.97444h-.8352zM61.2309 7.08528c1.0795 0 1.8068-.52557 1.9773-1.33522l-1.1194-.07387c-.1221.33239-.4346.50568-.838.50568-.6051 0-.9887-.40056-.9887-1.05113V5.1279h2.9716v-.33239c0-1.48296-.8977-2.21591-2.0511-2.21591-1.2841 0-2.1165.91193-2.1165 2.25852 0 1.38353.821 2.24716 2.1648 2.24716zm-.9688-2.70738c.0256-.49716.4034-.89489.9404-.89489.5255 0 .8892.375.892.89489h-1.8324zM63.8235 7.00006h1.2102V4.53131c0-.53694.3921-.90625.9262-.90625.1676 0 .3977.0284.5113.06534V2.61653c-.1079-.02557-.2585-.04261-.3807-.04261-.4886 0-.8892.28409-1.0483.82386h-.0454v-.76136h-1.1733v4.36364zM66.8969 7.00006h1.2103V2.63642h-1.2103v4.36364zm.608-4.92614c.3608 0 .6562-.27557.6562-.61364 0-.33522-.2954-.610793-.6562-.610793-.358 0-.6534.275573-.6534.610793 0 .33807.2954.61364.6534.61364zM70.8482 7.08528c1.3239 0 2.1477-.90625 2.1477-2.25 0-1.35227-.8238-2.25568-2.1477-2.25568s-2.1477.90341-2.1477 2.25568c0 1.34375.8238 2.25 2.1477 2.25zm.0057-.9375c-.6108 0-.9233-.55966-.9233-1.32102s.3125-1.32386.9233-1.32386c.5994 0 .9119.5625.9119 1.32386s-.3125 1.32102-.9119 1.32102zM75.1908 7.07108c.7046 0 1.071-.40625 1.2387-.76989h.0511v.69887h1.1932V1.18187h-1.2074v2.1875h-.0369c-.162-.35511-.5114-.78977-1.2415-.78977-.9574 0-1.7671.74432-1.7671 2.24432 0 1.46023.7756 2.24716 1.7699 2.24716zm.3835-.96307c-.5937 0-.9176-.52841-.9176-1.28977 0-.75568.3182-1.27557.9176-1.27557.5881 0 .9177.49716.9177 1.27557s-.3353 1.28977-.9177 1.28977zM11.767 12.1818h-.8551l-1.45169.9489v.8409l1.39209-.9091h.034V18h.8807v-5.8182zM15.1665 18.0966c1.3437 0 2.1306-1.0966 2.1306-3.0028 0-1.8921-.7983-2.9915-2.1306-2.9915-1.3353 0-2.1307 1.0966-2.1336 2.9915 0 1.9034.787 3 2.1336 3.0028zm0-.7585c-.787 0-1.2614-.7898-1.2614-2.2443.0028-1.4489.4773-2.2472 1.2614-2.2472.7812 0 1.2585.7983 1.2585 2.2472 0 1.4545-.4745 2.2443-1.2585 2.2443zM21.9852 18c1.7727 0 2.7983-1.0994 2.7983-2.9176 0-1.8097-1.0256-2.9006-2.7386-2.9006h-1.9432V18h1.8835zm-1.0057-.767v-4.2841h1.0114c1.2727 0 1.929.7613 1.929 2.1335 0 1.3778-.6563 2.1506-1.983 2.1506h-.9574zM26.8768 18.0966c.7216 0 1.1279-.3665 1.2898-.6932h.0341V18h.8295v-2.8977c0-1.2699-1-1.5227-1.6931-1.5227-.7898 0-1.5171.3182-1.8012 1.1136l.7983.1818c.125-.3096.4432-.6079 1.0142-.6079.5483 0 .8296.2869.8296.7812v.0199c0 .3097-.3182.304-1.1023.3949-.8267.0966-1.6733.3125-1.6733 1.304 0 .8579.6449 1.3295 1.4744 1.3295zm.1847-.6818c-.4801 0-.8267-.2159-.8267-.6364 0-.4545.4034-.6164.8949-.6818.2755-.0369.9289-.1108 1.0511-.2329v.5625c0 .517-.4119.9886-1.1193.9886zM30.3423 19.6364c.7017 0 1.1449-.3665 1.3977-1.054l1.804-4.9375-.9176-.0085-1.1051 3.3864h-.0455l-1.1051-3.3864h-.9091l1.5966 4.4204-.1051.2898c-.2159.5796-.5199.6279-.9858.5l-.2045.696c.1022.0455.3238.0938.5795.0938zM37.4143 14.7017c-.1761-.679-.7074-1.1221-1.6505-1.1221-.9858 0-1.6847.5199-1.6847 1.2926 0 .6193.375 1.0312 1.1932 1.213l.7386.162c.4205.0937.6165.2812.6165.554 0 .338-.3608.6022-.9176.6022-.5085 0-.8352-.2187-.9375-.6477l-.821.125c.142.7727.784 1.2074 1.7642 1.2074 1.0539 0 1.784-.5597 1.784-1.3494 0-.6165-.392-.9972-1.1931-1.1819l-.6932-.1591c-.4801-.1136-.6875-.2755-.6847-.571-.0028-.3352.3608-.5738.8438-.5738.5284 0 .7727.2926.8721.5852l.7699-.1364z"
+                        />
+                        <path
+                          fill="#D7F6EF"
+                          stroke="#C4DFDA"
+                          d="M10.5 23.5h291c2.761 0 5 2.2386 5 5s-2.239 5-5 5h-291c-2.76143 0-5-2.2386-5-5s2.23858-5 5-5z"
+                        />
+                        <path
+                          fill="#02A1FE"
+                          d="M316.509 7.00006l.431-1.32671h2.1l.432 1.32671h1.318l-2.006-5.81819h-1.585l-2.009 5.81819h1.319zm.744-2.28694l.716-2.2017h.045l.716 2.2017h-1.477zM324.797 3.88074c-.108-.80398-.756-1.30114-1.858-1.30114-1.117 0-1.853.51705-1.85 1.35796-.003.6534.409 1.0767 1.262 1.24715l.755.15057c.381.07671.554.21591.56.43466-.006.25852-.287.44318-.71.44318-.432 0-.719-.18466-.793-.53977l-1.19.0625c.113.83523.824 1.34943 1.98 1.34943 1.13 0 1.94-.5767 1.943-1.4375-.003-.63068-.415-1.00852-1.261-1.18182l-.79-.15909c-.406-.08806-.557-.22727-.554-.4375-.003-.26136.292-.43181.667-.43181.421 0 .671.23011.731.51136l1.108-.06818zM327.43 7.08528c1.162 0 1.892-.68182 1.948-1.68466h-1.142c-.071.46591-.377.72728-.792.72728-.566 0-.932-.47444-.932-1.30966 0-.82387.369-1.29546.932-1.29546.443 0 .727.29262.792.72728h1.142c-.051-1.00853-.815-1.67046-1.954-1.67046-1.324 0-2.142.91761-2.142 2.25568 0 1.32671.804 2.25 2.148 2.25zM331.942 7.08528c1.08 0 1.807-.52557 1.977-1.33522l-1.119-.07387c-.122.33239-.435.50568-.838.50568-.605 0-.989-.40056-.989-1.05113V5.1279h2.972v-.33239c0-1.48296-.898-2.21591-2.051-2.21591-1.284 0-2.117.91193-2.117 2.25852 0 1.38353.821 2.24716 2.165 2.24716zm-.969-2.70738c.026-.49716.404-.89489.941-.89489.525 0 .889.375.892.89489h-1.833zM335.745 4.47733c.003-.5625.338-.89205.827-.89205.485 0 .778.31818.775.85228v2.5625h1.21V4.22165c0-1.01705-.596-1.64205-1.505-1.64205-.648 0-1.117.31818-1.313.82671h-.051v-.76989h-1.153v4.36364h1.21V4.47733zM340.919 7.07108c.705 0 1.071-.40625 1.239-.76989h.051v.69887h1.193V1.18187h-1.207v2.1875h-.037c-.162-.35511-.512-.78977-1.242-.78977-.957 0-1.767.74432-1.767 2.24432 0 1.46023.776 2.24716 1.77 2.24716zm.384-.96307c-.594 0-.918-.52841-.918-1.28977 0-.75568.318-1.27557.918-1.27557.588 0 .917.49716.917 1.27557s-.335 1.28977-.917 1.28977zM344.197 7.00006h1.21V2.63642h-1.21v4.36364zm.608-4.92614c.361 0 .656-.27557.656-.61364 0-.33522-.295-.610793-.656-.610793-.358 0-.653.275573-.653.610793 0 .33807.295.61364.653.61364zM347.387 4.47733c.003-.5625.338-.89205.827-.89205.486 0 .778.31818.775.85228v2.5625h1.211V4.22165c0-1.01705-.597-1.64205-1.506-1.64205-.648 0-1.117.31818-1.313.82671h-.051v-.76989h-1.153v4.36364h1.21V4.47733zM352.919 8.72733c1.247 0 2.134-.56818 2.134-1.68466V2.63642h-1.202v.73295h-.045c-.162-.35511-.517-.78977-1.248-.78977-.957 0-1.767.74432-1.767 2.23011 0 1.45171.787 2.12785 1.77 2.12785.696 0 1.086-.34944 1.245-.71023h.051v.79829c0 .59944-.384.83239-.909.83239-.534 0-.804-.23295-.904-.49716l-1.119.15057c.145.6875.818 1.21591 1.994 1.21591zm.026-2.69886c-.594 0-.918-.4716-.918-1.22444 0-.74147.318-1.26136.918-1.26136.588 0 .917.49716.917 1.26136 0 .76989-.335 1.22444-.917 1.22444zM357.49 7.00006h1.23V5.11369h1.034c1.338 0 2.117-.79829 2.117-1.96023 0-1.15625-.764-1.97159-2.085-1.97159h-2.296v5.81819zm1.23-2.87216V2.18756h.83c.71 0 1.054.38636 1.054.9659 0 .57671-.344.97444-1.049.97444h-.835zM364.365 7.08528c1.08 0 1.807-.52557 1.978-1.33522l-1.12-.07387c-.122.33239-.434.50568-.838.50568-.605 0-.988-.40056-.988-1.05113V5.1279h2.971v-.33239c0-1.48296-.897-2.21591-2.051-2.21591-1.284 0-2.116.91193-2.116 2.25852 0 1.38353.821 2.24716 2.164 2.24716zm-.968-2.70738c.025-.49716.403-.89489.94-.89489.526 0 .889.375.892.89489h-1.832zM366.958 7.00006h1.21V4.53131c0-.53694.392-.90625.926-.90625.168 0 .398.0284.512.06534V2.61653c-.108-.02557-.259-.04261-.381-.04261-.489 0-.889.28409-1.048.82386h-.046v-.76136h-1.173v4.36364zM370.031 7.00006h1.211V2.63642h-1.211v4.36364zm.608-4.92614c.361 0 .657-.27557.657-.61364 0-.33522-.296-.610793-.657-.610793-.358 0-.653.275573-.653.610793 0 .33807.295.61364.653.61364zM373.983 7.08528c1.324 0 2.147-.90625 2.147-2.25 0-1.35227-.823-2.25568-2.147-2.25568-1.324 0-2.148.90341-2.148 2.25568 0 1.34375.824 2.25 2.148 2.25zm.005-.9375c-.61 0-.923-.55966-.923-1.32102s.313-1.32386.923-1.32386c.6 0 .912.5625.912 1.32386s-.312 1.32102-.912 1.32102zM378.325 7.07108c.705 0 1.071-.40625 1.239-.76989h.051v.69887h1.193V1.18187h-1.207v2.1875h-.037c-.162-.35511-.511-.78977-1.241-.78977-.958 0-1.768.74432-1.768 2.24432 0 1.46023.776 2.24716 1.77 2.24716zm.384-.96307c-.594 0-.918-.52841-.918-1.28977 0-.75568.318-1.27557.918-1.27557.588 0 .918.49716.918 1.27557s-.336 1.28977-.918 1.28977z"
+                        />
+                        <path
+                          fill="#0BA4FE"
+                          d="M317.585 18.0796c1.188 0 2.06-.7103 2.057-1.6762.003-.7358-.443-1.2642-1.216-1.3835v-.0454c.608-.1563 1.003-.6336 1-1.287.003-.8551-.699-1.5852-1.818-1.5852-1.068 0-1.926.6449-1.955 1.5909h.85c.02-.5341.523-.858 1.094-.858.593 0 .983.3608.98.8978.003.5625-.449.9318-1.094.9318h-.492v.7159h.492c.807 0 1.273.4091 1.273.9943 0 .5654-.492.9489-1.176.9489-.631 0-1.123-.3239-1.157-.8409h-.892c.037.9488.878 1.5966 2.054 1.5966zM324.396 18c1.773 0 2.798-1.0994 2.798-2.9176 0-1.8097-1.025-2.9006-2.738-2.9006h-1.943V18h1.883zm-1.006-.767v-4.2841h1.012c1.273 0 1.929.7613 1.929 2.1335 0 1.3778-.656 2.1506-1.983 2.1506h-.958zM329.288 18.0966c.721 0 1.128-.3665 1.29-.6932h.034V18h.829v-2.8977c0-1.2699-1-1.5227-1.693-1.5227-.79 0-1.517.3182-1.801 1.1136l.798.1818c.125-.3096.443-.6079 1.014-.6079.549 0 .83.2869.83.7812v.0199c0 .3097-.318.304-1.102.3949-.827.0966-1.674.3125-1.674 1.304 0 .8579.645 1.3295 1.475 1.3295zm.184-.6818c-.48 0-.826-.2159-.826-.6364 0-.4545.403-.6164.895-.6818.275-.0369.929-.1108 1.051-.2329v.5625c0 .517-.412.9886-1.12.9886zM332.753 19.6364c.702 0 1.145-.3665 1.398-1.054l1.798-4.946h-.912l-1.105 3.3864h-.045l-1.105-3.3864h-.909l1.596 4.4204-.105.2898c-.216.5796-.52.6279-.986.5l-.204.696c.102.0455.324.0938.579.0938zM339.817 14.7017c-.176-.679-.707-1.1221-1.65-1.1221-.986 0-1.685.5199-1.685 1.2926 0 .6193.375 1.0312 1.193 1.213l.739.162c.421.0937.617.2812.617.554 0 .338-.361.6022-.918.6022-.509 0-.835-.2187-.938-.6477l-.821.125c.142.7727.784 1.2074 1.765 1.2074 1.054 0 1.784-.5597 1.784-1.3494 0-.6165-.392-.9972-1.193-1.1819l-.694-.1591c-.48-.1136-.687-.2755-.684-.571-.003-.3352.36-.5738.843-.5738.529 0 .773.2926.873.5852l.769-.1364z"
+                        />
+                        <path
+                          fill="#02A1FE"
+                          fill-rule="evenodd"
+                          d="M342.613 33.5l2.887-5 2.887 5h-5.774zM345 37v-2.125c0-.2761.224-.5.5-.5s.5.2239.5.5V37c0 .2761-.224.5-.5.5s-.5-.2239-.5-.5zM307.613 33.5l2.887-5 2.887 5H311v.625c0 .2761-.224.5-.5.5s-.5-.2239-.5-.5V33.5h-2.387zm2.387 4v-1.125c0-.2761.224-.5.5-.5s.5.2239.5.5V37.5c0 .2761-.224.5-.5.5s-.5-.2239-.5-.5z"
+                          clip-rule="evenodd"
+                          opacity=".5"
+                        />
+                        <path
+                          fill="#D6EEFF"
+                          stroke="#C3D8E8"
+                          d="M389.5 23.5h13c2.761 0 5 2.2386 5 5s-2.239 5-5 5h-13c-2.761 0-5-2.2386-5-5s2.239-5 5-5zM355.5 23.5h13c2.761 0 5 2.2386 5 5s-2.239 5-5 5h-13c-2.761 0-5-2.2386-5-5s2.239-5 5-5zM321.5 23.5h13c2.761 0 5 2.2386 5 5s-2.239 5-5 5h-13c-2.761 0-5-2.2386-5-5s2.239-5 5-5z"
+                        />
+                        <path
+                          fill="#02A1FE"
+                          fill-rule="evenodd"
+                          d="M307 44h.875c.276 0 .5.2239.5.5s-.224.5-.5.5H307c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5zm3 0h-.375c-.276 0-.5.2239-.5.5s.224.5.5.5h.875c.276 0 .5-.2239.5-.5v-1.25c0-.2761-.224-.5-.5-.5s-.5.2239-.5.5V44zm.5-2.75c-.276 0-.5-.2239-.5-.5V39.5c0-.2761.224-.5.5-.5h1.437c.277 0 .5.2239.5.5s-.223.5-.5.5H311v.75c0 .2761-.224.5-.5.5zM343.562 39h2.875c.277 0 .5.2239.5.5s-.223.5-.5.5h-2.875c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5zm-2.375.5c0 .2761-.223.5-.5.5h-2.875c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5h2.875c.277 0 .5.2239.5.5zm-5.75 0c0 .2761-.223.5-.5.5h-2.875c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5h2.875c.277 0 .5.2239.5.5zm-5.75 0c0 .2761-.223.5-.5.5h-2.875c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5h2.875c.277 0 .5.2239.5.5zm-5.75 0c0 .2761-.223.5-.5.5h-2.875c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5h2.875c.277 0 .5.2239.5.5zm-5.75 0c0 .2761-.223.5-.5.5h-2.875c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5h2.875c.277 0 .5.2239.5.5zm61.667.3536c-.094.0937-.221.1464-.354.1464h-1.438c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5H379v-.875c0-.2761.224-.5.5-.5s.5.2239.5.5V39.5c0 .1326-.053.2598-.146.3536zm-4.167-.3536c0 .2761-.223.5-.5.5h-2.875c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5h2.875c.277 0 .5.2239.5.5zm-5.75 0c0 .2761-.223.5-.5.5h-2.875c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5h2.875c.277 0 .5.2239.5.5zm-5.75 0c0 .2761-.223.5-.5.5h-2.875c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5h2.875c.277 0 .5.2239.5.5zm-5.75 0c0 .2761-.223.5-.5.5h-2.875c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5h2.875c.277 0 .5.2239.5.5zm-6.25-.5c.277 0 .5.2239.5.5s-.223.5-.5.5h-2.875c-.276 0-.5-.2239-.5-.5s.224-.5.5-.5h2.875zm27.313-3.125c-.276 0-.5-.2239-.5-.5V33.5h-2.387l2.887-5 2.887 5H380v1.875c0 .2761-.224.5-.5.5z"
+                          clip-rule="evenodd"
+                          opacity=".5"
+                        />
+                        <path
+                          fill="#41D4C7"
+                          fill-rule="evenodd"
+                          d="M414.5 25.0359l6 3.4641-6 3.4641V29.1h-3.6V28c0-.3314.269-.6.6-.6.297 0 .544.2162.592.5h2.408v-2.8641z"
+                          clip-rule="evenodd"
+                        />
+                        <path
+                          fill="#02A1FE"
+                          fill-rule="evenodd"
+                          d="M310 16h3.5c.276 0 .5.2239.5.5s-.224.5-.5.5H311v10.5c0 .2761-.224.5-.5.5s-.5-.2239-.5-.5V16zm32 .5c0-.2761.224-.5.5-.5h68.25c.69 0 1.25.5596 1.25 1.25V27c0 .2761-.224.5-.5.5s-.5-.2239-.5-.5v-9.75c0-.1381-.112-.25-.25-.25H342.5c-.276 0-.5-.2239-.5-.5z"
+                          clip-rule="evenodd"
+                        />
+                        <path
+                          fill="#35476E"
+                          fill-rule="evenodd"
+                          d="M1.75 16.5c-.13807 0-.25.1119-.25.25V27c0 .2761-.22386.5-.5.5-.276142 0-.5-.2239-.5-.5V16.75c0-.6904.55964-1.25 1.25-1.25H7c.27614 0 .5.2239.5.5s-.22386.5-.5.5H1.75zm38.25 0c0-.2761.2239-.5.5-.5H310v1H40.5c-.2761 0-.5-.2239-.5-.5z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+      )
+    }
