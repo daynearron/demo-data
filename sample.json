@@ -1,5 +1,4 @@
-{"tenderoffer":{
-    "sections":[
+{"tenderoffer":[
         { "nameoffirstsection":{
             "index": 0,
             "title": "firstsectiontitle",
@@ -11,5 +10,5 @@
             "title": "firstsectiontitle",
             "body": "firstsectionbody",
         }}
-    ]}
+    ]
 }
