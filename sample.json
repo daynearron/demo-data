@@ -1,16 +1,16 @@
 
-{tender_offer: {
-	sections:
+{"tender_offer": {
+	"sections":
 		{
-			name_of_first_section: {
-			index: 0,
-			title: "first_section_title",
-			body: "first_section_body",
+			"name_of_first_section": {
+			"index": 0,
+			"title": "first_section_title",
+			"body": "first_section_body",
 		},
-			name_of_second_section: {
-			index: 1,
-			title: "first_section_title",
-			body: "first_section_body",
+			"name_of_second_section": {
+			"index": 1,
+			"title": "first_section_title",
+			"body": "first_section_body",
 		},
 	}
 }}
