@@ -1,14 +1,16 @@
 {"tenderoffer":{
-    "sections":{
+    "sections":[
+        {
         "nameoffirstsection":{
             "index": 0,
             "title": "firstsectiontitle",
             "body": "firstsectionbody",
-        },
+        }},
+        {
         "nameofsecondsection":{
             "index": 1,
             "title": "firstsectiontitle",
             "body": "firstsectionbody",
-        }
-    }
+        }}
+    ]}
 }}
