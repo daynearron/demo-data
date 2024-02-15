@@ -4,17 +4,7 @@
       "nameoffirstsection": {
         "index": 0,
         "title": "firstsectiontitle",
-        "body": "firstsectionbody",
-        "content": [
-          {
-            "label": "hi",
-            "value": "one"
-          },
-          {
-            "label": "bye",
-            "value": "two"
-          }
-        ]
+        "body": "firstsectionbody"
       }
     },
     {
