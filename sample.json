@@ -1,18 +1,28 @@
 {
-   "tenderoffer":[
-      {
-         "nameoffirstsection":{
-            "index":0,
-            "title":"firstsectiontitle",
-            "body":"firstsectionbody",
-         }
-      },
-      {
-         "nameofsecondsection":{
-            "index":1,
-            "title":"firstsectiontitle",
-            "body":"firstsectionbody"
-         }
+  "tenderoffer": [
+    {
+      "nameoffirstsection": {
+        "index": 0,
+        "title": "firstsectiontitle",
+        "body": "firstsectionbody",
+        "content": [
+          {
+            "label": "hi",
+            "value": "one"
+          },
+          {
+            "label": "bye",
+            "value": "two"
+          }
+        ]
       }
-   ]
+    },
+    {
+      "nameofsecondsection": {
+        "index": 1,
+        "title": "firstsectiontitle",
+        "body": "firstsectionbody"
+      }
+    }
+  ]
 }
