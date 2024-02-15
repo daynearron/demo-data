@@ -4,14 +4,34 @@
       "nameoffirstsection": {
         "index": 0,
         "title": "firstsectiontitle",
-        "body": "firstsectionbody"
+        "body": "firstsectionbody",
+        "content": {
+          "child1": {
+            "label": "Child 1",
+            "value": "Value 1"
+          },
+          "child2": {
+            "label": "Child 2",
+            "value": "Value 2"
+          }
+        }
       }
     },
     {
       "nameofsecondsection": {
         "index": 1,
         "title": "firstsectiontitle",
-        "body": "firstsectionbody"
+        "body": "firstsectionbody",
+        "content": {
+          "child1": {
+            "label": "Child 1",
+            "value": "Value 1"
+          },
+          "child2": {
+            "label": "Child 2",
+            "value": "Value 2"
+          }
+        }
       }
     }
   ]
